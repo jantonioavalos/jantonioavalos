@@ -1,12 +1,12 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Img from "gatsby-image";
+import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-const Pagination = props => (
+const Pagination = (props) => (
   <div className="pagination -post">
     <ul>
       {props.previous && props.previous.frontmatter.template === "blog-post" && (
@@ -39,20 +39,20 @@ const Pagination = props => (
       )}
     </ul>
   </div>
-)
+);
 
 const Post = ({ data, pageContext }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html, excerpt } = markdownRemark;
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.fluid
-    : ""
-  const { previous, next } = pageContext
+    : "";
+  const { previous, next } = pageContext;
 
   let props = {
     previous,
     next,
-  }
+  };
 
   return (
     <Layout className="page">
@@ -68,7 +68,10 @@ const Post = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time>{frontmatter.date}</time>
+            <p className="article-metadata">
+              {frontmatter.tags + " ∙ "}
+              <time>{frontmatter.date}</time>
+            </p>
           </section>
           {Image ? (
             <Img
@@ -92,10 +95,10 @@ const Post = ({ data, pageContext }) => {
         <Pagination {...props} />
       )} */}
     </Layout>
-  )
-}
+  );
+};
 
-export default Post
+export default Post;
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
@@ -108,6 +111,7 @@ export const pageQuery = graphql`
         slug
         title
         description
+        tags
         featuredImage {
           childImageSharp {
             fluid(
@@ -127,4 +131,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

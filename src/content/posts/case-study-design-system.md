@@ -14,7 +14,7 @@ extlink: null
 After systematizing our UI designs and promoting the use of content guidelines.
 All this, creating our design system's website.
 
-### Giving you context
+## Giving you context
 
 Every year we have a big amount of product launches. It means creating and
 updating product pages or entire sections in our website. This is coordinated
@@ -30,14 +30,11 @@ consistency on the look and feel** of our corporate website.
 But we can't assist them as needed. This because we handle 10+ projects with the IT
 department! And it delays our expected delivery time **up to 1 week after they asked**.
 
-> In conclusion, we needed to empower publishing people and educate stakeholders with
-> design and content guidelines in a single-source-of-true website.
-
----
+> In conclusion, we needed to empower publishing people and educate stakeholders with design and content guidelines in a single-source-of-true website.
 
 # My process
 
-### Iteration is key
+## Iteration is key
 
 It's usual for stakeholders who are out of design/development cycles, thinking
 on a beautiful linear flow, but the UX process _should be_ circular.
@@ -59,7 +56,7 @@ well-known categories:
 
 # 1. Strategy
 
-### Mini-creative brief
+## Mini-creative brief
 
 <img
     src="../../../static/assets/case-study-1/mini-brief-1.jpg"
@@ -94,7 +91,7 @@ Project's team:
 
 # 2. Research
 
-### Interviews and immersion
+## Interviews and immersion
 
 I interviewed around eight people with a set of process-oriented questions so I
 could **map and understand the full picture**. In few words, I basically asked:
@@ -105,15 +102,14 @@ could **map and understand the full picture**. In few words, I basically asked:
 4. **Control**. Who are the decision-makers?
 5. **Tasks**. How do you produce your deliveries?
 
-And, to **empathize with their work**, I ran part of the process to be familiar with
-'the how'.
+And, to **empathize with their work**, I ran part of the process to be familiar with 'the how'.
 
-  <img src="../../../static/assets/case-study-1/research-1.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/research-1.png" alt="This is the alt text medium image" />
 
 I reduced the process to touchpoints, and as you can see there's **a lot of
 resources delivered by different channels** to publishers.
 
-  <img src="../../../static/assets/case-study-1/research-2.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/research-2.png" alt="This is the alt text medium image" />
 
 We'd need to **reduce the touchpoints** at their left, making all transparent to them
 so they could actively find what they need whenever they need it.
@@ -124,38 +120,31 @@ Also, while acting as a publisher I discovered what they needed the most:
 - **Code** for recreating each component with approved variations.
 - **Content guidelines** to fill each specific component.
 
----
+> So, I realized my whole UX/UI team needed to evolve our UX practice to provide all in a systematic way!
 
-> So, I realized my whole UX/UI team needed to evolve our UX practice to provide
-> all in a systematic way!
-
----
-
-### Matching business and customers with templates
+## Matching business and customers with templates
 
 I started at the highest level of our corporate website navigation. I classified
 the **page templates** we needed according to the **product hierarchy** and the
 **expected action** from our customers.
 
-  <img src="../../../static/assets/case-study-1/research-3.png" alt="This is the alt text medium image" />
-  <figcaption>
-    Hierarchy based on the
-    <a href="http://www.businessdictionary.com/" target="_blank">
-      business dictionary
-    </a>
-    definitions.
-  </figcaption>
+<img src="../../../static/assets/case-study-1/research-3.png" alt="This is the alt text medium image" />
+<figcaption>
+  Hierarchy based on the
+  <a href="http://www.businessdictionary.com/" target="_blank">
+    business dictionary
+  </a>
+  definitions.
+</figcaption>
 
-### Modular pages
+## Modular pages
 
-I classified the page template's parts inspired by the
-[Atomic Design Methodology ](https://atomicdesign.bradfrost.com/chapter-2/)
-since that would allow us to build a _library of patterns_.
+I classified the page template's parts inspired by the [Atomic Design Methodology ](https://atomicdesign.bradfrost.com/chapter-2/) since that would allow us to build a _library of patterns_.
 
 Since we already counted with a style guide and a components collection, this was
 the last step to complete our own **Design System**.
 
-  <img src="../../../static/assets/case-study-1/research-4.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/research-4.png" alt="This is the alt text medium image" />
 
 From now each **Page** would use:
 
@@ -164,20 +153,19 @@ From now each **Page** would use:
     - Built by **Modules** or **Components** as our design and development building blocks
       - Most of them made of HTML **Elements**
 
-> Selling this as our evolution to a Design System made my UX/UI team commit to
-> rework the existing designs and move to the modular pattern
+> Selling this as our evolution to a Design System made my UX/UI team commit to rework the existing designs and move to the modular pattern
 
 ---
 
 # 3. Prototyping
 
-### Information Architecture (IA)
+## Information Architecture (IA)
 
 I created a **site map of our old _brand website_**. I determined we had to delete a lot
 of outdated content, keeping just essential code documentation, our style guide,
 and components collection.
 
-  <img src="../../../static/assets/case-study-1/proto-1.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/proto-1.png" alt="This is the alt text medium image" />
 
 I proposed a new organization based on an **audience scheme, with a narrow and deep
 hierarchy**:
@@ -189,17 +177,17 @@ hierarchy**:
 - **Developers.** Gathering the still valid code documentation.
 - **Resources.** For third-party downloadable content.
 
-  <img src="../../static/assets/case-study-1/proto-2.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/proto-2.png" alt="This is the alt text medium image" />
 
 We'd update the top-bar in the **header for global navigation and implement a new
 left-bar for local navigation**, helping to find what they need.
 
-### Sketches and wireframes
+## Sketches and wireframes
 
 I started with low fidelity wireframes to place all the content considering the
 intended user journey:
 
-  <img src="../../../static/assets/case-study-1/proto-3.jpg" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/proto-3.jpg" alt="This is the alt text medium image" />
 
 - **Step 1:** Where would my new page fit? - Corporate website IA
 
@@ -221,15 +209,11 @@ intended user journey:
   - Content Guidelines
   - Download and view code buttons
 
-After early feedback from the users. I tried
-[Adobe XD ](https://www.adobe.com/products/xd/details.html?promoid=85665TVQ&mv=other%3Fpromoid&mv=other)
-to **create the digital wireframes to be presented** to the UI developer and my manager.
+After early feedback from the users. I tried [Adobe XD ](https://www.adobe.com/products/xd/details.html?promoid=85665TVQ&mv=other%3Fpromoid&mv=other) to **create the digital wireframes to be presented** to the UI developer and my manager.
 
-  <img src="../../../static/assets/case-study-1/proto-4.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/proto-4.png" alt="This is the alt text medium image" />
 
-I used [Invision Freehand ](https://www.invisionapp.com/feature/freehand)
-so all could interact with the designs in the meeting, which helped us
-to **add and remove ideas faster**, such as:
+I used [Invision Freehand ](https://www.invisionapp.com/feature/freehand) so all could interact with the designs in the meeting, which helped us to **add and remove ideas faster**, such as:
 
 - Including links aside to the template's image, to scan better the page.
   Instead of the interactive image.
@@ -247,10 +231,9 @@ the screens:
 
 # 4. Development
 
-### Rebuilding the site with React
+## Rebuilding the site with React
 
-The UI developer and I decided to start the implementation. So our
-manager asked us to explore _[React.JS ](https://reactjs.org/)_
+The UI developer and I decided to start the implementation. So our manager asked us to explore _[React.JS ](https://reactjs.org/)_
 (since the company was adopting it).
 He now wanted us to rebuild the entire _brand website_.
 
@@ -259,7 +242,7 @@ He now wanted us to rebuild the entire _brand website_.
 - I edited some React components and used _[Markdown ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)_
   writing format to feed them.
 
-  <img src="../../../static/assets/case-study-1/dev-3.png" alt="This is the alt text medium image" />
+<img src="../../../static/assets/case-study-1/dev-3.png" alt="This is the alt text medium image" />
 
 The new approach gave us some benefits
 
@@ -271,18 +254,15 @@ The new approach gave us some benefits
 
 # 5. Testing
 
-### Usability testing
+## Usability testing
 
-Based on the book _["Don't make me think"](https://www.amazon.com/dp/B00HJUBRPG/ref=cm_sw_em_r_mt_dp_U_lrJJEbWZ1QNP9)_,
-I introduced to my UX/UI team the usability tests, creating formats for
-the [facilitator](https://drive.google.com/file/d/1EWvO6o3SdnB6YuHnm9lZgtl1a0xS1-3E/view?usp=sharing)
-and the [observers](https://drive.google.com/file/d/190_CUJoG6CM2bx4Ba55_b2nsztmjtXlA/view?usp=sharing)
-to **run moderated usability test sessions**.
+Based on the book ["Don't make me think"](https://www.amazon.com/dp/B00HJUBRPG/ref=cm_sw_em_r_mt_dp_U_lrJJEbWZ1QNP9), I introduced to my UX/UI team the usability tests, creating formats for
+the [facilitator](https://drive.google.com/file/d/1EWvO6o3SdnB6YuHnm9lZgtl1a0xS1-3E/view?usp=sharing) and the [observers](https://drive.google.com/file/d/190_CUJoG6CM2bx4Ba55_b2nsztmjtXlA/view?usp=sharing) to **run moderated usability test sessions**.
 
 They helped me to run 2 series of 4 sessions with some of the marketers,
 engineers, and publishers.
 
-  <img src="../../../static/assets/case-study-1/test-1.png" alt="Capture of the remote session with user at Caen, France." />
+<img src="../../../static/assets/case-study-1/test-1.png" alt="Capture of the remote session with user at Caen, France." />
 
 It was very useful to **discover users' preferences**. Like, using (100%) the
 left-bar navigation over the header menu, which lead to updating it. Or
@@ -302,7 +282,7 @@ Other observations that produced iterations:
 
 # Results
 
-### What have I learned from this project?
+## What have I learned from this project?
 
 Although the case study is explained here as a logic thread. **Getting to
 the right problem to solve**, and using the correct method to find it was
@@ -324,8 +304,6 @@ UX consultancy requests in the following month!**
 - **+4 iterations.** From the IA redesign, development and testing phases
 - **3 countries.** People from Mexico, USA, and France helped during the project
 
-> "Now it's clear to me why we should consider design in our requests
-> to improve customer engagement with better content" - Product Marketer
+> "Now it's clear to me why we should consider design in our requests to improve customer engagement with better content" - Product Marketer
 
-> "We have now the power of knowledge on a request's negotiation to maintain
-> all pretty and consistent" - Web Publishing Team
+> "We have now the power of knowledge on a request's negotiation to maintain all pretty and consistent" - Web Publishing Team

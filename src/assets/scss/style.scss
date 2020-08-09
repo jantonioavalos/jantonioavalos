@@ -1,6 +1,7 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
+@import "medium";
 
 // .primary-container {
 // 	display: grid;
@@ -194,64 +195,9 @@
     }
   }
 }
-.article-header {
-  padding: 35px 0;
-  text-align: center;
-  margin: 0 auto;
-  h1 {
-    font-size: 36px;
-    font-size: clamp(18px, calc(1rem + 2vw), 36px);
-    margin: 0 auto 6px;
-    max-width: 768px;
-    line-height: 1.3;
-    font-weight: 600;
-  }
-  time {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
-  }
-}
-@media (max-width: $breakpoint-sm) {
-  .post-card .featured-image {
-    min-height: 300px;
-  }
-}
-article figure {
-  margin: 40px 0;
-  text-align: center;
-  figcaption {
-    font-size: var(--font-size-small);
-    color: var(--text-color-meta);
-    margin-top: 5px;
-  }
-}
-article blockquote {
-  margin-left: 0;
-  padding: 5px 5px 5px 20px;
-  background-color: #f2f2f2;
-  border-left: 3px solid rgba(0, 0, 0, 0.1);
-}
-article iframe {
-  border: 2px solid black;
-  box-sizing: border-box;
-}
-article img {
-  max-width: 100%;
-}
-.blog-post-content {
-  max-width: 70ch;
-  margin: 0 auto;
-  padding: 20px;
-  line-height: 1.5;
-  font-size: 20px;
-}
 
-.blog-post {
-  .featured-image {
-    min-height: 50vh;
-    border-radius: 12px;
-  }
-}
+//Blog styles on _medium.scss
+
 // Buttons
 .button {
   --padding: 20px;
