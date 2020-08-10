@@ -70,6 +70,14 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     {
+      resolve: `gatsby-plugin-hotjar-tracking`,
+      options: {
+        includeInDevelopment: false,
+        id: 1300505, // YOUR_HOTJAR_ID
+        sv: 6, // YOUR_HOTJAR_SNIPPET_VERSION
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-168307528-1",
