@@ -8,9 +8,9 @@ const netlifyCmsPaths = {
   options: {
     cmsConfig: `/static/admin/config.yml`,
   },
-}
+};
 
-const settings = require("./src/util/site.json")
+const settings = require("./src/util/site.json");
 
 module.exports = {
   siteMetadata: settings.meta,
@@ -72,7 +72,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: settings.ga,
+        trackingId: "UA-168307528-1",
       },
     },
     `gatsby-plugin-advanced-sitemap`,
@@ -90,4 +90,4 @@ module.exports = {
     },
     "gatsby-plugin-offline",
   ],
-}
+};
