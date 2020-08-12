@@ -1,20 +1,32 @@
-import React from "react"
-import { Link } from "gatsby"
-import Img from "gatsby-image"
-import { RiExternalLinkLine } from "react-icons/ri"
+import React from "react";
+import { Link } from "gatsby";
+import Img from "gatsby-image";
+import { RiExternalLinkLine } from "react-icons/ri";
 
 const PostCard = ({ data }) => (
   <article className="post-card">
     {data.frontmatter.featuredImage ? (
-      <Link to={data.frontmatter.slug}>
-        <Img
-          fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
-          objectFit="cover"
-          objectPosition="50% 50%"
-          alt={data.frontmatter.title + " - Featured image"}
-          className="featured-image"
-        />
-      </Link>
+      data.frontmatter.extlink ? (
+        <a href={data.frontmatter.extlink} target="_blank">
+          <Img
+            fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
+            objectFit="cover"
+            objectPosition="50% 50%"
+            alt={data.frontmatter.title + " - Featured image"}
+            className="featured-image"
+          />
+        </a>
+      ) : (
+        <Link to={data.frontmatter.slug}>
+          <Img
+            fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
+            objectFit="cover"
+            objectPosition="50% 50%"
+            alt={data.frontmatter.title + " - Featured image"}
+            className="featured-image"
+          />
+        </Link>
+      )
     ) : (
       ""
     )}
@@ -37,6 +49,6 @@ const PostCard = ({ data }) => (
       </p>
     </div>
   </article>
-)
+);
 
-export default PostCard
+export default PostCard;

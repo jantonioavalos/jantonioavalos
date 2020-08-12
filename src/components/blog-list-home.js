@@ -1,21 +1,25 @@
-import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
-import { RiArrowRightSLine } from "react-icons/ri"
+import React from "react";
+import { Link, StaticQuery, graphql } from "gatsby";
+import { RiArrowRightSLine } from "react-icons/ri";
 
-import PostCard from "./post-card"
+import PostCard from "./post-card";
 
-const PostMaker = ({ data }) => (
-  <section className="home-posts">
-    <h2>Latest posts</h2>
-    <div className="grids col-1 sm-2 lg-3">{data}</div>
-    {/* <Link className="button" to="/blogfolio">
-      See more
-      <span class="icon -right">
-        <RiArrowRightSLine />
-      </span>
-    </Link> */}
-  </section>
-)
+const PostMaker = ({ data }, tags) => (
+  <div className="grids col-1 sm-2 lg-3">{data}</div>
+);
+
+// const PostMaker = ({ data }, tags) => (
+//   <section className="home-posts">
+//     <h2>Latest publications</h2>
+//     <div className="grids col-1 sm-2 lg-3">{data}</div>
+//     <Link className="button" to="/blogfolio">
+//       See more
+//       <span class="icon -right">
+//         <RiArrowRightSLine />
+//       </span>
+//     </Link>
+//   </section>
+// );
 
 export default function BlogListHome() {
   return (
@@ -52,16 +56,45 @@ export default function BlogListHome() {
           }
         }
       `}
-      render={data => {
-        const posts = data.allMarkdownRemark.edges
-          .filter(edge => !!edge.node.frontmatter.date)
-          .map(edge =>
+      render={(data) => {
+        const allPublications = data.allMarkdownRemark.edges
+          .filter((edge) => !!edge.node.frontmatter.date)
+          .map((edge) =>
             edge.node.frontmatter.private ? null : (
               <PostCard key={edge.node.id} data={edge.node} />
             )
-          )
-        return <PostMaker data={posts} />
+          );
+        const caseStudies = data.allMarkdownRemark.edges
+          .filter((edge) => !!edge.node.frontmatter.date)
+          .map((edge) =>
+            edge.node.frontmatter.private ||
+            edge.node.frontmatter.tags == "Blog" ? null : (
+              <PostCard key={edge.node.id} data={edge.node} />
+            )
+          );
+        const posts = data.allMarkdownRemark.edges
+          .filter((edge) => !!edge.node.frontmatter.date)
+          .map((edge) =>
+            edge.node.frontmatter.private ||
+            edge.node.frontmatter.tags == "Case Study" ? null : (
+              <PostCard key={edge.node.id} data={edge.node} />
+            )
+          );
+        return (
+          <div>
+            <section className="home-posts">
+              <h2>Publications</h2>
+              <PostMaker data={allPublications} />
+            </section>
+            {/* <section className="home-posts">
+              <h2>Case studies</h2>
+              <PostMaker data={caseStudies} />
+              <h2>Latest articles</h2>
+              <PostMaker data={posts} />
+            </section> */}
+          </div>
+        );
       }}
     />
-  )
+  );
 }
