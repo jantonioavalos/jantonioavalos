@@ -87,11 +87,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jantonioavalos`,
-        short_name: `jantonioavalos`,
+        name: `jantonioavalos | Blogfolio`,
+        short_name: `Blogfolio`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#FAFAFA`,
+        theme_color: `#1A1A1A`,
         display: `standalone`,
         icon: `static/assets/icon-640.png`,
       },
