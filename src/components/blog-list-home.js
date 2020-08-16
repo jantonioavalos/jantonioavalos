@@ -83,7 +83,7 @@ export default function BlogListHome() {
         return (
           <div>
             <section className="home-posts">
-              <h2>Publications</h2>
+              <h2>Latest publications</h2>
               <PostMaker data={allPublications} />
             </section>
             {/* <section className="home-posts">

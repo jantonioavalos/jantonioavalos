@@ -1,6 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
+import React from "react";
+import { Link } from "gatsby";
+import { RiMenu3Line, RiCloseLine, RiFileDownloadLine } from "react-icons/ri";
+
+const CV =
+  "https://drive.google.com/file/d/1V2IhAavFQzkSgVcGiYjspBjQ0s1UlDui/view";
 
 const MenuItems = [
   // {
@@ -15,26 +18,26 @@ const MenuItems = [
   //   path: "/contact",
   //   title: "Contact",
   // },
-]
+];
 
-const ListLink = props => (
+const ListLink = (props) => (
   <li>
     <Link to={props.to}>{props.children}</Link>
   </li>
-)
+);
 
 class Navigation extends React.Component {
   constructor(props) {
-    super(props)
-    this.state = { showMenu: false }
+    super(props);
+    this.state = { showMenu: false };
 
-    this.handleToggleClick = this.handleToggleClick.bind(this)
+    this.handleToggleClick = this.handleToggleClick.bind(this);
   }
 
   handleToggleClick() {
-    this.setState(state => ({
+    this.setState((state) => ({
       showMenu: !state.showMenu,
-    }))
+    }));
   }
 
   render() {
@@ -42,7 +45,7 @@ class Navigation extends React.Component {
       <ListLink key={index} to={menuItem.path}>
         {menuItem.title}
       </ListLink>
-    ))
+    ));
     return (
       <nav className="site-navigation">
         <button
@@ -57,9 +60,12 @@ class Navigation extends React.Component {
           </div>
         </button>
         <ul>{listMenuItems}</ul>
+        <Link to={CV} target="_blank" className="button -banner">
+          <RiFileDownloadLine className="icon -label" /> Resume
+        </Link>
       </nav>
-    )
+    );
   }
 }
 
-export default Navigation
+export default Navigation;

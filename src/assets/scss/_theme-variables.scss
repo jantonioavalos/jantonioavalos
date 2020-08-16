@@ -5,13 +5,11 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 :root {
-  --font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
-    monospace;
+  --font-family: open sans, roboto, sans-serif;
+  --font-family-mono: Menlo, Consolas, monospace;
   --font-size-small: 12px;
 
-  --primary-color: #000000; // 5C2941
+  --primary-color: #1a1a1a; // 5C2941
   --header-bg: #ffffff; // Header 5C2941
 
   --home-link-color: #65c2ce; // Links a1613f

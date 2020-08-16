@@ -232,11 +232,23 @@
   }
   .icon {
     display: inline-flex;
+    &.-label {
+      margin-right: 8px;
+    }
     &.-right {
       margin-left: var(--margin);
     }
     &.-left {
       margin-right: var(--margin);
+    }
+  }
+  &.-banner {
+    --padding: 10px;
+    color: #fff;
+    background-color: var(--primary-color);
+    &:hover {
+      background-color: #fff;
+      color: var(--primary-color);
     }
   }
 }
@@ -290,8 +302,8 @@
 .site-footer {
   display: flex;
   //align-items: center;
-  background: #000;
-  text-align: center;
+  background: #1a1a1a;
+  //text-align: center;
   font-size: 16px;
   padding: 20px 0;
   h3,
@@ -302,7 +314,7 @@
   a {
     font-size: 32px;
     color: #eee;
-    font-weight: normal;
+    font-weight: lighter;
   }
 }
 

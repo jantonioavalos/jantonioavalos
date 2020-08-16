@@ -9,4 +9,4 @@ cta:
   ctaLink: /about
 ---
 
-I'm a user advocate with a 9+ years background in the tech industry. Working on engineering and design from technical to leadership roles. Focused on creating solutions that solve easily people’s challenges.
+I'm a user advocate with a 9+ years background in the tech industry. Working on engineering and design from technical to leadership roles. Focused on creating usable solutions for people’s challenges.
