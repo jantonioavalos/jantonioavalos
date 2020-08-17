@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { RiMenu3Line, RiCloseLine, RiFileDownloadLine } from "react-icons/ri";
+import { RiMenu3Line, RiCloseLine, RiDownloadCloud2Line } from "react-icons/ri";
 
 const CV =
   "https://drive.google.com/file/d/1V2IhAavFQzkSgVcGiYjspBjQ0s1UlDui/view";
@@ -48,7 +48,7 @@ class Navigation extends React.Component {
     ));
     return (
       <nav className="site-navigation">
-        <button
+        {/* <button
           onClick={this.handleToggleClick}
           className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}
         >
@@ -58,10 +58,11 @@ class Navigation extends React.Component {
           <div className="icon-menu-close">
             <RiCloseLine />
           </div>
-        </button>
+        </button> */}
         <ul>{listMenuItems}</ul>
         <Link to={CV} target="_blank" className="button -banner">
-          <RiFileDownloadLine className="icon -label" /> Resume
+          <RiDownloadCloud2Line className="label" />
+          Resume
         </Link>
       </nav>
     );

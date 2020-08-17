@@ -1,8 +1,9 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
-@import "medium";
+@import "readable";
 
+//TODO: Legacy comment
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
@@ -84,10 +85,10 @@
       display: block;
       margin-left: 0;
     }
-    a {
-      display: block;
-      padding: 20px;
-    }
+    // a { //TODO: Renable when menu restored
+    //   display: block;
+    //   padding: 20px;
+    // }
     a:hover {
       background-color: #474747; //29121d
     }
@@ -99,16 +100,27 @@
   padding: 0 20px;
 }
 .site-logo {
-  font-weight: bold;
-  a {
-    color: #fff;
-    text-decoration: none;
-    &:hover {
-      color: #fff;
+  //TODO: Restore if logo is text
+  // font-weight: bold;
+  // a {
+  //   color: #fff;
+  //   text-decoration: none;
+  //   &:hover {
+  //     color: #fff;
+  //   }
+  // }
+  // @media (max-width: $breakpoint-lg) {
+  //   font-size: 20px;
+  // }
+
+  img {
+    width: 50%;
+    @media (max-width: $breakpoint-sm) {
+      width: 65%;
     }
-  }
-  @media (max-width: $breakpoint-lg) {
-    font-size: 20px;
+    @media (max-width: 375px) {
+      width: 75%;
+    }
   }
 }
 .home-banner {
@@ -200,13 +212,13 @@
 
 // Buttons
 .button {
-  --padding: 20px;
-  --margin: 20px;
+  --padding: 12px;
+  --margin: 16px;
   display: inline-flex;
   align-items: center;
   padding: var(--padding) calc(var(--padding) * 2);
-  background-color: var(--button-alternate-color);
-  color: var(--button-color);
+  background-color: #1a1a1a;
+  color: #fff;
   border-radius: 12px;
   text-decoration: none;
   appearance: none;
@@ -215,8 +227,8 @@
   line-height: 1;
   transition: background 0.3s linear;
   &:hover {
-    background-color: var(--button-color);
-    color: var(--button-alternate-color);
+    background-color: #fff;
+    color: #1a1a1a;
   }
   &.-outline {
     color: var(--primary-color);
@@ -232,9 +244,6 @@
   }
   .icon {
     display: inline-flex;
-    &.-label {
-      margin-right: 8px;
-    }
     &.-right {
       margin-left: var(--margin);
     }
@@ -243,12 +252,27 @@
     }
   }
   &.-banner {
-    --padding: 10px;
+    text-align: center;
     color: #fff;
     background-color: var(--primary-color);
+    border-radius: 8px;
     &:hover {
       background-color: #fff;
       color: var(--primary-color);
+    }
+    @media (max-width: $breakpoint-sm) {
+      font-size: 12pt;
+    }
+    // @media (min-width: $breakpoint-xl) {
+    //   font-size: 12pt;
+    // }
+    .label {
+      display: inline-flex;
+      font-size: 28px;
+      padding-right: 8px;
+      // @media (max-width: $breakpoint-sm) {
+      //   display: none;
+      // }
     }
   }
 }
