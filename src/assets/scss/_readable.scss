@@ -9,6 +9,27 @@
   color: rgba(0, 0, 0, 0.84);
   text-rendering: optimizeLegibility;
 
+  h1,
+  h2,
+  h3,
+  p,
+  a,
+  li,
+  em,
+  strong,
+  figcaption {
+    &::selection {
+      background: #f7e8a1;
+    }
+  }
+
+  img {
+    &::selection {
+      background: none;
+      //border: 2px solid #f7e8a1;
+    }
+  }
+
   h1 {
     font-family: "Lato", sans-serif;
     font-size: 36px;
@@ -37,6 +58,12 @@
   }
   a {
     text-decoration: underline;
+    &:hover {
+      color: rgba(0, 0, 0, 0.54);
+    }
+    &:visited {
+      color: rgba(0, 0, 0, 0.54);
+    }
   }
   ul,
   ol {
@@ -73,7 +100,7 @@
     margin: 54px 0 40px 0;
     //text-align: center;
     color: rgba(0, 0, 0, 0.54);
-    padding-left: 2%;
+    //padding-left: 2%;
     .box {
       //Quote in a old-fashioned box
       margin-left: 0;
@@ -122,12 +149,6 @@
     font-size: 20px;
     text-align: left;
     color: rgba(0, 0, 0, 0.6);
-  }
-}
-
-@media (max-width: $breakpoint-sm) {
-  .post-card .featured-image {
-    min-height: 300px;
   }
 }
 
