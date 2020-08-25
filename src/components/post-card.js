@@ -50,7 +50,7 @@ const PostCard = ({ data }) => (
         )}
       </h2>
       <p className="meta">
-        <span>{data.frontmatter.tags + " ∙ "}</span>
+        <span>{data.frontmatter.type + " ∙ "}</span>
         <time>{data.frontmatter.date}</time>
       </p>
     </div>

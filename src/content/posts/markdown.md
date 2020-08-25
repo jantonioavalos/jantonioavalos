@@ -5,7 +5,7 @@ date: 2020-05-09T05:53:16.102Z
 title: "Markdown: Syntax"
 description: "Private post about using Markdown at this website"
 featuredImage: /assets/typo-unsplash.jpg
-tags: "Private"
+type: "Private"
 private: true
 extlink: null
 ---
@@ -220,9 +220,9 @@ To produce a code block in Markdown, simply indent every line of the
 block by at least 4 spaces or 1 tab.
 
 ```javascript
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Navigation from "../components/navigation"
+import React from "react";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import Navigation from "../components/navigation";
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -235,7 +235,7 @@ export default ({ children }) => {
         }
       }
     `
-  )
+  );
   return (
     <div className="site-wrapper">
       <header className="site-header">
@@ -246,8 +246,8 @@ export default ({ children }) => {
       </header>
       {children}
     </div>
-  )
-}
+  );
+};
 ```
 
 This is a normal paragraph:

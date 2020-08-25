@@ -119,7 +119,7 @@
       width: 65%;
     }
     @media (max-width: 375px) {
-      width: 75%;
+      width: 85%;
     }
   }
 }
@@ -208,8 +208,6 @@
   }
 }
 
-//Blog styles on _medium.scss
-
 // Buttons
 .button {
   --padding: 12px;
@@ -262,6 +260,9 @@
     }
     @media (max-width: $breakpoint-sm) {
       font-size: 12pt;
+    }
+    @media (max-width: 375px) {
+      font-size: 10pt;
     }
     // @media (min-width: $breakpoint-xl) {
     //   font-size: 12pt;

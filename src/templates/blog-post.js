@@ -69,7 +69,7 @@ const Post = ({ data, pageContext }) => {
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
             <p className="article-metadata">
-              {frontmatter.tags + " ∙ "}
+              {frontmatter.type + " ∙ "}
               <time>{frontmatter.date}</time>
             </p>
           </section>
@@ -111,7 +111,7 @@ export const pageQuery = graphql`
         slug
         title
         description
-        tags
+        type
         featuredImage {
           childImageSharp {
             fluid(

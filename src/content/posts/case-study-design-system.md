@@ -5,7 +5,7 @@ date: 2020-08-08
 title: "Creating a website for our new design system"
 description: "How our internal UX consultancy tasks were reduced by 80% systematizing and promoting design and content guidelines on a single-source-of-true website"
 featuredImage: /assets/case-study-1/cover.jpg
-tags: "Case Study"
+type: "Case Study"
 private: false
 extlink: null
 ---

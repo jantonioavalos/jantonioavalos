@@ -4,11 +4,11 @@ import { RiArrowRightSLine } from "react-icons/ri";
 
 import PostCard from "./post-card";
 
-const PostMaker = ({ data }, tags) => (
+const PostMaker = ({ data }, type) => (
   <div className="grids col-1 sm-2 lg-3">{data}</div>
 );
 
-// const PostMaker = ({ data }, tags) => (
+// const PostMaker = ({ data }, type) => (
 //   <section className="home-posts">
 //     <h2>Latest publications</h2>
 //     <div className="grids col-1 sm-2 lg-3">{data}</div>
@@ -39,7 +39,7 @@ export default function BlogListHome() {
                   date(formatString: "MMMM DD, YYYY")
                   slug
                   title
-                  tags
+                  type
                   private
                   extlink
                   featuredImage {
@@ -68,7 +68,7 @@ export default function BlogListHome() {
           .filter((edge) => !!edge.node.frontmatter.date)
           .map((edge) =>
             edge.node.frontmatter.private ||
-            edge.node.frontmatter.tags == "Blog" ? null : (
+            edge.node.frontmatter.type == "Blog" ? null : (
               <PostCard key={edge.node.id} data={edge.node} />
             )
           );
@@ -76,7 +76,7 @@ export default function BlogListHome() {
           .filter((edge) => !!edge.node.frontmatter.date)
           .map((edge) =>
             edge.node.frontmatter.private ||
-            edge.node.frontmatter.tags == "Case Study" ? null : (
+            edge.node.frontmatter.type == "Case Study" ? null : (
               <PostCard key={edge.node.id} data={edge.node} />
             )
           );
