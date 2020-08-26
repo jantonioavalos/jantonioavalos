@@ -39,21 +39,19 @@ So, making this easier to read, I wrote about the activities flow into 6 well-kn
 
 # 1. Strategy
 
-_[Board planner]_
-
 This phase is often forgotten or missunderstood. At the beginning of every project, your team and management have to be clear about:
 
 ## Key users of the solution
 
-Marketing specialists
+### Marketing specialists
 
 From France, Netherlands and USA. They know the business and could have a medium understanding of the product and customer. But they don't know much about the website.
 
-**Hardware engineers**
+### Hardware engineers
 
 From Austin, TX. They have a deep product knowledge and medium understanding of the customer needs. In the other hand, they don't have much context on the website nor business.
 
-**Content publishers**
+### Content publishers
 
 From Guadalajara, Mexico. They don't have much context on the business or customer. But they have a medium understanding of the products and the website.
 
@@ -71,19 +69,19 @@ At skype's calls with shared screens. They would use the solution as:
 
 ## Project’s team
 
-**A UI Designer**
+### A UI Designer
 
 At Guadalajara. She provided the content and visual assets for the UI documentation.
 
-**A Sr. UI Developer**
+### A Sr. UI Developer
 
 From Austin. He developed the UI modules and introduced the use of React Gatsby for the guidelines website.
 
-**Me, as UX Design Lead**
+### Me, as UX Design Lead
 
 Mostly from Guadalajara but sometimes at Austin. I led the project and design system. So I designed the IA and UI of the website. Besides, introducing user research and usability testing into the process.
 
-**Our Digital Experience Manager**
+### Our Digital Experience Manager
 
 At Austin, but traveling often to Guadalajara. He managed UX/UI, web development and content publishing teams. So he was the final approver of the project.
 
@@ -109,11 +107,11 @@ And, I ran part of the process doing their work. This way I was able to empathiz
 
 > Publishers struggle to explain website constraints and design standards. This creates internal tasks such as UX consulting and IT meetings. So page creation gets longer.
 
-_[Process Flow]_
+<img src="../../../static/assets/case-study-1/research-1.png" alt="Process to publish a webpage" />
 
 To share this to my team, I reduced the process to touchpoints. As you can see, publishers are overloaded in the left side. Those are a lot of **resources delivered by different people and channels**.
 
-_[Process Venn]_
+<img src="../../../static/assets/case-study-1/research-2.png" alt="Interactions and deliverables as touchpoints" />
 
 We would need to **reduce those touchpoints** to only one. Making all transparent to everyone so even Marketers (at the right) could actively find answers by themselves without help.
 
@@ -131,7 +129,7 @@ I analyzed our corporate website navigation so I could identify the information 
 
 This is the content journey -and templates- we had to build: Visit > Explore > Engage > Compare >Buy. So going from general to the details, our customers could find information as they needed.
 
-_[Pages hierarchy]_
+<img src="../../../static/assets/case-study-1/research-3.png" alt="This is the alt text medium image" />
 
 ## Modular pages
 
@@ -141,7 +139,7 @@ Inspired by the [Atomic Design Methodology](https://atomicdesign.bradfrost.com/c
 - **Modules** available as building blocks
 - **Elements**, normally from HTML
 
-_[Modular Templates]_
+<img src="../../../static/assets/case-study-1/research-4.png" alt="This is the alt text medium image" />
 
 By the moment, we had a personalized bootstrap's style guide and some UI code documented. So creating this pattern library was the ultimate step to start our **Design System**.
 
@@ -163,7 +161,7 @@ I proposed a site organization based on an **audience scheme, with a narrow and 
 - **Developers.** Gathering our specific code guidelines and training
 - **Resources.** Offering downloadable guides for third-parties, like agencies
 
-_[New sitemap]_
+<img src="../../../static/assets/case-study-1/proto-2.png" alt="This is the alt text medium image" />
 
 Displaying those labels as a **global navigation menu**. Then we would introduce **a left-bar for local navigation** to scan content chucks faster.
 
@@ -194,7 +192,7 @@ So I started with low fidelity wireframes to place all the content. Besides, I t
 - Content Guidelines
 - Download and view code buttons
 
-_[Example wireframes]_
+<img src="../../../static/assets/case-study-1/proto-3.jpg" alt="This is the alt text medium image" />
 
 I asked users for early feedback about the content and journey. With more ideas I **created the digital wireframes to be presented** to the team for more feedback.
 
@@ -203,7 +201,7 @@ I used [Invision Freehand](https://www.invisionapp.com/feature/freehand) so all 
 - Instead of creating a template interactive image, we would use links aside to the template’s image. They help scanning the page better, increasing findability and reducing the development time.
 - Eliminate the breadcrumb. Due to the development time and duplicity with the left navigation.
 
-_[Digital example wireframes]_
+<img src="../../../static/assets/case-study-1/proto-4.png" alt="This is the alt text medium image" />
 
 At the end, I followed a similar process with the rest of the website areas: Home, Brand, Developers, and Resources.
 
@@ -215,7 +213,7 @@ At the end, I followed a similar process with the rest of the website areas: Hom
 
 I used to be developer before UX Design Lead. So I created a high-fidelity prototype, using HTML, CSS and some Javascript. Using that as base, the UI Developer and I decided to start the implementation.
 
-_[Website snapshot]_
+<img src="../../../static/assets/case-study-1/dev-3.png" alt="This is the alt text medium image" />
 
 Looking at an early implementation, our manager asked us to explore options using _[React.JS](https://reactjs.org/)._ He had the vision to build this guidelines site on the same stack he wanted for the future corporate site. It would allow perfect compatibility and be able to perform local experiments without bureaucracy.
 
@@ -243,7 +241,7 @@ At the beginning my manager thought it was enough just to ask around if they lik
 
 It was fun! They helped me to run 2 series of 4 sessions with some of the marketers, engineers, and publishers.
 
-_[Snapshot video call]_
+<img src="../../../static/assets/case-study-1/test-1.png" alt="Capture of the remote session with user at Caen, France." />
 
 It was super useful to **discover users’ preferences**. Here are some examples of our iterations:
 
@@ -281,57 +279,3 @@ Other benefits of this projects, for the team were:
 Getting to **the right problem to solve** was challenging. But in the end, results come from building and testing: failing fast and cheap.
 
 Moreover, **feedback is incredibly useful!** Critique sessions with my team and **maintaining clear communication** with management regarding the **expectations and progress** was perhaps the biggest teaching after leading this project.
-
-CTA
-
----
-
-<img
-    src="../../../static/assets/case-study-1/mini-brief-1.jpg"
-    alt="This is the alt text medium image"
-  />
-
-<img src="../../../static/assets/case-study-1/research-1.png" alt="This is the alt text medium image" />
-
-<img src="../../../static/assets/case-study-1/research-2.png" alt="This is the alt text medium image" />
-
-<img src="../../../static/assets/case-study-1/research-3.png" alt="This is the alt text medium image" />
-<figcaption>
-  Hierarchy based on the
-  <a href="http://www.businessdictionary.com/" target="_blank">
-    business dictionary
-  </a>
-  definitions.
-</figcaption>
-
-[Atomic Design Methodology ](https://atomicdesign.bradfrost.com/chapter-2/)
-
-<img src="../../../static/assets/case-study-1/research-4.png" alt="This is the alt text medium image" />
-
-<img src="../../../static/assets/case-study-1/proto-1.png" alt="This is the alt text medium image" />
-
-<img src="../../../static/assets/case-study-1/proto-2.png" alt="This is the alt text medium image" />
-
-<img src="../../../static/assets/case-study-1/proto-3.jpg" alt="This is the alt text medium image" />
-
--[Adobe XD ](https://www.adobe.com/products/xd/details.html?promoid=85665TVQ&mv=other%3Fpromoid&mv=other)
-
-<img src="../../../static/assets/case-study-1/proto-4.png" alt="This is the alt text medium image" />
-
-[Invision Freehand ](https://www.invisionapp.com/feature/freehand)
-
-[React.JS ](https://reactjs.org/)
-
-[Gatsby](https://www.gatsbyjs.org/)
-
-[Markdown ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-<img src="../../../static/assets/case-study-1/dev-3.png" alt="This is the alt text medium image" />
-
-["Don't make me think"](https://www.amazon.com/dp/B00HJUBRPG/ref=cm_sw_em_r_mt_dp_U_lrJJEbWZ1QNP9)
-
-[facilitator](https://drive.google.com/file/d/1EWvO6o3SdnB6YuHnm9lZgtl1a0xS1-3E/view?usp=sharing)
-
-[observers](https://drive.google.com/file/d/190_CUJoG6CM2bx4Ba55_b2nsztmjtXlA/view?usp=sharing)
-
-<img src="../../../static/assets/case-study-1/test-1.png" alt="Capture of the remote session with user at Caen, France." />

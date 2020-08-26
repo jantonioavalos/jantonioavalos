@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Source+Serif+Pro:400,700|Playfair+Display:700i,900");
 
 .blog-post-content {
   max-width: 60ch;
@@ -21,6 +21,10 @@
     &::selection {
       background: #f7e8a1;
     }
+  }
+
+  p strong {
+    font-weight: bold;
   }
 
   img {
@@ -46,13 +50,24 @@
     line-height: 34.5px;
     letter-spacing: -0.45px;
   }
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0;
+    margin: 26px 0 -8px -1.883px;
+    text-align: left;
+    line-height: 24.5px;
+    letter-spacing: -0.45px;
+    color: rgba(0, 0, 0, 0.64);
+  }
   p,
   i,
   b,
   a {
     color: rgba(0, 0, 0, 0.84);
     margin-top: 21px;
-    font-family: "Lora";
+    font-family: "Source Serif Pro";
     letter-spacing: -0.03px;
     line-height: 1.58;
   }
@@ -68,9 +83,13 @@
   ul,
   ol {
     margin-top: -12px;
-    font-family: "Lora";
+    font-family: "Source Serif Pro";
     letter-spacing: -0.03px;
     line-height: 1.58;
+  }
+  h2 + ul,
+  ol {
+    margin-top: 21px;
   }
   .first-letter {
     overflow-wrap: break-word;
