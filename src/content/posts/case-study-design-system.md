@@ -278,15 +278,14 @@ This guidelines website with our new design system made updates and pages creati
 - Internal tasks were **reduced by 80%** in the next month after release
 - Page creation time was **reduced to only 2 hours** (4 meetings) instead of weeks
 
-> Product Marketer: Now it’s clear to me why we should consider design in our requests. It improves customer engagement with consistency.
+> **Product Marketer:** Now it’s clear to me why we should consider design in our requests. It improves customer engagement with consistency.
 
-Other benefits for the team were:
+## Benefits for the team were:
 
-**Learned 3 new tools.** My UX/UI team learned atomic design, usability testing, and markdown
+- **Learned 3 new tools.** My UX/UI team learned atomic design, usability testing, and markdown
+- **Increased collaboration.** We built a space to communicate better with engineers, marketers and publishers from Mexico, USA, and Europe.
 
-**Increased collaboration.** People from Mexico, USA, and France helped during the project
-
-> Publishing Team: We have now the power of knowledge on a new page creation. This guidelines helps to maintain all pretty and easy to build.
+> **Publishing Team:** We have now the power of knowledge on a new page creation. This guidelines helps to maintain all pretty and easy to build.
 
 ## Lessons from leading this project
 
