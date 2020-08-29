@@ -20,6 +20,7 @@ export const blogListQuery = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            time
             slug
             title
             type

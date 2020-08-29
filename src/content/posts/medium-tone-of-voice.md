@@ -2,6 +2,7 @@
 template: blog-post
 slug: medium-post-2
 date: 2020-05-31
+time: "6 min"
 title: "What is tone of voice? — And why it is costing to your company"
 description: "A guide to design your tone of voice with UX Writing"
 featuredImage: /assets/medium-cover-2.png

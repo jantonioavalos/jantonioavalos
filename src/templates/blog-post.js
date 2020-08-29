@@ -69,8 +69,8 @@ const Post = ({ data, pageContext }) => {
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
             <p className="article-metadata">
-              {frontmatter.type + " ∙ "}
-              <time>{frontmatter.date}</time>
+              {frontmatter.type + " ∙ " + frontmatter.time + " read"}
+              {/* <time>{frontmatter.date}</time> */}
             </p>
           </section>
           {Image ? (
@@ -108,6 +108,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 148)
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        time
         slug
         title
         description

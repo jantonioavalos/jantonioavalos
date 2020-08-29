@@ -81,6 +81,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-168307528-1",
+        head: true,
       },
     },
     `gatsby-plugin-advanced-sitemap`,
