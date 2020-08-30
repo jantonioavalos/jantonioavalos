@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Source+Serif+Pro:400,700");
 
 .blog-post-content {
   max-width: 60ch;
@@ -8,6 +8,31 @@
   font-size: 21px;
   color: rgba(0, 0, 0, 0.84);
   text-rendering: optimizeLegibility;
+
+  h1,
+  h2,
+  h3,
+  p,
+  a,
+  li,
+  em,
+  strong,
+  figcaption {
+    &::selection {
+      background: #f7e8a1;
+    }
+  }
+
+  p strong {
+    font-weight: bold;
+  }
+
+  img {
+    &::selection {
+      background: none;
+      //border: 2px solid #f7e8a1;
+    }
+  }
 
   h1 {
     font-family: "Lato", sans-serif;
@@ -25,29 +50,50 @@
     line-height: 34.5px;
     letter-spacing: -0.45px;
   }
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0;
+    margin: 26px 0 -12px -1.883px;
+    text-align: left;
+    line-height: 24.5px;
+    letter-spacing: -0.45px;
+    color: rgba(0, 0, 0, 0.64);
+  }
   p,
   i,
   b,
   a {
     color: rgba(0, 0, 0, 0.84);
     margin-top: 21px;
-    font-family: "Lora";
+    font-family: "Source Serif Pro";
     letter-spacing: -0.03px;
     line-height: 1.58;
   }
   a {
     text-decoration: underline;
+    &:hover {
+      color: rgba(0, 0, 0, 0.54);
+    }
+    &:visited {
+      color: rgba(0, 0, 0, 0.54);
+    }
   }
   ul,
   ol {
     margin-top: -12px;
-    font-family: "Lora";
+    font-family: "Source Serif Pro";
     letter-spacing: -0.03px;
-    line-height: 1.58;
+    line-height: 1.6;
+  }
+  h2 + ul,
+  ol {
+    margin-top: 21px;
   }
   .first-letter {
     overflow-wrap: break-word;
-    font-family: "Playfair Display", serif;
+    font-family: "Source Serif Pro", serif;
     font-size: 60px;
     line-height: 60px;
     display: block;
@@ -68,12 +114,12 @@
     font-size: 30px;
     font-style: italic;
     letter-spacing: -0.36px;
-    line-height: 44.4px;
+    line-height: 44px;
     overflow-wrap: break-word;
     margin: 54px 0 40px 0;
     //text-align: center;
     color: rgba(0, 0, 0, 0.54);
-    padding-left: 2%;
+    //padding-left: 2%;
     .box {
       //Quote in a old-fashioned box
       margin-left: 0;
@@ -107,7 +153,7 @@
     // max-width: 768px;
     // line-height: 1.3;
     // font-weight: 600;
-    font-family: "Playfair Display", serif;
+    font-family: "Source Serif Pro", serif;
     font-size: 40px;
     text-align: left;
     margin-top: 0;
@@ -122,12 +168,6 @@
     font-size: 20px;
     text-align: left;
     color: rgba(0, 0, 0, 0.6);
-  }
-}
-
-@media (max-width: $breakpoint-sm) {
-  .post-card .featured-image {
-    min-height: 300px;
   }
 }
 

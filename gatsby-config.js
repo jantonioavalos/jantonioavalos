@@ -66,6 +66,14 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        color: "#1A1A1A",
+        height: "4px",
+        paths: ["/creating-a-new-design-system"],
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
@@ -81,6 +89,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-168307528-1",
+        head: true,
       },
     },
     `gatsby-plugin-advanced-sitemap`,

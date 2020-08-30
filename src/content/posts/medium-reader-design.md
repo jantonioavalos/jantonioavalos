@@ -2,6 +2,7 @@
 template: blog-post
 slug: medium-post-1
 date: 2020-05-11
+time: "5 min"
 title: "People only read 20% of your content — but UX Writing can make them read more on your page"
 description: "A guide for reader-centered design"
 featuredImage: /assets/medium-cover-1.png

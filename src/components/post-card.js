@@ -50,8 +50,10 @@ const PostCard = ({ data }) => (
         )}
       </h2>
       <p className="meta">
-        <span>{data.frontmatter.type + " ∙ "}</span>
-        <time>{data.frontmatter.date}</time>
+        <span>
+          {data.frontmatter.type + " ∙ " + data.frontmatter.time + " read"}
+        </span>
+        {/* <time>{data.frontmatter.date}</time> */}
       </p>
     </div>
   </article>

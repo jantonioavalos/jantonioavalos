@@ -2,6 +2,7 @@
 @import "defaults";
 @import "lib/css-grid-utility";
 @import "readable";
+@import "readable-mobile";
 
 //TODO: Legacy comment
 // .primary-container {
@@ -165,7 +166,7 @@
   background-color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
-  transition: box-shadow 0.3s linear;
+  transition: box-shadow 0.4s linear;
   .featured-image {
     border-radius: 12px;
     img {
@@ -182,15 +183,15 @@
     }
   }
   &:hover {
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
     .title {
       color: var(--button-alternate-color);
     }
   }
   .meta {
     margin: 0;
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
   }
   .post-content {
@@ -330,16 +331,19 @@
   background: #1a1a1a;
   //text-align: center;
   font-size: 16px;
-  padding: 20px 0;
+  padding: 16px 0;
   h3,
   p {
     margin: 0;
     color: #eee;
   }
   a {
-    font-size: 32px;
+    font-size: 48px;
     color: #eee;
     font-weight: lighter;
+  }
+  svg {
+    padding: 8px;
   }
 }
 
