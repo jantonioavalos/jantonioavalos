@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -157,3 +157,8 @@ collections:
                 name: twitterUsername
                 label: Twitter
                 required: false
+
+          - label: "Google Analytics"
+            name: ga
+            widget: string
+            hint: "UA-168307528-1"
