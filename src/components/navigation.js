@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { RiMenu3Line, RiCloseLine, RiDownloadCloud2Line } from "react-icons/ri";
 
-const CV =
-  "https://drive.google.com/file/d/1lMbVBOVHZXJexf-eBhtHodPXigGmAitN/view?usp=sharing";
+const CV = "https://drive.google.com/file/d/1CPehX45eQxdiQg28fJBPCiWE1ZKAdboo/view?usp=sharing";
 
 const MenuItems = [
   // {
