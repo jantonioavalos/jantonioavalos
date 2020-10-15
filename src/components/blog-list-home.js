@@ -83,16 +83,16 @@ export default function BlogListHome() {
           );
         return (
           <div>
-            <section className="home-posts">
+            {/* <section className="home-posts">
               <h2>Latest publications</h2>
               <PostMaker data={allPublications} />
-            </section>
-            {/* <section className="home-posts">
+            </section> */}
+            <section className="home-posts">
               <h2>Case studies</h2>
               <PostMaker data={caseStudies} />
               <h2>Latest articles</h2>
               <PostMaker data={posts} />
-            </section> */}
+            </section>
           </div>
         );
       }}
