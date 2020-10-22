@@ -2,26 +2,20 @@ import React from "react";
 import { Link } from "gatsby";
 import { RiMenu3Line, RiCloseLine, RiDownloadCloud2Line } from "react-icons/ri";
 
-const CV =
-  "https://drive.google.com/file/d/1CPehX45eQxdiQg28fJBPCiWE1ZKAdboo/view?usp=sharing";
+const CV = "https://drive.google.com/file/d/1CPehX45eQxdiQg28fJBPCiWE1ZKAdboo/view?usp=sharing";
 
 const MenuItems = [
-  {
-    path: "/about",
-    title: "About",
-  },
-  {
-    path: "/contact",
-    title: "Contact",
-  },
-  {
-    path: "/resources",
-    title: "Resources",
-  },
-
+  // {
+  //   path: "/about",
+  //   title: "About",
+  // },
   // {
   //   path: "/blogfolio",
   //   title: "Blogfolio",
+  // },
+  // {
+  //   path: "/contact",
+  //   title: "Contact",
   // },
 ];
 
@@ -65,10 +59,10 @@ class Navigation extends React.Component {
           </div>
         </button> */}
         <ul>{listMenuItems}</ul>
-        {/* <Link to={CV} target="_blank" className="button -banner">
+        <Link to={CV} target="_blank" className="button -banner">
           <RiDownloadCloud2Line className="label" />
           Resume
-        </Link> */}
+        </Link>
       </nav>
     );
   }
