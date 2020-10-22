@@ -16,7 +16,26 @@ I'm a user advocate with a 9+ years background in the tech industry. Working on 
 
 ---
 
-### Starting my career before college
+> Does this tool make people's work easier?
+> Or, is it complicating their lifes?
+
+I love the ideal of transforming technology into tools to empower people. However, it's hard to solve a problem being efficient. And it's even harder to dare to enhance human skills.
+
+I started my career at 18 as an electronics technician. I thought I could build tools to make life easier. But I studied my major in computer science.
+
+Since I was little, I always wanted to open my toys to see how they worked. Even sometimes, they wouldn't work again...
+
+That's why when I grew up I studied a technologist degree in electronics, so I could build my own devices. But the more I created projects the more I liked programming -the soul of my inventions. So at university, I went for computer systems engineering.
+
+Since I was little, I was always crafting inventions. So I was 13, when I started studying electronics. It was facinating to build interactive prototypes! I created a smart home system to reduce the light and water consumption.
+
+However, I felt in love with programming. I realized the software enables the same hardware to perform different functions. So it helps people personalize the result. So I worked to get my first job on Embedded systems. Besides, I earned a scholarship at one top University to study computer science.
+
+But the more I created projects the more I liked programming -the soul of my inventions.
+
+These questions, changed my mind. I studied electronics
+
+When I worked half-time as
 
   <!-- ![]( "") -->
 
