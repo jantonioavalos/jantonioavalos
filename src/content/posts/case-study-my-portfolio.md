@@ -15,98 +15,95 @@ extlink: null
 
 ## Why this project
 
-I'm an engineer with electronics and software development background. However, I enjoy designing experiences as products that empower people to upgrade their skills.
+I'm an engineer with electronics and software development background. However, I enjoy designing experiences as products that **empower people** to upgrade their skills.
 
-Getting into UX is complicated. Many employers look for trendy colors applied on beautiful devices with original interfaces. While only few cares about the insights, the decisions and user's feedback.
+Getting into UX is complicated. Many employers look for trendy colors applied on beautiful devices with original interfaces. While only few cares about the **insights, the decisions and user's feedback**.
 
-So I had to find my place in this industry. I needed a space to showcase my UX/UI experience but highlighting the value of strategy, research and testing.
+So I had to find my place in this industry. I needed a space to showcase my UX/UI experience but highlighting the value of **strategy, research and testing**.
 
 That's why I built this website by my own. Here's the living case study:
 
-- A strategy brief
-- The proof-of-concept
-- My MVP
-- First iteration: this current state
+<ol>
+<li><a href="#brief">A strategy brief</a></li>
+<li><a href="#poc">The proof-of-concept</a></li>
+<li><a href="#mvp">My MVP</a></li>
+<li><a href="#iteration">First iteration: this current state</a></li>
+</ol>
 
 ---
 
-# A strategy brief
+<h1 id="brief">A strategy brief</h1>
 
-I knew nothing about portfolios. So I based my research on the [advice of Sarah Doody](https://www.invisionapp.com/inside-design/the-3-users-of-your-ux-portfolio/) -Expert on UX Portfolios- and the years of [experience of David Pasztor](https://blog.uxfol.io/ux-designer-portfolio/) -CEO of UXfolio.
+<figure>
+  <img src="assets/case-study-2/trello-board-1.png" alt="UX Startegy on Trello Board">
+  <figcaption><a href="https://trello.com/b/VYdMgbhO" target="_blank">Explore this board</a></figcaption>
+</figure>
 
-I used a user-centered design process. I started with strategy and some research. After the analysis, I drew some sketches and designed the MVP.
+Besides a personal _kanban_, I prepared [a Trello board](https://trello.com/b/VYdMgbhO) with all the resources for each stage. It helped as the project's live-documentation.
 
-[research insights] **TK**
+And I followed a **user-centered design** approach: Strategy, Research, Analysis, Prototyping, Development and Testing.
 
-Besides, I prepared a Trello board with all the resources for each stage. It helped as the project's live-documentation. Later, as you'll read, I had to separate the content and the design/development tasks in different type of boards.
+But I knew nothing about portfolios. So I based my research on the [advice of Sarah Doody](https://www.invisionapp.com/inside-design/the-3-users-of-your-ux-portfolio/) -Expert on UX Portfolios- and the years of [experience of David Pasztor](https://blog.uxfol.io/ux-designer-portfolio/) -CEO of UXfolio.
 
-![Trello board](assets/case-study-2/trello-board-1.png)
-[Trello](https://trello.com/b/VYdMgbhO)
-
-## Key users of the solution
+## Users and their scenarios
 
 ### Recruiters
 
-They usually deal with a deadline to narrow down dozens or even hundreds of applications. They spend a minute skimming and scanning candidates' CVs, portfolios and LinkedIn profiles. They disqualify people whose skills don’t match the job requirements or can't be verified.
+They usually deal with a deadline to narrow down dozens or even hundreds of applications. They **spend a minute skimming** and scanning candidates' CVs, portfolios and LinkedIn profiles. They disqualify people whose skills don’t match the job requirements or can't be verified.
 
-So they need candidates’ materials to look polished and professional. They want to match the job requirements on a clean and easy-to-scan first impression.
+So they need candidates’ materials to look polished and professional. They want to **match the job requirements** on a clean and easy-to-scan first impression.
 
 ### Design Team Managers
 
-Often, they have a history in the company. They are busy people who cannot review every candidate’s information. They must be confident that the candidate matches the job description.
+Often, they have a history in the company. They are **busy people** who cannot review every candidate’s information. They must be confident that the candidate matches the job description.
 
-So they need to see the work details, the decisions and the story of each project. They want to see evidence of the thought **process**, **communication** and technical skills.
+So they need to see the work details, the decisions and the story of each project. They want to **see evidence** of the thought process, communication and technical skills.
 
 ### Colleagues
 
-Normally, they are senior designers, UI designers, or UX writers. They usually interview 3 candidates for each role. They review the candidate’s materials before the call so they can come prepared with a meaningful conversation.
+Normally, they are senior designers, UI designers, or UX writers. They usually interview 3 candidates for each role. They review the candidate’s materials before the call so they can **come prepared** with a meaningful conversation.
 
 So they need a portfolio that presents **detailed content** in a clear and professional way. They want to know how I handle projects, deal with constraints, and my reflections about the work done.
 
 ### UX Community
 
-People interested in learning more about UX Design. They can be students, career changers, or people interested in specific methods. They attend to conferences, listen to podcasts and read blog posts or books as part of their daily day.
+People **interested in learning** more about UX Design. They can be students, career changers, or people interested in specific methods. They attend to conferences, listen to podcasts and read blog posts or books as part of their daily day.
 
-So they need easy access to original, instructive and reliable content. They want to apply the tips or insights to their current projects.
-
-## Main scenarios
-
-- When recruiters and hiring managers scan my profile, they want to know more about me, my work and skills so they can match me with the job requirements.
-- When UX community colleagues research about UX, they want to know more about the author, similar content or resources so they can learn deeper insights and start practicing. **TK change.**
+So they need easy access to original, instructive and reliable content. They want to **apply the tips or insights** to their current projects.
 
 ## Objectives
 
-1. Present at least one case study for hiring managers and colleagues
-2. Display text and images in a high quality and readable format
-3. Show at least two blog posts for colleagues and UX community
-4. Create a resources page to bring traffic and back-links to the website
-5. Position the website in the first page of search results for recruiters and colleagues
-6. Conserve full control on the User Interface and Information Architecture for personalization and performance improvements
-7. Install analytics tools to learn more on web metrics, heat maps, A/B tests and journey analysis.
+1. Present at least **one case study** for hiring managers and colleagues
+2. Display text and images in a **high quality and readable** format
+3. Show at least two **blog posts** for colleagues and UX community
+4. Create a resources page to **bring traffic** and back-links to the website
+5. Position the website in the **first page of search** results for recruiters and colleagues
+6. Conserve **full control** on the User Interface and Information Architecture for personalization and performance improvements
+7. Install **analytics tools** to learn more on web metrics, heat maps, A/B tests and journey analysis.
 
 **TK.** Check objectives by the end of each chapter.
 
 ---
 
-# The proof-of-concept
+<h1 id="poc">The proof-of-concept</h1>
 
-I prioritized content. And I focused on creating the case study to share. So I decided to start using a portfolio service:
+I prioritized content. And I focused on creating the case study to share. So I decided to use **a portfolio service** and I compared the ease-of-use, platform specialty, personalization and metrics options.
 
-Behance
+**Behance:**
 
 - Easy to configure and publish
 - Focused on visual work
 - Fixed and standard presentation
 - Social interactions as metric
 
-Wordpress
+**Wordpress:**
 
 - Robust configuration and publishing tools
 - Focused on blogging and business websites
 - Personalization depends on templates and plugins
 - Capable of integrate popular analytics services
 
-UXfolio
+**UXfolio:**
 
 - Easy to configure and publish
 - Focused on storytelling
@@ -117,24 +114,26 @@ UXfolio
 
 I chose UXfolio because it was focused on offering a delightful reading experience with outstanding options for images. Besides, the paid version allowed me to integrate analytics, personalized layouts and use my own domain.
 
-The site presented:
+**The site presented:**
 
-- Home page with professional summary and social links to help recruiters scan my profile.
-- About page so colleagues could check my background without reading my CV.
-- Contact page to help recruiters on sending me an email using a form.
-- Case study focused on explaining my process, decisions and tests done.
+- **Home page** with professional summary and social links to help recruiters scan my profile.
+- **About page** so colleagues could check my background without reading my CV.
+- **Contact page** to help recruiters on sending me an email using a form.
+- **Case study** focused on explaining my process, decisions and tests done.
 
-![POC Portfolio](assets/case-study-2/blogfolio-mvp-entire-page.png)
-[J. Antonio Avalos - Product Designer | UX Engineer](https://uxfol.io/jantonioavalos)
+<figure>
+  <img src="assets/case-study-2/blogfolio-mvp-entire-page.png" alt="My UX portfolio as Product Designer">
+  <figcaption><a href="https://uxfol.io/jantonioavalos" target="_blank">Check my first UX Portfolio</a></figcaption>
+</figure>
 
 ## Results and improvements
 
-- Using my own domain to support my professional online presence
-- A beautiful case study that got me several interviews.
-- I could track the visitors' journey and engagement with google analytics.
-- SEO options easy to modify
+- Using my **own domain** to support my professional online presence
+- A beautiful **case study** that got me several interviews.
+- I could **track the visitors'** journey and engagement with google analytics.
+- **SEO options** easy to modify
 
-The downside
+**The downside:**
 
 - Paying for the personalization options as premium features.
 - Limited to use a collection of customizable templates.
@@ -143,23 +142,23 @@ The downside
 
 ---
 
-# My MVP
+<h1 id="mvp">My MVP</h1>
 
-I wanted to build something similar to the POC. Besides, my engineer's heart wanted to add some cool features and implement cutting-edge technology. So I compared options by: my experience, help resources, available features, **TK**
+I wanted to build something similar to the POC. Besides, my engineer's heart wanted to add some cool features and implement cutting-edge technology. So I compared options by: my experience, help resources, and available features.
 
-HTML + CSS + Javascript
+**HTML + CSS + Javascript**
 
 - I have 3+ years of experience using them
 - Several documentation by the community
 - Complex features will be hard to develop (Deployment, SEO,
 
-React (Single Page Application)
+**React (Single Page Application)**
 
 - Intermediate level of experience
 - Growing community with hundreds of blog posts about it
 - Complex features are available as libraries
 
-JS Framework (Vue or Angular)
+**JS Framework (Vue or Angular)**
 
 - I'd learn while building the site but increasing my knowledge on javascript
 - Trendy on JS (non-React) communities
@@ -169,74 +168,82 @@ JS Framework (Vue or Angular)
 
 I decided to use Gatsby, a React Framework. I created a Server Side Rendering Application. And it offered:
 
-- Home, About and Case Study pages, similar to previous version.
-- Beautiful typography and visual layout to encourage reading and exploration.
-- Dark mode, reading time, scrolling progress and social share options integrated.
-- Blog post format to share stories and resources with the community.
+- **Similar to previous version:** Home, About and Case Study pages.
+- **Beautiful design** of the visual layout and typography to encourage reading and exploration.
+- **Readability improvements:** Reading Dark mode, reading time, scrolling progress and social share options integrated.
+- **Blog post format** to share stories and resources with the community.
 
-What changed
+**What changed:**
 
 - I removed the contact page. People contacted me by LinkedIn or direct email.
 - I had creative control as owner of the code.
 - I designed my logo and used only white and black as brand colors.
 
-![Blogfolio-2020](assets/case-study-2/blogfolio-2020-entire-page.png)
-[jantonioavalos/blogfolio-2020](https://github.com/jantonioavalos/blogfolio-2020)
-[jantonioavalos | Blogfolio](https://blogfolio-2020.netlify.app/)
+<figure>
+  <img src="assets/case-study-2/blogfolio-2020-entire-page.png" alt="My self-made website to showcase my UX portfolio and blog posts">
+  <figcaption><a href="https://blogfolio-2020.netlify.app/" target="_blank">Visit this website</a> | <a href="https://github.com/jantonioavalos/blogfolio-2020" target="_blank">See the code</a></figcaption>
+</figure>
 
 ## Results and improvements
 
-- It has brilliant performance and outstanding SEO. **TK** google metrics.
-- Page was listed in the second page of search results, after social media profiles and links.
-- It had dark mode, social share and a polished UI that engaged interviewers.
-- I got a new job, after presenting this project and the case study.
-- Updates were simple. I used Github to admin my code and Netlify to auto-publish the site.
+- **Performance and SEO** were outstanding.
+- **Second page's result** on google search, after social media profiles and links.
+- **Trendy features**: It had dark mode, social share and a polished UI that engaged interviewers.
+- **I got a new job**, after presenting this project and the case study.
+- **Updates were simple.** I used Github to admin my code and Netlify to auto-publish the site.
 
-The downside
+**The downside:**
 
 - I had a learning curve each time I needed a change in the UI: It was built using a Gatsby starter. It was based on Typescript and shadowing components to change the UI.
 - The blog post had null community engagement compared to the Medium version. Even as reading experience, because of the long format. (According to colleagues I interviewed).
 
 ---
 
-# First iteration: this current state
+<h1 id="iteration">First iteration: this current state</h1>
 
-I reordered the priority: Content > Features. And I rebuilt the website using a simpler starting point. This year (2020) I'm dedicating more time to learn more about content strategy, UX writing and Usability metrics. I believe that's the foundation to improve a digital experience.
+I reordered the priority: **Content > Features**. And I rebuilt the website using a simpler starting point. This year (2020), I'm learning more about content strategy, UX writing and Usability metrics. I believe those are key to transform a digital experience.
 
-This latest version includes:
+**This latest version includes:**
 
-- New Home and Case Study pages, based on the last version.
-- A direct link to download my resume in pdf.
-- Hotjar analytics to get heat maps and customer satisfaction metrics.
-- A personalized UI style for long-format reading.
+- **Based on last version**, a new Home and Case Study pages.
+- **My resume** as a direct download.
+- **Hotjar analytics** to get heat maps and customer satisfaction metrics.
+- **A personalized UI** style for long-format reading.
 
-What changed
+**What changed:**
 
 - I used the feedback from recruiters and hiring managers during interviews.
 - I removed the About page. They preferred to know me better by checking my social links.
 - Besides the code, now I control the design. I use familiar technology as SASS and MDX.
 - I focused my learning curve on writing better. So I wrote some blog posts and linked them in the Home page. They're part of my SEO strategy and have higher engagement with the community being hosted on Medium.
 
-![Blogfolio](assets/case-study-2/blogfolio-entire-page.png)
-[jantonioavalos](https://jantonioavalos.com/)
-[jantonioavalos/jantonioavalos](https://github.com/jantonioavalos/jantonioavalos)
+<figure>
+  <img src="assets/case-study-2/blogfolio-entire-page.png" alt="My self-made website to showcase my UX portfolio and blog posts">
+  <figcaption><a href="https://github.com/jantonioavalos/jantonioavalos" target="_blank">See the code</a></figcaption>
+</figure>
 
 ## Results and improvements
 
-- After some SEO work, the site is the first google's result for: _jantonioavalos_.
-- The site performance is better. **TK** google metrics.
-- I'm getting organic visitors and leads. TK google analytics.
+- **First result** on Google Search for: _jantonioavalos_.
+- **Improved performance** on image rendering and site speed is better.
+- **Organic visitors and leads** coming from content search and back-link startegy.
 
-The downside
+**The downside:**
 
 - Besides the previous users' feedback, I haven't met users. So, as soon as I double the content, I'm running usability test with recruiters and colleagues.
 - Owning the 100% of the platform can be more demanding than producing the content. So I needed better planning. I moved from Trello to JIRA and Notion to track website and content tasks, respectively.
 
-![Notion board](assets/case-study-2/notion-board.png)
-
-![Jira sprint](assets/case-study-2/jira-sprint.png)
+<figure>
+  <img src="assets/case-study-2/notion-board.png" alt="My kanban board in Notion to track content creation">
+  <figcaption>Notion board</figcaption>
+</figure>
 
 ## To come
+
+<figure>
+  <img src="assets/case-study-2/jira-sprint.png" alt="My Jira sprint board">
+  <figcaption>Jira sprint board</figcaption>
+</figure>
 
 - I'm transforming the initial mid-fid mockups into a small design system (Figma + Storybook).
 - I'm working on a headless CMS (Netlify) to produce easier updates or quick corrections.
