@@ -2,10 +2,10 @@
 template: blog-post
 slug: creating-my-portfolio
 date: 2020-10-20
-time: "6 min"
+time: "7 min"
 title: "How I planned, designed and developed this website"
 description: "I'm designing and developing this website to present my portfolio and share resources with the UX community. Here's the story of the iterations, results and improvements over the time."
-featuredImage: /assets/case-study-2/blogfolio-2020-entire-page.png
+featuredImage: /assets/case-study-2/design-and-develop-my-website.png
 type: "Case Study"
 private: false
 extlink: null
@@ -17,9 +17,9 @@ extlink: null
 
 I'm an engineer with electronics and software development background. However, I enjoy designing experiences as products that **empower people** to upgrade their skills.
 
-Getting into UX is complicated. Many employers look for trendy colors applied on beautiful devices with original interfaces. While only few cares about the **insights, the decisions and user's feedback**.
+Getting into UX is complicated. Many employers look for trendy colors around beautiful devices barely displaying a non-standard UI. Only few care about the **insights, the decisions and user's feedback**.
 
-So I had to find my place in this industry. I needed a space to showcase my UX/UI experience but highlighting the value of **strategy, research and testing**.
+So I had to find my place in this industry. I needed a space to showcase my UX/UI experience but highlighting the value of **strategy, research and testing work**.
 
 That's why I built this website by my own. Here's the living case study:
 
@@ -39,11 +39,11 @@ That's why I built this website by my own. Here's the living case study:
   <figcaption><a href="https://trello.com/b/VYdMgbhO" target="_blank">Explore this board</a></figcaption>
 </figure>
 
-Besides a personal _kanban_, I prepared [a Trello board](https://trello.com/b/VYdMgbhO) with all the resources for each stage. It helped as the project's live-documentation.
+Besides a personal _kanban_, I prepared <a href="https://trello.com/b/VYdMgbhO" target="_blank">a Trello board</a> with all the resources for each stage. It helped as the project's live-documentation.
 
 And I followed a **user-centered design** approach: Strategy, Research, Analysis, Prototyping, Development and Testing.
 
-But I knew nothing about portfolios. So I based my research on the [advice of Sarah Doody](https://www.invisionapp.com/inside-design/the-3-users-of-your-ux-portfolio/) -Expert on UX Portfolios- and the years of [experience of David Pasztor](https://blog.uxfol.io/ux-designer-portfolio/) -CEO of UXfolio.
+But on the lack of portfolios expertise, I based my research on the <a href="https://www.invisionapp.com/inside-design/the-3-users-of-your-ux-portfolio/" target="_blank">advice of Sarah Doody</a> -Expert on UX Portfolios- and the senior <a href="https://blog.uxfol.io/ux-designer-portfolio/)" target="_blank">experience of David Pasztor</a> -CEO of UXfolio.
 
 ## Users and their scenarios
 
@@ -78,10 +78,8 @@ So they need easy access to original, instructive and reliable content. They wan
 3. Show at least two **blog posts** for colleagues and UX community
 4. Create a resources page to **bring traffic** and back-links to the website
 5. Position the website in the **first page of search** results for recruiters and colleagues
-6. Conserve **full control** on the User Interface and Information Architecture for personalization and performance improvements
+6. Conserve **full control** on the User Interface and Information Architecture for personalisation and performance improvements
 7. Install **analytics tools** to learn more on web metrics, heat maps, A/B tests and journey analysis.
-
-**TK.** Check objectives by the end of each chapter.
 
 ---
 
@@ -100,19 +98,19 @@ I prioritized content. And I focused on creating the case study to share. So I d
 
 - Robust configuration and publishing tools
 - Focused on blogging and business websites
-- Personalization depends on templates and plugins
+- Personalisation depends on templates and plugins
 - Capable of integrate popular analytics services
 
 **UXfolio:**
 
 - Easy to configure and publish
 - Focused on storytelling
-- Personalization options unlocked on paid version
+- Personalisation options unlocked on paid version
 - Premium version allowed adding analytics services
 
 ## Prioritizing storytelling
 
-I chose UXfolio because it was focused on offering a delightful reading experience with outstanding options for images. Besides, the paid version allowed me to integrate analytics, personalized layouts and use my own domain.
+I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offered a friendly reading experience with intersting image layouts. Besides, the paid version allowed me to integrate analytics, brand personalisation and use my own domain.
 
 **The site presented:**
 
@@ -128,14 +126,14 @@ I chose UXfolio because it was focused on offering a delightful reading experien
 
 ## Results and improvements
 
-- Using my **own domain** to support my professional online presence
+- Used my **own domain** to support my professional online presence
 - A beautiful **case study** that got me several interviews.
 - I could **track the visitors'** journey and engagement with google analytics.
-- **SEO options** easy to modify
+- **SEO options** were limited but easy to modify
 
 **The downside:**
 
-- Paying for the personalization options as premium features.
+- Paying for the personalisation options as premium features.
 - Limited to use a collection of customizable templates.
 - Format not compatible for blogging.
 - Social media icons/links were limited (i.e. No GitHub or Medium).
@@ -144,18 +142,18 @@ I chose UXfolio because it was focused on offering a delightful reading experien
 
 <h1 id="mvp">My MVP</h1>
 
-I wanted to build something similar to the POC. Besides, my engineer's heart wanted to add some cool features and implement cutting-edge technology. So I compared options by: my experience, help resources, and available features.
+I wanted to build something similar to the POC. Moreover, I wanted to add trendy features and implement cutting-edge technology. So I compared options by: learning curve, support resources, and features enabled.
 
 **HTML + CSS + Javascript**
 
 - I have 3+ years of experience using them
 - Several documentation by the community
-- Complex features will be hard to develop (Deployment, SEO,
+- Complex features will be hard to develop (Production deployment, SEO, etc.)
 
 **React (Single Page Application)**
 
 - Intermediate level of experience
-- Growing community with hundreds of blog posts about it
+- Growing community with hundreds of blog posts with tips
 - Complex features are available as libraries
 
 **JS Framework (Vue or Angular)**
@@ -166,11 +164,11 @@ I wanted to build something similar to the POC. Besides, my engineer's heart wan
 
 ## Combining advantages
 
-I decided to use Gatsby, a React Framework. I created a Server Side Rendering Application. And it offered:
+I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>, a React Framework. I created a Server Side Rendering Application. And it offered:
 
 - **Similar to previous version:** Home, About and Case Study pages.
-- **Beautiful design** of the visual layout and typography to encourage reading and exploration.
-- **Readability improvements:** Reading Dark mode, reading time, scrolling progress and social share options integrated.
+- **Beautiful design** of the layout and typography to encourage reading and exploration.
+- **Reader experience improved:** Dark mode, reading time, scrolling progress and social share options integrated.
 - **Blog post format** to share stories and resources with the community.
 
 **What changed:**
@@ -194,14 +192,14 @@ I decided to use Gatsby, a React Framework. I created a Server Side Rendering Ap
 
 **The downside:**
 
-- I had a learning curve each time I needed a change in the UI: It was built using a Gatsby starter. It was based on Typescript and shadowing components to change the UI.
+- I had a learning curve each time I needed a change in the UI: It was built using <a href="https://github.com/narative/gatsby-theme-novelaa" target="_blank">a Gatsby starter</a>. It was based on Typescript and shadowing components to change the UI.
 - The blog post had null community engagement compared to the Medium version. Even as reading experience, because of the long format. (According to colleagues I interviewed).
 
 ---
 
 <h1 id="iteration">First iteration: this current state</h1>
 
-I reordered the priority: **Content > Features**. And I rebuilt the website using a simpler starting point. This year (2020), I'm learning more about content strategy, UX writing and Usability metrics. I believe those are key to transform a digital experience.
+I reordered the priority: **Content > Features**. And I rebuilt the website using a simpler starting point. This year (2020), I'm improving the content strategy, UX writing and use of analytics.
 
 **This latest version includes:**
 
@@ -245,12 +243,11 @@ I reordered the priority: **Content > Features**. And I rebuilt the website usin
   <figcaption>Jira sprint board</figcaption>
 </figure>
 
-- I'm transforming the initial mid-fid mockups into a small design system (Figma + Storybook).
-- I'm working on a headless CMS (Netlify) to produce easier updates or quick corrections.
-- I've been writing a next blogging (Medium) series on Information Architecture and two case studies about Personas and a Video sharing app I designed in my previous job.
-- Later, I'll create a resources page. Listing some artifacts, slides, and talks I've done. They will bring more traffic of -UX Community- users.
-- Still pending to use (hotjar) heatmaps and satisfaction metrics. Once there's more traffic, It'll be prioritized.
-- There are some SEO work pending. Although, these results are enough for the current use.
-- Dark mode is not a priority -yet.
+- **Mini design system**. I'm redesigning the initial mid-fid mockups, and designing a UI focused in content. I'm using Figma, Sass and Storybook.
+- **A headless CMS**. I enabled a first version on Netlify CMS that needs to be improved. This will help to write something or make correction from any device. No dev environment needed.
+- **New posts series** about Information Architecture. I have some drafts in Medium to publish soon.
+- **More case studies**. I'm writing about Personas and a Video training webapp I designed in my previous job.
+- **The resources page.** I'm gathering some artifacts, slides, and talks I've done. They will help to the UX Community and bring more users.
+- **Heatmaps and metrics**. If more traffic, I'll configure more details of hotjar and google analytics.
 
 ---
