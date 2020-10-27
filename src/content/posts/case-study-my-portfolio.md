@@ -5,7 +5,7 @@ date: 2020-10-20
 time: "7 min"
 title: "How I planned, designed and developed this website"
 description: "I'm designing and developing this website to present my portfolio and share resources with the UX community. Here's the story of the iterations, results and improvements over the time."
-featuredImage: /assets/case-study-2/design-and-develop-my-website.png
+featuredImage: /assets/case-study-2/post-2-cover-1366.png
 type: "Case Study"
 private: false
 extlink: null
@@ -15,7 +15,7 @@ extlink: null
 
 ## Why this project
 
-I'm an engineer with electronics and software development background. However, I enjoy designing experiences as products that **empower people** to upgrade their skills.
+I'm an engineer with electronics and software development background. However, I enjoy designing experiences as **tools that empower people** to upgrade their skills.
 
 Getting into UX is complicated. Many employers look for trendy colors around beautiful devices barely displaying a non-standard UI. Only few care about the **insights, the decisions and user's feedback**.
 
