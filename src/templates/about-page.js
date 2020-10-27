@@ -1,37 +1,54 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 export const pageQuery = graphql`
-  query AboutQuery($id: String!){
-		markdownRemark(id: { eq: $id }) {
+  query AboutQuery($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       id
-			html
-			excerpt(pruneLength: 140)
+      html
+      excerpt(pruneLength: 140)
       frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        time
+        slug
         title
+        description
+        type
       }
     }
   }
-`
+`;
 const AboutPage = ({ data }) => {
-	const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html, excerpt } = markdownRemark;
+  return (
+    <Layout className="page">
+      <SEO title={frontmatter.title} description={excerpt} />
 
-	return (
-		<Layout className="page">
-			<SEO
-				title={frontmatter.title}
-				description={excerpt}
-			/>
-			<div className="wrapper">
-				<h1>{frontmatter.title}</h1>
-				<article dangerouslySetInnerHTML={{ __html: html }} />
-			</div>
-		</Layout>
-	)
-}
+      <article className="blog-post">
+        <header className="featured-banner">
+          <section className="article-header">
+            <p className="article-metadata">{frontmatter.type}</p>
+            <h1>{frontmatter.title}</h1>
+          </section>
+        </header>
+        <div
+          className="blog-post-content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </article>
 
-export default AboutPage
+      {/* <div className="wrapper">
+        <h4>{frontmatter.kicker}</h4>
+        <h1>{frontmatter.title}</h1>
+        <h3>{frontmatter.subtitle}</h3>
+        <article dangerouslySetInnerHTML={{ __html: html }} />
+      </div> */}
+    </Layout>
+  );
+};
+
+export default AboutPage;
