@@ -41,7 +41,7 @@ const ResourcesPage = ({ data }) => {
 	return (
 		<Layout className="page">
 			<SEO
-				title={frontmatter.title}
+				title={frontmatter.title + "| jantonioavalos"}
 				description={excerpt}
 			/>
 			<div className="wrapper">
