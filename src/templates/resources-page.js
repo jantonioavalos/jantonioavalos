@@ -1,13 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Link } from "gatsby"
-import { AiFillLinkedin, AiFillTwitterSquare, AiOutlineGithub, AiFillMediumSquare } from "react-icons/ai"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export const pageQuery = graphql`
-  query LinksQuery($id: String!){
+  query ResourcesQuery($id: String!){
 		markdownRemark(id: { eq: $id }) {
       id
 			html
@@ -18,6 +16,7 @@ export const pageQuery = graphql`
 			topic
 			links {
 				name
+				cta
 				link
 			}
 			
@@ -26,23 +25,23 @@ export const pageQuery = graphql`
     }
   }
 `
-const LinksPage = ({ data }) => {
+const ResourcesPage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
   const resources = frontmatter.resources.map((i) =>
   	<div>
 	  <h2><strong>{i.topic}</strong></h2>
-		{i.links.map((j) => 
-			<p><a href={j.link} target="_blank">{j.name}</a></p>
+		<ul>{i.links.map((j) => 
+			<li>{j.name} [<a href={j.link} target="_blank">{j.cta}</a>]</li>
 			)
-	  	}
+	  	}</ul>
 	</div>
     );
 
 	return (
 		<Layout className="page">
 			<SEO
-				title={frontmatter.title + "| jantonioavalos"}
+				title={frontmatter.title}
 				description={excerpt}
 			/>
 			<div className="wrapper">
@@ -58,4 +57,4 @@ const LinksPage = ({ data }) => {
 	)
 }
 
-export default LinksPage
+export default ResourcesPage

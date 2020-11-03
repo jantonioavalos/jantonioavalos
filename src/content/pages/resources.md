@@ -1,5 +1,5 @@
 ---
-template: links-page
+template: resources-page
 slug: /resources
 title: Resources
 resources:
