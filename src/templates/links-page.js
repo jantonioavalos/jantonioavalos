@@ -46,12 +46,12 @@ const LinksPage = ({ data }) => {
 			/>
 			<div className="wrapper">
 				<h1>{frontmatter.title}</h1>
-				<article dangerouslySetInnerHTML={{ __html: html }} />
 				<article className="blog-post">
 					<div className="blog-post-content">
 						{resources}
 					</div>
 				</article>
+				<article dangerouslySetInnerHTML={{ __html: html }} />
 			</div>
 		</Layout>
 	)

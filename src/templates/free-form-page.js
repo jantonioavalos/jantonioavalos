@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export const pageQuery = graphql`
-  query ResourcesQuery($id: String!){
+  query FreeFormQuery($id: String!){
 		markdownRemark(id: { eq: $id }) {
       id
 			html
@@ -16,7 +16,7 @@ export const pageQuery = graphql`
     }
   }
 `
-const ResourcesPage = ({ data }) => {
+const FreeFormPage = ({ data }) => {
 	const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
@@ -34,4 +34,15 @@ const ResourcesPage = ({ data }) => {
 	)
 }
 
-export default ResourcesPage
+export default FreeFormPage
+
+// To use this free form page, add a .md file in content/pages/
+// And use the next frontmatter
+/*
+---
+template: template-name
+slug: /link
+title: Bold Title
+---
+Free form content 
+*/
