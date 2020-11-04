@@ -21,7 +21,7 @@ export const pageQuery = graphql`
             fluid(
               maxWidth: 480
               maxHeight: 380
-              quality: 80
+              quality: 100
               srcSetBreakpoints: [960, 1440]
             ) {
               ...GatsbyImageSharpFluid
