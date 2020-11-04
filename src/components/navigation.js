@@ -18,6 +18,10 @@ const MenuItems = [
   //   title: "Contact",
   // },
   {
+    path: "/",
+    title: "Home",
+  },
+  {
     path: "/resources",
     title: "Resources",
   },
