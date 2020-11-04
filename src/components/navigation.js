@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import { RiMenu3Line, RiCloseLine, RiDownloadCloud2Line } from "react-icons/ri";
+import { RiMenu3Line, RiCloseLine, RiExternalLinkLine } from "react-icons/ri";
 
-const CV = "https://drive.google.com/file/d/1CPehX45eQxdiQg28fJBPCiWE1ZKAdboo/view?usp=sharing";
+const CV = "https://drive.google.com/file/d/1ZfNZ1HIsfiVUxY3YC9FSLt4bQMf6A0X6/view?usp=sharing";
 
 const MenuItems = [
   // {
@@ -17,11 +17,26 @@ const MenuItems = [
   //   path: "/contact",
   //   title: "Contact",
   // },
+  {
+    path: "/",
+    title: "Home",
+  },
+  {
+    path: "/resources",
+    title: "Resources",
+  },
+  {
+    path: CV,
+    title: "Resume",
+  }
 ];
 
 const ListLink = (props) => (
   <li>
-    <Link to={props.to}>{props.children}</Link>
+    {props.to == CV ?  //Make general, when ext links
+      <a href={props.to} target="_blank">{props.children}<small> <RiExternalLinkLine className="label" /></small></a>
+      : <Link to={props.to}>{props.children}</Link>
+    }  
   </li>
 );
 
@@ -47,7 +62,7 @@ class Navigation extends React.Component {
     ));
     return (
       <nav className="site-navigation">
-        {/* <button
+        <button
           onClick={this.handleToggleClick}
           className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}
         >
@@ -57,12 +72,12 @@ class Navigation extends React.Component {
           <div className="icon-menu-close">
             <RiCloseLine />
           </div>
-        </button> */}
+        </button>
         <ul>{listMenuItems}</ul>
-        <Link to={CV} target="_blank" className="button -banner">
+        {/* <Link to={CV} target="_blank" className="button -banner">
           <RiDownloadCloud2Line className="label" />
           Resume
-        </Link>
+        </Link> */}
       </nav>
     );
   }
