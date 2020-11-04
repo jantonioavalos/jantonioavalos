@@ -19,7 +19,7 @@
   align-items: center;
   position: relative;
   background: var(--header-bg);
-  padding: 30px 20px;
+  padding: 30px 20px 0px 20px;
 }
 .site-navigation {
   ul {
@@ -79,7 +79,7 @@
       background: rgba(255, 255, 255, 0.8); //421E2F
       width: 100%;
       max-width: 100%; //320px;
-      border-radius: 0 0 0 12px;
+      border-radius: 0 0 12px 12px;
       overflow: hidden;
     }
     ul li {
