@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Img from "gatsby-image";
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
+import { RiArrowRightLine, RiArrowLeftLine, RiArticleFill } from "react-icons/ri";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -85,11 +85,8 @@ const Post = ({ data, pageContext }) => {
             ""
           )}
         </header>
-
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }}/>
+        <Link to="/"><RiArticleFill className="icon -left"/> Read more posts</Link>
       </article>
       {/* {(previous || next) && (
         <Pagination {...props} />

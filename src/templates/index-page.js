@@ -68,12 +68,12 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          {/* <Link to={frontmatter.cta.ctaLink} className="button">
+          <Link to={frontmatter.cta.ctaLink} className="button">
             {frontmatter.cta.ctaText}
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>
-          </Link> */}
+          </Link>
         </div>
       </div>
       <BlogListHome />

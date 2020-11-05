@@ -5,22 +5,18 @@ import { RiMenu3Line, RiCloseLine, RiExternalLinkLine } from "react-icons/ri";
 const CV = "https://drive.google.com/file/d/1ZfNZ1HIsfiVUxY3YC9FSLt4bQMf6A0X6/view?usp=sharing";
 
 const MenuItems = [
-  // {
-  //   path: "/about",
-  //   title: "About",
-  // },
-  // {
-  //   path: "/blogfolio",
-  //   title: "Blogfolio",
-  // },
-  // {
-  //   path: "/contact",
-  //   title: "Contact",
-  // },
   {
     path: "/",
     title: "Home",
   },
+  {
+    path: "/about",
+    title: "About",
+  },
+    // {
+  //   path: "/blogfolio",
+  //   title: "Blogfolio",
+  // },
   {
     path: "/resources",
     title: "Resources",

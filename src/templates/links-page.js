@@ -42,7 +42,7 @@ const LinksPage = ({ data }) => {
 	return (
 		<Layout className="page">
 			<SEO
-				title={frontmatter.title + "| jantonioavalos"}
+				title={frontmatter.title + " | jantonioavalos"}
 				description={excerpt}
 			/>
 			<div className="wrapper">

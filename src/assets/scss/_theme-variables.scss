@@ -12,19 +12,19 @@ $breakpoint-xl: 1200px;
   --primary-color: #1a1a1a; // 5C2941
   --header-bg: #ffffff; // Header 5C2941
 
-  --home-link-color: #65c2ce; // Links a1613f
-  --home-link-hover-color: #00e1ff; // Hovering Links var(--primary-color);
+  --home-link-color: #1a1a1a; // Links a1613f
+  --home-link-hover-color: #000000; // Hovering Links var(--primary-color);
 
   --button-color: #ffffff; // Hovering button & Button text e5c3d3
   --button-alternate-color: #000000; // Button & Text hovered 5C2941
 
   --post-link-color: #0f070b;
 
-  --nav-link-hover-bg: rgb(0, 255, 13);
+  --nav-link-hover-bg: rgba(0, 0, 0, 0.8); // Mobile menu items
   --text-color-meta: rgba(0, 0, 0, 0.5); // Image Metadata
 
   --label-text: rgba(0, 0, 0, 0.5); // Form labels
-  --input-focus-border: #83aaac;
+  --input-focus-border: #f0f0f0; //Input selected
 
   // CSS Grid Utility
   --grid-gap: 30px;

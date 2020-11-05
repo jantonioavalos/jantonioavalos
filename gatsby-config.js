@@ -71,7 +71,7 @@ module.exports = {
       options: {
         color: "#1A1A1A",
         height: "4px",
-        paths: ["/creating-a-new-design-system"],
+        paths: ["/about", "/creating-a-new-design-system", "/creating-my-portfolio"],
       },
     },
     `gatsby-plugin-sass`,
