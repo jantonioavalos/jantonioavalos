@@ -40,7 +40,7 @@ export default FreeFormPage
 // And use the next frontmatter
 /*
 ---
-template: template-name
+template: free-form-page
 slug: /link
 title: Bold Title
 ---

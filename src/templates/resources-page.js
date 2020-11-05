@@ -11,16 +11,15 @@ export const pageQuery = graphql`
 			html
 			excerpt(pruneLength: 140)
       frontmatter {
-		title
-		resources {
-			topic
-			links {
-				name
-				cta
-				link
-			}
-			
-		}
+				title
+				resources {
+					topic
+					links {
+						name
+						cta
+						link
+					}					
+				}
       }
     }
   }
@@ -41,7 +40,7 @@ const ResourcesPage = ({ data }) => {
 	return (
 		<Layout className="page">
 			<SEO
-				title={frontmatter.title + "| jantonioavalos"}
+				title={frontmatter.title + " | jantonioavalos"}
 				description={excerpt}
 			/>
 			<div className="wrapper">

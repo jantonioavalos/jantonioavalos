@@ -6,10 +6,6 @@ const CV = "https://drive.google.com/file/d/1ZfNZ1HIsfiVUxY3YC9FSLt4bQMf6A0X6/vi
 
 const MenuItems = [
   // {
-  //   path: "/about",
-  //   title: "About",
-  // },
-  // {
   //   path: "/blogfolio",
   //   title: "Blogfolio",
   // },
@@ -20,6 +16,10 @@ const MenuItems = [
   {
     path: "/",
     title: "Home",
+  },
+  {
+    path: "/about",
+    title: "About",
   },
   {
     path: "/resources",
