@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  RiLinkedinBoxLine,
-  RiMediumLine,
-  RiTwitterLine,
-  RiGithubLine,
-  RiMailLine,
-} from "react-icons/ri";
+  AiFillLinkedin,
+  AiFillMediumSquare,
+  AiFillTwitterSquare,
+  AiOutlineGithub,
+  AiTwotoneMail,
+} from "react-icons/ai";
 
 const Footer = () => (
   <div>
@@ -13,21 +13,22 @@ const Footer = () => (
       <div className="container">
         <p>
           <a href="mailto:hey@jantonioavalos.com" target="_blank">
-            <RiMailLine />
+            <AiTwotoneMail />
           </a>{" "}
           <a href="https://linkedin.com/in/jantonioavalos" target="_blank">
-            <RiLinkedinBoxLine />
+            <AiFillLinkedin />
           </a>{" "}
           <a href="https://medium.com/@jantonioavalos" target="_blank">
-            <RiMediumLine />
+            <AiFillMediumSquare />
           </a>{" "}
           <a href="https://github.com/jantonioavalos" target="_blank">
-            <RiGithubLine />
+            <AiOutlineGithub />
           </a>{" "}
           <a href="https://twitter.com/jantonioavalos" target="_blank">
-            <RiTwitterLine />
+            <AiFillTwitterSquare />
           </a>
         </p>
+        <small className="small">Copyright © 2020 All rights reserved</small>
       </div>
     </footer>
   </div>

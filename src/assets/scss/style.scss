@@ -299,21 +299,32 @@
   display: flex;
   //align-items: center;
   background: #1a1a1a;
-  //text-align: center;
+  text-align: center;
   font-size: 16px;
   padding: 16px 0;
+  color: #eee;
   h3,
   p {
     margin: 0;
-    color: #eee;
   }
   a {
     font-size: 48px;
-    color: #eee;
     font-weight: lighter;
   }
   svg {
     padding: 8px;
+    color: #eee;
+  }
+  small {
+    text-align: center;
+  }
+  @media (min-width: $breakpoint-md) {
+    svg {
+      margin: 32px 16px 8px 16px;
+    }
+    a {
+      font-size: 64px;
+    }
   }
 }
 
