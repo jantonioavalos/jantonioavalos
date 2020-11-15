@@ -19,7 +19,9 @@
   align-items: center;
   position: relative;
   background: var(--header-bg);
-  padding: 30px 20px 0px 20px;
+  padding: 0px 20px;
+  margin: 2em auto;
+  max-width: 1240px;
 }
 .site-navigation {
   ul {
@@ -130,7 +132,7 @@
   }
 }
 .home-banner {
-  padding: 60px 0;
+  padding: 1em 0;
   align-items: center;
   .title {
     font-size: 48px;
@@ -188,8 +190,8 @@
     }
   }
   &:hover {
-    border: 2px solid rgba(0, 0, 0, 0.12);
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
     .title {
       color: var(--button-alternate-color);
     }
@@ -288,7 +290,7 @@
 .page,
 .blog-page,
 .not-found-page {
-  padding: 50px 20px;
+  padding: 0 20px;
   .wrapper {
     max-width: 768px;
     margin: 0 auto;
