@@ -74,6 +74,7 @@ module.exports = {
         paths: ["/about", "/creating-a-new-design-system", "/creating-my-portfolio"],
       },
     },
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,

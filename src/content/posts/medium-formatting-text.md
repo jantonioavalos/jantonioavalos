@@ -14,3 +14,5 @@ extlink: "https://bit.ly/Information-Scent"
 ## Something went wrong with the redirect. Try:
 
 <a href="https://bit.ly/Information-Scent">UX Writing: how scannable content can increase reading time</a>
+
+---

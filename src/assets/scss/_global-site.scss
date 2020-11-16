@@ -110,6 +110,12 @@
   }
 }
 
+#bottom-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em auto;
+}
+
 // Footer
 footer {
   width: 100%;

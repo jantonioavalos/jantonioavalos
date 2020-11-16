@@ -292,3 +292,5 @@ This guidelines website with our new design system made updates and pages creati
 Getting to **the right problem to solve** was challenging. But in the end, results come from building and testing: failing fast and cheap.
 
 Moreover, **feedback is incredibly useful!** Critique sessions with my team and **maintaining clear communication** with management regarding the **expectations and progress** was perhaps the biggest teaching after leading this project.
+
+---

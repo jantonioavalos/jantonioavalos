@@ -17,3 +17,5 @@ I started my career as electronics technician, before college. It was exciting t
 > So I found a way to meet business, content and people. I became an autodidact user experience designer.
 
 Today, I'm a UX Architect Certified by Nielsen Norman Group. I lead Content Strategy, UX/UI Design, and Web Development teams to build standardized and usable solutions for people. Because I continue working on adapting technology to us, so we can improve our talents and **focus on create**.
+
+---
