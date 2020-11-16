@@ -24,9 +24,10 @@ const Layout = ({children, className}) => {
   const { siteTitle } = site.siteMetadata
 
   return (
-    <div className="primary-container">
+    <div className="primary-container" id="top">
       <Header>
-        <Logo title={siteTitle} />
+        {/* <Logo title={siteTitle} /> */}
+        <Logo />
         <Navigation/>
       </Header>
       <main className={"container " + className}>
@@ -38,4 +39,3 @@ const Layout = ({children, className}) => {
 }
 
 export default Layout
-

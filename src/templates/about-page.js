@@ -5,6 +5,7 @@ import { graphql } from "gatsby";
 import { RiArticleFill } from "react-icons/ri"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import BottomLinks from "../components/bottom-links";
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
@@ -31,7 +32,7 @@ const AboutPage = ({ data }) => {
 				<h1>{frontmatter.title}</h1>
 				<article className="blog-post" >
 					<div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }}/>
-          <Link to="/"><RiArticleFill className="icon -left"/> Read more posts</Link>
+          <BottomLinks />
 				</article>
 			</div>
 		</Layout>
