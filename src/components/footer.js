@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+
 import {
   AiFillLinkedin,
   AiFillMediumSquare,
@@ -7,11 +9,17 @@ import {
   AiTwotoneMail,
 } from "react-icons/ai";
 
+import logotipo from "../../static/assets/logo-80-darkmode.svg";
+
 const Footer = () => (
   <div>
     <footer className="site-footer">
       <div className="container">
-        <p>
+        <Link to="/" className="logo-footer">
+          <img src={logotipo} alt="Logo" />
+          <small>Copyright © 2020 All rights reserved</small>
+        </Link>
+        <p className="contact-footer">
           <a href="mailto:hey@jantonioavalos.com" target="_blank">
             <AiTwotoneMail />
           </a>{" "}
@@ -28,7 +36,7 @@ const Footer = () => (
             <AiFillTwitterSquare />
           </a>
         </p>
-        <small className="small">Copyright © 2020 All rights reserved</small>
+         
       </div>
     </footer>
   </div>
