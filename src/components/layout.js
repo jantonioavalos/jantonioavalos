@@ -26,7 +26,8 @@ const Layout = ({children, className}) => {
   return (
     <div className="primary-container">
       <Header>
-        <Logo title={siteTitle} />
+        {/* <Logo title={siteTitle} /> */}
+        <Logo />
         <Navigation/>
       </Header>
       <main className={"container " + className}>
@@ -38,4 +39,3 @@ const Layout = ({children, className}) => {
 }
 
 export default Layout
-

@@ -9,6 +9,6 @@ const Logo = (props) => (
       <img src={logotipo} alt="Logo" className="logo-svg" />
     </Link>
   </div>
-);
+)
 
-export default Logo;
+export default Logo

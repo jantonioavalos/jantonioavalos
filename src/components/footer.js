@@ -12,34 +12,35 @@ import {
 import logotipo from "../../static/assets/logo-80-darkmode.svg";
 
 const Footer = () => (
-  <div>
-    <footer className="site-footer">
-      <div className="container">
-        <Link to="/" className="logo-footer">
-          <img src={logotipo} alt="Logo" />
-          <small>Copyright © 2020 All rights reserved</small>
-        </Link>
-        <p className="contact-footer">
-          <a href="mailto:hey@jantonioavalos.com" target="_blank">
-            <AiTwotoneMail />
-          </a>{" "}
-          <a href="https://linkedin.com/in/jantonioavalos" target="_blank">
-            <AiFillLinkedin />
-          </a>{" "}
-          <a href="https://medium.com/@jantonioavalos" target="_blank">
-            <AiFillMediumSquare />
-          </a>{" "}
-          <a href="https://github.com/jantonioavalos" target="_blank">
-            <AiOutlineGithub />
-          </a>{" "}
-          <a href="https://twitter.com/jantonioavalos" target="_blank">
-            <AiFillTwitterSquare />
-          </a>
-        </p>
-         
+  <footer>
+    <div className="container">
+      <div className="footer-layout">
+          <div className="logo-footer">
+            <Link to="/" >
+              <img src={logotipo} alt="Logo" />
+            </Link>
+            <small className="legal-footer">Copyright © 2020 All rights reserved</small>
+          </div>
+          <div className="contact-footer">
+            <a href="mailto:hey@jantonioavalos.com" target="_blank">
+              <AiTwotoneMail />
+            </a>{" "}
+            <a href="https://linkedin.com/in/jantonioavalos" target="_blank">
+              <AiFillLinkedin />
+            </a>{" "}
+            <a href="https://medium.com/@jantonioavalos" target="_blank">
+              <AiFillMediumSquare />
+            </a>{" "}
+            <a href="https://github.com/jantonioavalos" target="_blank">
+              <AiOutlineGithub />
+            </a>{" "}
+            <a href="https://twitter.com/jantonioavalos" target="_blank">
+              <AiFillTwitterSquare />
+            </a>
+          </div>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 );
 
 export default Footer;
