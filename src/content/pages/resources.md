@@ -18,13 +18,13 @@ resources:
         link: https://drive.google.com/file/d/190_CUJoG6CM2bx4Ba55_b2nsztmjtXlA/
   - topic: UX Writing
     links:
-      - name: Reader-centered design
+      - name: Guide to design reader-centered content
         cta: Blog
         link: https://bit.ly/ReaderCenteredDesign
-      - name: Tone of voice guide
+      - name: Create the tone of voice of your business
         cta: Blog
         link: https://bit.ly/writingtone
-      - name: Information scent and reading patterns
+      - name: Increase users' reading time with information scent design
         cta: Blog
         link: https://bit.ly/Information-Scent
   - topic: UX Workshops (Spanish)

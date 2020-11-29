@@ -3,26 +3,16 @@ template: links-page
 slug: /links
 title: Links
 resources:
-  - topic: Free resources on my website
+  - topic: 🎁 Free resources on my website
     links:
-      - name: jantonioavalos.com
+      - name: jantonioavalos.com/resources
         link: /resources
-  - topic: Let's connect on
+  - topic: 📝 From my blog
     links:
-      - name: LinkedIn
-        link: https://linkedin.com/in/jantonioavalos
-      - name: Twitter
-        link: https://twitter.com/jantonioavalos
-      - name: Github
-        link: https://github.com/jantonioavalos
-      - name: Medium
-        link: https://medium.com/@jantonioavalos
-  - topic: From my blog
-    links:
-      - name: Reader-centered design
+      - name: People only read 20% of your content — but UX Writing can make them read more on your page
         link: https://bit.ly/ReaderCenteredDesign
-      - name: Tone of voice guide
+      - name: What is tone of voice? — And why it is costing to your company
         link: https://bit.ly/writingtone
-      - name: Information scent and reading patterns
+      - name: Information scent and reading patterns — How scannable content can increase reading time
         link: https://bit.ly/Information-Scent
 ---
