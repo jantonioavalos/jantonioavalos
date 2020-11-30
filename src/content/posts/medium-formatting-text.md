@@ -1,6 +1,7 @@
 ---
 template: blog-post
 slug: reading-patterns-and-information-scent
+canonical: "https://uxdesign.cc/reading-patterns-and-information-scent-2d0fa76a90ee?source=friends_link&sk=aea080c8114202a5e90563f260bdf814"
 date: 2020-10-13
 time: "6 min"
 title: "UX Writing: how scannable content can increase reading time"

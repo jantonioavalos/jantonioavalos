@@ -63,6 +63,7 @@ const Post = ({ data, pageContext }) => {
         }
         image={Image}
         article={true}
+        canonical={frontmatter.canonical}
       />
       <article className="blog-post">
         <header className="featured-banner">
@@ -107,6 +108,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         time
         slug
+        canonical
         title
         description
         type
