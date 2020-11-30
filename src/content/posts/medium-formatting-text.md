@@ -8,7 +8,6 @@ description: "This is not a war between people’s laziness and making flashy co
 featuredImage: /assets/external-covers/medium-cover-3.png
 type: "Blog"
 private: false
-extlink: "https://bit.ly/Information-Scent"
 ---
 
 It is simple. If we need information, we just google it. Then we scan the titles and descriptions. And once on a promising page, we look for clues in the content. We try to guess **if it’s worth it to be read**.
