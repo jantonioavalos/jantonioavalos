@@ -28,7 +28,7 @@ const Footer = () => (
             <a href="https://linkedin.com/in/jantonioavalos" target="_blank">
               <AiFillLinkedin />
             </a>{" "}
-            <a href="https://medium.com/@jantonioavalos" target="_blank">
+            <a href="https://jantonioavalos.medium.com/" target="_blank">
               <AiFillMediumSquare />
             </a>{" "}
             <a href="https://github.com/jantonioavalos" target="_blank">

@@ -15,7 +15,7 @@ const FollowMe = () => (
         <a href="https://linkedin.com/in/jantonioavalos" target="_blank">
           <RiLinkedinBoxLine />
         </a>{" "}
-        <a href="https://medium.com/@jantonioavalos" target="_blank">
+        <a href="https://jantonioavalos.medium.com/" target="_blank">
           <RiMediumLine />
         </a>{" "}
         <a href="https://twitter.com/jantonioavalos" target="_blank">

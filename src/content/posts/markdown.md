@@ -7,7 +7,7 @@ description: "Private post about using Markdown at this website"
 featuredImage: /assets/typo-unsplash.jpg
 type: "Private"
 private: true
-extlink: null
+extlink: https://www.jamestharpe.com/markdown-comments/
 ---
 
 ## Overview

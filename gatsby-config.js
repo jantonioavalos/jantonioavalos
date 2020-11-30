@@ -77,6 +77,12 @@ module.exports = {
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://jantonioavalos.com`,
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-hotjar-tracking`,

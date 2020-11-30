@@ -16,26 +16,31 @@ resources:
       - name: Usability test - Evaluation template
         cta: PDF
         link: https://drive.google.com/file/d/190_CUJoG6CM2bx4Ba55_b2nsztmjtXlA/
+  - topic: UX Strategy
+    links:
+      - name: Creative Strategy Brief - Duplicable Template
+        cta: gDoc
+        link: https://docs.google.com/document/d/1-Xs7Z0BNATc9kTUfOg23b2TwgDX3N54T0SXV1z-OTMg/
   - topic: UX Writing
     links:
-      - name: Reader-centered design
+      - name: Guide to design reader-centered content
         cta: Blog
         link: https://bit.ly/ReaderCenteredDesign
-      - name: Tone of voice guide
+      - name: Create the tone of voice of your business
         cta: Blog
         link: https://bit.ly/writingtone
-      - name: Information scent and reading patterns
+      - name: Guide to increase users' reading engagement
         cta: Blog
         link: https://bit.ly/Information-Scent
   - topic: UX Workshops (Spanish)
     links:
-      - name: Construye tu marca y negocio desde el usuario
+      - name: Construye tu marca y negocio desde el usuario - Technovation Challenge 2019
         cta: Slides
-        link: https://docs.google.com/presentation/d/1EfaADQu5WjIq47QHF08mz8f3M-2M4RRJVLoPxP__nHg/
-      - name: Prototipando tu MVP con UX
+        link: https://docs.google.com/presentation/d/1IpIumn7LzSt8oIwrYbzd3OxsP1v2jrsJlVsW3B-MeXI/
+      - name: Prototipando tu MVP con UX - Technovation Challenge 2019
         cta: Slides
-        link: https://docs.google.com/presentation/d/1e0tBJv8w8EEsFupV4YdSQDgq-S0mGf-7APCxFe8uWWE/
-      - name: UX Masterclass - Freecodecamp Talk
+        link: https://docs.google.com/presentation/d/1f7pbzJ-q5-sVi65qaTlyzRPtG9gu59ecXrYGfMsEiVI/
+      - name: UX Masterclass - FreeCodeCamp Talks 2017
         cta: Slides
-        link: https://docs.google.com/presentation/d/1ZbUcvDyVMh8mETAdbkB83yCJstpy8t0kDv5NUM7_2PQ/
+        link: https://docs.google.com/presentation/d/15XYIbXvgR7mWwRqtpJCYZcZUvaBr2oHhIXK2pLbHcZE/
 ---
