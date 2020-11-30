@@ -250,3 +250,17 @@
 
 // Libraries
 @import "lib/prism-default";
+
+@media (max-width: 375px) {
+  .feature-image-post div,
+  .feature-image-post img {
+    display: none !important;
+  }
+  .feature-image-post picture img {
+    display: block !important;
+    position: relative !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    object-position: 40% 50% !important;
+  }
+}

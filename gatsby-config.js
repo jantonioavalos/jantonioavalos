@@ -69,9 +69,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-scroll-indicator`,
       options: {
-        color: "#1A1A1A",
+        color: "#D9436D",
         height: "4px",
-        paths: ["/about", "/creating-a-new-design-system", "/creating-my-portfolio"],
+        paths: ["/about", "/creating-a-new-design-system", "/creating-my-portfolio", "/reader-centered-design", "/design-your-tone-of-voice", "/reading-patterns-and-information-scent"],
       },
     },
     `gatsby-plugin-smoothscroll`,

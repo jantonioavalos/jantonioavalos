@@ -80,7 +80,7 @@ const Post = ({ data, pageContext }) => {
               objectFit="cover"
               objectPosition="50% 50%"
               alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
+              className="feature-image-post"
             />
           ) : (
             ""
