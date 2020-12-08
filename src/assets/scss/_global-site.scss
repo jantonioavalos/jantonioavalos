@@ -31,6 +31,7 @@
   }
 }
 .site-navigation {
+  font-family: "Red Hat Display", sans-serif;
   ul {
     list-style: none;
     margin: 0;
@@ -45,11 +46,12 @@
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
     &:hover {
-      color: rgba(0, 0, 0, 0.3);
+      color: rgba(0, 0, 0, 1);
     }
   }
   a[aria-current="page"] {
     color: rgba(0, 0, 0, 1);
+    font-weight: 500;
   }
   .menu-trigger {
     display: none;
@@ -118,6 +120,7 @@
 
 // Footer
 footer {
+  font-family: "Red Hat Display", sans-serif;
   width: 100%;
   background: var(--primary-color);
   color: var(--footer-white);

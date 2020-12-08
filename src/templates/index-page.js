@@ -63,7 +63,7 @@ const HomePage = ({ data }) => {
         </div>
         <div>
           <h1 className="title">{frontmatter.title}</h1>
-          <p className="tagline">{frontmatter.tagline}</p>
+          <h2 className="tagline">{frontmatter.tagline}</h2>
           <div
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}

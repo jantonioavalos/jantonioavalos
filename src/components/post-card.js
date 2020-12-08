@@ -31,11 +31,11 @@ const PostCard = ({ data }) => (
       ""
     )}
     <div class="post-content">
-      <h2 className="title">
+      <h2 className="post-title">
         {data.frontmatter.extlink ? (
           <a href={data.frontmatter.extlink} target="_blank">
-            {data.frontmatter.title.length > 65
-              ? data.frontmatter.title.substring(0, 57) + "... "
+            {data.frontmatter.title.length > 67
+              ? data.frontmatter.title.substring(0, 62) + "... "
               : data.frontmatter.title + " "}
             <small>
               <RiExternalLinkLine />
@@ -43,13 +43,13 @@ const PostCard = ({ data }) => (
           </a>
         ) : (
           <Link to={data.frontmatter.slug}>
-            {data.frontmatter.title.length > 65
-              ? data.frontmatter.title.substring(0, 57) + "... "
+            {data.frontmatter.title.length > 67
+              ? data.frontmatter.title.substring(0, 62) + "... "
               : data.frontmatter.title + " "}
           </Link>
         )}
       </h2>
-      <p className="meta">
+      <p className="post-meta">
         <span>
           {data.frontmatter.type + " ∙ " + data.frontmatter.time + " read"}
         </span>
