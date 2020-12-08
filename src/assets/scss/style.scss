@@ -2,7 +2,6 @@
 @import "defaults";
 @import "lib/css-grid-utility";
 @import "readable";
-@import "readable-mobile";
 @import "global-site";
 
 // Home
@@ -246,11 +245,6 @@
   }
 }
 
-@import "utility";
-
-// Libraries
-@import "lib/prism-default";
-
 @media (max-width: 375px) {
   .feature-image-post div,
   .feature-image-post img {
@@ -264,3 +258,8 @@
     object-position: 40% 50% !important;
   }
 }
+
+// Libraries
+@import "lib/prism-default";
+@import "readable-mobile";
+@import "utility";
