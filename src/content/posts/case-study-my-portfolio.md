@@ -87,21 +87,21 @@ So they need easy access to original, instructive and reliable content. They wan
 
 I prioritized content. And I focused on creating the case study to share. So I decided to use **a portfolio service** and I compared the ease-of-use, platform specialty, personalization and metrics options.
 
-**Behance:**
+### Behance
 
 - Easy to configure and publish
 - Focused on visual work
 - Fixed and standard presentation
 - Social interactions as metric
 
-**Wordpress:**
+### Wordpress
 
 - Robust configuration and publishing tools
 - Focused on blogging and business websites
 - Personalisation depends on templates and plugins
 - Capable of integrate popular analytics services
 
-**UXfolio:**
+### UXfolio
 
 - Easy to configure and publish
 - Focused on storytelling
@@ -112,7 +112,7 @@ I prioritized content. And I focused on creating the case study to share. So I d
 
 I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offered a friendly reading experience with intersting image layouts. Besides, the paid version allowed me to integrate analytics, brand personalisation and use my own domain.
 
-**The site presented:**
+### The site presented
 
 - **Home page** with professional summary and social links to help recruiters scan my profile.
 - **About page** so colleagues could check my background without reading my CV.
@@ -131,7 +131,7 @@ I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offer
 - I could **track the visitors'** journey and engagement with google analytics.
 - **SEO options** were limited but easy to modify
 
-**The downside:**
+### The downside
 
 - Paying for the personalisation options as premium features.
 - Limited to use a collection of customizable templates.
@@ -144,19 +144,19 @@ I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offer
 
 I wanted to build something similar to the POC. Moreover, I wanted to add trendy features and implement cutting-edge technology. So I compared options by: learning curve, support resources, and features enabled.
 
-**HTML + CSS + Javascript**
+### HTML + CSS + Javascript
 
 - I have 3+ years of experience using them
 - Several documentation by the community
 - Complex features will be hard to develop (Production deployment, SEO, etc.)
 
-**React (Single Page Application)**
+### React (Single Page Application)
 
 - Intermediate level of experience
 - Growing community with hundreds of blog posts with tips
 - Complex features are available as libraries
 
-**JS Framework (Vue or Angular)**
+### JS Framework (Vue or Angular)
 
 - I'd learn while building the site but increasing my knowledge on javascript
 - Trendy on JS (non-React) communities
@@ -171,7 +171,7 @@ I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
 - **Reader experience improved:** Dark mode, reading time, scrolling progress and social share options integrated.
 - **Blog post format** to share stories and resources with the community.
 
-**What changed:**
+### What changed
 
 - I removed the contact page. People contacted me by LinkedIn or direct email.
 - I had creative control as owner of the code.
@@ -190,9 +190,9 @@ I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
 - **I got a new job**, after presenting this project and the case study.
 - **Updates were simple.** I used Github to admin my code and Netlify to auto-publish the site.
 
-**The downside:**
+### The downside
 
-- I had a learning curve each time I needed a change in the UI: It was built using <a href="https://github.com/narative/gatsby-theme-novelaa" target="_blank">a Gatsby starter</a>. It was based on Typescript and shadowing components to change the UI.
+- I had a learning curve each time I needed a change in the UI: It was built using <a href="https://github.com/narative/gatsby-theme-novela" target="_blank">a Gatsby starter</a>. It was based on Typescript and shadowing components to change the UI.
 - The blog post had null community engagement compared to the Medium version. Even as reading experience, because of the long format. (According to colleagues I interviewed).
 
 ---
@@ -201,14 +201,14 @@ I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
 
 I reordered the priority: **Content > Features**. And I rebuilt the website using a simpler starting point. This year (2020), I'm improving the content strategy, UX writing and use of analytics.
 
-**This latest version includes:**
+### This latest version includes
 
 - **Based on last version**, a new Home and Case Study pages.
 - **My resume** as a direct download.
 - **Hotjar analytics** to get heat maps and customer satisfaction metrics.
 - **A personalized UI** style for long-format reading.
 
-**What changed:**
+### What changed
 
 - I used the feedback from recruiters and hiring managers during interviews.
 - I removed the About page. They preferred to know me better by checking my social links.
@@ -226,7 +226,7 @@ I reordered the priority: **Content > Features**. And I rebuilt the website usin
 - **Improved performance** on image rendering and site speed is better.
 - **Organic visitors and leads** coming from content search and back-link startegy.
 
-**The downside:**
+### The downside
 
 - Besides the previous users' feedback, I haven't met users. So, as soon as I double the content, I'm running usability test with recruiters and colleagues.
 - Owning the 100% of the platform can be more demanding than producing the content. So I needed better planning. I moved from Trello to JIRA and Notion to track website and content tasks, respectively.

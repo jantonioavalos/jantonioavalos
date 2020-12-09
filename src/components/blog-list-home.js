@@ -88,9 +88,9 @@ export default function BlogListHome() {
               <PostMaker data={allPublications} />
             </section> */}
             <section className="home-posts">
-              <h2>Case studies</h2>
+              <h2 className="category">Case studies</h2>
               <PostMaker data={caseStudies} />
-              <h2>Latest articles</h2>
+              <h2 className="category">Latest articles</h2>
               <PostMaker data={posts} />
             </section>
           </div>
