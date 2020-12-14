@@ -27,7 +27,7 @@ const FreeFormPage = ({ data }) => {
 				description={excerpt}
 			/>
 			<div className="wrapper">
-				<h1>{frontmatter.title}</h1>
+				<h1 className="headline">{frontmatter.title}</h1>
 				<article dangerouslySetInnerHTML={{ __html: html }} />
 			</div>
 		</Layout>

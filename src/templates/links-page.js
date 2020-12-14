@@ -31,7 +31,7 @@ const LinksPage = ({ data }) => {
   const { frontmatter, html, excerpt } = markdownRemark
   const resources = frontmatter.resources.map((i) =>
   	<div>
-	  <h2><strong>{i.topic}</strong></h2>
+	  <h3><strong>{i.topic}</strong></h3>
 		{i.links.map((j) => 
 			<p><a href={j.link} target="_blank">{j.name}</a></p>
 			)
@@ -46,7 +46,7 @@ const LinksPage = ({ data }) => {
 				description={excerpt}
 			/>
 			<div className="wrapper">
-				<h1>{frontmatter.title}</h1>
+				<h1 className="headline">{frontmatter.title}</h1>
 				<article className="blog-post">
 					<div className="blog-post-content">
 						{resources}
