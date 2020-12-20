@@ -4,7 +4,11 @@ slug: /about
 title: About me
 ---
 
-![Having a coffee at "El Pendulo", my favorite place in Mexico City.](/assets/jantonioavalos-picture.jpg)
+<figure class="topless">
+  <img alt="Having a coffee at &quot;El Pendulo&quot;, my favorite place in Mexico City." src="/assets/jantonioavalos-picture.jpg">
+    </span>
+    <figcaption>Having a coffee at "El Pendulo", my favorite place in Mexico City.</figcaption>
+  </figure>
 
 My name is **Juan Antonio Avalos** and I live at Guadalajara, MX. I've been working in the tech industry for almost 10 years. And I have contributed to Embedded Systems, Web Development and UX Design teams.
 

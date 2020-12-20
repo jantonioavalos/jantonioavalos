@@ -51,7 +51,7 @@
   }
   a[aria-current="page"] {
     color: rgba(0, 0, 0, 1);
-    font-weight: 500;
+    font-weight: 700;
   }
   .menu-trigger {
     display: none;
@@ -112,11 +112,14 @@
   }
 }
 
-.headline {
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 36px;
-  text-align: left;
-  margin-bottom: 8px;
+.bottomless {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.topless {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 #bottom-links {
