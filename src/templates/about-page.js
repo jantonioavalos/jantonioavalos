@@ -29,7 +29,9 @@ const AboutPage = ({ data }) => {
 				description={excerpt}
 			/>
 			<div className="wrapper">
-				<h1 className="headline">{frontmatter.title}</h1>
+        <section className="article-header">
+          <h1>{frontmatter.title}</h1>
+        </section>
 				<article className="blog-post" >
 					<div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }}/>
           <BottomLinks />
