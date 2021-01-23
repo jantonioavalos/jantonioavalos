@@ -53,7 +53,7 @@ const PostCard = ({ data }) => (
         <span>
           {data.frontmatter.type + " ∙ " + data.frontmatter.time + " read"}
         </span>
-        {/* <time>{data.frontmatter.date}</time> */}
+        {data.frontmatter.type == "Blog" ? <time>{" ∙ " + data.frontmatter.date}</time> : null}
       </p>
     </div>
   </article>

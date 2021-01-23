@@ -116,7 +116,7 @@ class BlogIndex extends React.Component {
         />
         <h1>Blogfolio</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
-        {/* <Pagination {...props} /> */}
+        <Pagination {...props} />
       </Layout>
     );
   }
