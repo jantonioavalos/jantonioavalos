@@ -29,7 +29,7 @@ export default function BlogListHome() {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { template: { eq: "blog-post" } } }
-            limit: 6
+            limit: 4444
           ) {
             edges {
               node {
@@ -68,18 +68,23 @@ export default function BlogListHome() {
         const caseStudies = data.allMarkdownRemark.edges
           .filter((edge) => !!edge.node.frontmatter.date)
           .map((edge) =>
-            edge.node.frontmatter.private ||
-            edge.node.frontmatter.type == "Blog" ? null : (
+            edge.node.frontmatter.type == "Case Study" && !edge.node.frontmatter.private ? (
               <PostCard key={edge.node.id} data={edge.node} />
-            )
+            ) : null
           );
         const posts = data.allMarkdownRemark.edges
           .filter((edge) => !!edge.node.frontmatter.date)
           .map((edge) =>
-            edge.node.frontmatter.private ||
-            edge.node.frontmatter.type == "Case Study" ? null : (
+            edge.node.frontmatter.type == "Medium" && !edge.node.frontmatter.private ? (
               <PostCard key={edge.node.id} data={edge.node} />
-            )
+            ) : null
+          );
+          const zensemakers = data.allMarkdownRemark.edges
+          .filter((edge) => !!edge.node.frontmatter.date)
+          .map((edge) =>
+            edge.node.frontmatter.type == "Blog" && !edge.node.frontmatter.private ? (
+              <PostCard key={edge.node.id} data={edge.node} />
+            ) : null
           );
         return (
           <div>
@@ -90,8 +95,10 @@ export default function BlogListHome() {
             <section className="home-posts">
               <h2 className="category">Case studies</h2>
               <PostMaker data={caseStudies} />
-              <h2 className="category">Latest articles</h2>
+              <h2 className="category">Featured articles</h2>
               <PostMaker data={posts} />
+              <h2 className="category">Latest posts</h2>
+              <PostMaker data={zensemakers} />
             </section>
           </div>
         );

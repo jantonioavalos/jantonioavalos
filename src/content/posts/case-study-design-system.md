@@ -30,12 +30,24 @@ Building a product is not a linear process. **Collaboration** among teams and di
 So, making this easier to read, I wrote about the activities flow into 6 well-known categories:
 
 <ol>
-<li><a href="#strategy">Strategy</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#prototyping">Prototyping</a></li>
-<li><a href="#development">Development</a></li>
-<li><a href="#testing">Testing</a></li>
-<li><a href="#results">Results</a></li>
+  <li>
+    <a href="#strategy">Strategy</a>
+  </li>
+  <li>
+    <a href="#research">Research</a>
+  </li>
+  <li>
+    <a href="#prototyping">Prototyping</a>
+  </li>
+  <li>
+    <a href="#development">Development</a>
+  </li>
+  <li>
+    <a href="#testing">Testing</a>
+  </li>
+  <li>
+    <a href="#results">Results</a>
+  </li>
 </ol>
 
 <!--
@@ -121,11 +133,17 @@ And, I ran part of the process doing their work. This way I was able to empathiz
 
 > Publishers struggle to explain website constraints and design standards. This creates internal tasks such as UX consulting and IT meetings. So page creation gets longer.
 
-<img src="../../../static/assets/case-study-1/research-1.png" alt="Process to publish a webpage" />
+<img
+  src="../../../static/assets/case-study-1/research-1.png"
+  alt="Process to publish a webpage"
+/>
 
 To share this to my team, I reduced the process to touchpoints. As you can see, publishers are overloaded in the left side. Those are a lot of **resources delivered by different people and channels**.
 
-<img src="../../../static/assets/case-study-1/research-2.png" alt="Interactions and deliverables as touchpoints" />
+<img
+  src="../../../static/assets/case-study-1/research-2.png"
+  alt="Interactions and deliverables as touchpoints"
+/>
 
 We would need to **reduce those touchpoints** to only one. Making all transparent to everyone so even Marketers (at the right) could actively find answers by themselves without help.
 
@@ -143,7 +161,10 @@ I analyzed our corporate website navigation so I could identify the information 
 
 This is the content journey -and templates- we had to build: Visit > Explore > Engage > Compare > Buy. So going from general to the details, our customers could find information as they needed.
 
-<img src="../../../static/assets/case-study-1/research-3.png" alt="Templates work as customer journey's steps." />
+<img
+  src="../../../static/assets/case-study-1/research-3.png"
+  alt="Templates work as customer journey's steps."
+/>
 
 ## Modular pages
 
@@ -153,7 +174,10 @@ Inspired by the [Atomic Design Methodology](https://atomicdesign.bradfrost.com/c
 - **Modules** available as building blocks
 - **Elements**, normally from HTML
 
-<img src="../../../static/assets/case-study-1/research-4.png" alt="A modular template base on atomic design" />
+<img
+  src="../../../static/assets/case-study-1/research-4.png"
+  alt="A modular template base on atomic design"
+/>
 
 By the moment, we had a personalized bootstrap's style guide and some UI code documented. So creating this pattern library was the ultimate step to start our **Design System**.
 
@@ -175,7 +199,10 @@ I proposed a site organization based on an **audience scheme, with a narrow and 
 - **Developers.** Gathering our specific code guidelines and training
 - **Resources.** Offering downloadable guides for third-parties, like agencies
 
-<img src="../../../static/assets/case-study-1/proto-2.png" alt="Sitemap for the new guidelines website" />
+<img
+  src="../../../static/assets/case-study-1/proto-2.png"
+  alt="Sitemap for the new guidelines website"
+/>
 
 Displaying those labels as a **global navigation menu**. Then we would introduce **a left-bar for local navigation** to scan content chucks faster.
 
@@ -206,7 +233,10 @@ So I started with **low fidelity wireframes** to place all the content. Besides,
 - Content Guidelines
 - Download and view code buttons
 
-<img src="../../../static/assets/case-study-1/proto-3.jpg" alt="Template and Module guidelines pages" />
+<img
+  src="../../../static/assets/case-study-1/proto-3.jpg"
+  alt="Template and Module guidelines pages"
+/>
 
 I asked users for early feedback about the content and journey. With more ideas I **created the digital wireframes to be presented** to the team for more feedback.
 
@@ -215,7 +245,10 @@ I used [Invision Freehand](https://www.invisionapp.com/feature/freehand) so all 
 - Instead of creating a template interactive image, we would use links aside to the template’s image. They help **scanning** the page better, increasing **findability** and reducing the development time.
 - Eliminate the breadcrumb. Due to the **development time** and duplicity with the left navigation.
 
-<img src="../../../static/assets/case-study-1/proto-4.png" alt="Template and Module guidelines pages - Version 2" />
+<img
+  src="../../../static/assets/case-study-1/proto-4.png"
+  alt="Template and Module guidelines pages - Version 2"
+/>
 
 At the end, I followed a similar process with the rest of the website areas: Home, Brand, Developers, and Resources.
 
@@ -227,7 +260,10 @@ At the end, I followed a similar process with the rest of the website areas: Hom
 
 I used to be developer before UX Design Lead. So I created a high-fidelity prototype, **using HTML, CSS and some Javascript**. Using that as base, the UI Developer and I decided to start the implementation.
 
-<img src="../../../static/assets/case-study-1/dev-3.png" alt="Template guidelines page - Prototype" />
+<img
+  src="../../../static/assets/case-study-1/dev-3.png"
+  alt="Template guidelines page - Prototype"
+/>
 
 Looking at an early implementation, our manager asked us to explore options using _[React.JS](https://reactjs.org/)._ He had the vision to build this guidelines site on the same stack he wanted for the future corporate site. It would **allow perfect compatibility** and be able to perform local experiments without bureaucracy.
 
@@ -255,7 +291,10 @@ At the beginning my manager thought it was enough just to ask around for some op
 
 It was fun! They helped me **running 2 series of 4 sessions** with some of the users: marketers, engineers, and publishers.
 
-<img src="../../../static/assets/case-study-1/test-1.png" alt="Capture of the remote session with an user at Caen, France." />
+<img
+  src="../../../static/assets/case-study-1/test-1.png"
+  alt="Capture of the remote session with an user at Caen, France."
+/>
 
 It was super useful to **discover users’ preferences**. Here are some examples of our iterations:
 

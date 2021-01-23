@@ -7,7 +7,7 @@ time: "5 min"
 title: "People only read 20% of your content — but UX Writing can make them read more on your page"
 description: "A guide for reader-centered design"
 featuredImage: /assets/external-covers/medium-cover-1.png
-type: "Blog"
+type: "Medium"
 private: false
 ---
 

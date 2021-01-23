@@ -7,7 +7,7 @@ time: "6 min"
 title: "What is tone of voice? — And why it is costing to your company"
 description: "A guide to design your tone of voice with UX Writing"
 featuredImage: /assets/external-covers/medium-cover-2.png
-type: "Blog"
+type: "Medium"
 private: false
 ---
 

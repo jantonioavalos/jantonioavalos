@@ -7,7 +7,7 @@ time: "6 min"
 title: "UX Writing: how scannable content can increase reading time"
 description: "This is not a war between people’s laziness and making flashy content. It is a matter of empathy."
 featuredImage: /assets/external-covers/medium-cover-3.png
-type: "Blog"
+type: "Medium"
 private: false
 ---
 
