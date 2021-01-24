@@ -14,7 +14,7 @@ const PostMaker = ({ data }, type) => (
 //     <div className="grids col-1 sm-2 lg-3">{data}</div>
 //     <Link className="button" to="/blogfolio">
 //       See more
-//       <span class="icon -right">
+//       <span className="icon -right">
 //         <RiArrowRightSLine />
 //       </span>
 //     </Link>
@@ -28,7 +28,7 @@ export default function BlogListHome() {
         query {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { template: { eq: "blog-post" } } }
+            filter: { frontmatter: { template: { in: ["blog-post", "portfolio-post"] } } }
             limit: 4444
           ) {
             edges {

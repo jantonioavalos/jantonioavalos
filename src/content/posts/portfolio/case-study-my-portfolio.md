@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: portfolio-post
 slug: creating-my-portfolio
 date: 2020-10-20
 time: "7 min"

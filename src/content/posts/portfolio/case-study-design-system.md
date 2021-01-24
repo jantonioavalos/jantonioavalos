@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: portfolio-post
 slug: creating-a-new-design-system
 date: 2020-08-08
 time: "9 min"

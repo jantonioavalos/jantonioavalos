@@ -30,7 +30,7 @@ const PostCard = ({ data }) => (
     ) : (
       ""
     )}
-    <div class="post-content">
+    <div className="post-content">
       <h2 className="post-title">
         {data.frontmatter.extlink ? (
           <a href={data.frontmatter.extlink} target="_blank">
