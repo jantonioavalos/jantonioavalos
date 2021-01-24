@@ -23,16 +23,15 @@ So I had to find my place in this industry. I needed a space to showcase my UX/U
 
 That's why I built this website by my own. Here's the living case study:
 
-<ol>
-<li><a href="#brief">A strategy brief</a></li>
-<li><a href="#poc">The proof-of-concept</a></li>
-<li><a href="#mvp">My MVP</a></li>
-<li><a href="#iteration">First iteration: this current state</a></li>
-</ol>
+1. [A strategy brief](#a-strategy-brief)
+2. [Draft & Sketches](#draft--sketches)
+3. [The proof-of-concept](#the-proof-of-concept)
+4. [My MVP](#my-mvp)
+5. [First iteration](#first-iteration)
 
 ---
 
-<h1 id="brief">A strategy brief</h1>
+# A strategy brief
 
 <figure>
   <img src="assets/case-study-2/trello-board-1.png" alt="UX Startegy on Trello Board">
@@ -83,7 +82,13 @@ So they need easy access to original, instructive and reliable content. They wan
 
 ---
 
-<h1 id="poc">The proof-of-concept</h1>
+# Draft & Sketches
+
+Conserve **full control** on the User Interface and Information Architecture for personalisation and performance improvements
+
+---
+
+# The proof-of-concept
 
 I prioritized content. And I focused on creating the case study to share. So I decided to use **a portfolio service** and I compared the ease-of-use, platform specialty, personalization and metrics options.
 
@@ -140,7 +145,7 @@ I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offer
 
 ---
 
-<h1 id="mvp">My MVP</h1>
+# My MVP
 
 I wanted to build something similar to the POC. Moreover, I wanted to add trendy features and implement cutting-edge technology. So I compared options by: learning curve, support resources, and features enabled.
 
@@ -197,7 +202,7 @@ I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
 
 ---
 
-<h1 id="iteration">First iteration: this current state</h1>
+# First iteration
 
 I reordered the priority: **Content > Features**. And I rebuilt the website using a simpler starting point. This year (2020), I'm improving the content strategy, UX writing and use of analytics.
 

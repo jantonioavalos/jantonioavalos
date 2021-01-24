@@ -29,29 +29,18 @@ Building a product is not a linear process. **Collaboration** among teams and di
 
 So, making this easier to read, I wrote about the activities flow into 6 well-known categories:
 
-<ol>
-<li><a href="#strategy">Strategy</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#prototyping">Prototyping</a></li>
-<li><a href="#development">Development</a></li>
-<li><a href="#testing">Testing</a></li>
-<li><a href="#results">Results</a></li>
-</ol>
-
-<!--
-1. [Strategy](#strategy)
-2. [Research](#research)
-3. [Prototyping](#prototyping)
-4. [Development](#development)
-5. [Testing](#testing)
-6. [Results](#results)
--->
+1. [Strategy](#1-strategy)
+2. [Research](#2-research)
+3. [Prototyping](#3-prototyping)
+4. [Development](#4-development)
+5. [Testing](#5-testing)
+6. [Results](#6-results)
 
 This case study focuses in core problem: producing **modular templates** for building a consistent user experience.
 
 ---
 
-<h1 id="strategy">1. Strategy</h1>
+# 1. Strategy
 
 This is often forgotten or misunderstood. At the beginning of every project, I ensure the team has to be clear on:
 
@@ -105,7 +94,7 @@ We added this internal project to our UX **kanban board** and reported progress 
 
 ---
 
-<h1 id="research">2. Research</h1>
+# 2. Research
 
 ## Interviews and contextual inquiry
 
@@ -163,7 +152,7 @@ So I shared these research insights, explained the benefits for the department, 
 
 ---
 
-<h1 id="prototyping">3. Prototyping</h1>
+# 3. Prototyping
 
 ## Information Architecture (IA)
 
@@ -221,7 +210,7 @@ At the end, I followed a similar process with the rest of the website areas: Hom
 
 ---
 
-<h1 id="development">4. Development</h1>
+# 4. Development
 
 ## Building with React
 
@@ -243,7 +232,7 @@ Once we had the first stable version I asked to release it so I could run tests 
 
 ---
 
-<h1 id="testing">5. Testing</h1>
+# 5. Testing
 
 ## Usability testing
 
@@ -269,7 +258,7 @@ It was super useful to **discover users’ preferences**. Here are some examples
 
 ---
 
-<h1 id="results">6. Results</h1>
+# 6. Results
 
 We used **7 months to create this tool.** After **4 iterations,** from the research new scope, the development with react, and two testing rounds. **We helped the publishing, marketing, and engineering people to keep design and content consistent**.
 
