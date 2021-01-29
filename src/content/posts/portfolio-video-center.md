@@ -5,7 +5,7 @@ date: 2019-07-22
 time: "9 min"
 title: "Redesigning the experience of video consumption"
 description: "I redesigned the UI and search experience for our video center"
-featuredImage: /assets/case-study-2/post-2-cover-1366.png
+featuredImage: /assets/portfolio-3/portfolio-cover-video-center.png
 type: "Case Study"
 private: false
 extlink: null
@@ -148,7 +148,7 @@ I drew several options to arrange the information into spaces. Besides they help
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
-## Mid-fidelity Mockups
+## High-fidelity Mockups
 
 After some design feedback, I prepared several options in mid-fidelity mockups to discuss with stakeholders the best solution.
 
@@ -165,30 +165,38 @@ After some design feedback, I prepared several options in mid-fidelity mockups t
   <figcaption>More evolved options for the homepage</figcaption>
 </figure>
 
-### Design Tradeoffs
+## Design Tradeoffs
 
-- **Primary action over variety of options.** Stakeholders wanted spaces to fill according their different agendas. But we couldn't design something to allow dozen of minimal updates, we needed the algorythm. So I advocated for having 3 categories which could be updated with analytics data to reflect popularity and time sensitive content.
-- **We're not YouTube.** Our users don't come to watch trends or latest product's news to this hidden platform. They come with a problem to solve. Besides they might not be familiar with our product's classification. So I added a section with lists of applications per industry segments so people could find content related to their job.
-- **Less clicks doesn't mean intuitive design.** I added the "View all" label to show more items on demand. Once clicked, it was a category filter applied into the search page. Then, people could refine their search in the list view, instead of scanning dozens of thumbnails at the homepage.
+### Primary action over variety of options
 
-## High-fidelity Mockups
+Stakeholders wanted spaces to fill according their different agendas. But we couldn't design something to allow dozen of minimal updates, we needed the algorythm. So I advocated for having 3 categories which could be updated with analytics data to reflect popularity and time sensitive content.
+
+### We're not YouTube
+
+Our users don't come to watch trends or latest product's news to this hidden platform. They come with a problem to solve. Besides they might not be familiar with our product's classification. So I added a section with lists of applications per industry segments so people could find content related to their job.
+
+### Less clicks doesn't mean intuitive design
+
+I added the "View all" label to show more items on demand. Once clicked, it was a category filter applied into the search page. Then, people could refine their search in the list view, instead of scanning dozens of thumbnails at the homepage.
+
+## Final Design
 
 <figure>
-  <img src="assets/portfolio-3/video-center-home.png" alt="UX Startegy on Trello Board">
+  <img src="assets/portfolio-3/video-center-homepage-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
 Djdjdkf
 
 <figure>
-  <img src="assets/portfolio-3/video-center-search.png" alt="UX Startegy on Trello Board">
+  <img src="assets/portfolio-3/video-center-results-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
 iurubvuvb
 
 <figure>
-  <img src="assets/portfolio-3/video-center-player.png" alt="UX Startegy on Trello Board">
+  <img src="assets/portfolio-3/video-center-player-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
@@ -232,6 +240,10 @@ This project was finished by August 2019. The current site is live at: [Videosâ€
 I was very limited by the video technology. We had an old implementation contracted with a popular video services provider. So I had to remove some features on the player and search. Constant communication with the SME was critical.
 
 Having a clear plan from the beginning helped keeping design, code, tests on time for the release.
+
+standarizar las timestamp
+hacer una guia de los tamanos de los thumbnails
+sometimes so much content details are not necessary, I took real info from the old implementation
 
 This is the before
 
