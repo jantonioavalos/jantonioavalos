@@ -1,25 +1,24 @@
 ---
 template: blog-post
-slug: redesigning-video-experience
+slug: ui-and-findability-redesign-of-a-video-platform
 date: 2019-07-22
 time: "9 min"
-title: "Redesigning the experience of video consumption"
-description: "I redesigned the UI and search experience for our video center"
+title: "UI and findability redesign of a video platform"
+description: "I redesigned the UI and search journey at our corporate video platform. It reduced findability issues and increased users' video consumption."
 featuredImage: /assets/portfolio-3/portfolio-cover-video-center.png
 type: "Case Study"
 private: false
 extlink: null
 ---
 
-**Summary:** A corporate video platform that served hundreds of daily users was redesigned. We increased the users visits, time on screen and suggestions clicks rate. Besides we reduced the findability issues and customers complaints.
+**Summary:** I redesigned the UI and search experience at our corporate video platform. It reduced findability issues and increased users' video consumption.
 
 ## Table of contents
 
 1. [Creative Strategy Brief](#1-creative-strategy-brief)
 2. [Benchmark Research](#2-benchmark-research)
 3. [UI Design](#3-ui-design)
-4. [Wireframes and High-Fid mockups](#)
-5. [UI Code documentation](#)
+4. [Results](#4-results)
 
 ---
 
@@ -56,13 +55,14 @@ They need quick answers about design constraints and features enablement. So the
 
 When using the platform, they normally are at:
 
-- The laboratory, in a test bench with the equipment connected. At the middle of an issue to solve.
-- Own desk, working on a Bill of materials or supply catalogs.
+- **The laboratory,** in a test bench with the equipment connected. At the middle of an issue to solve.
+- **At a desk,** working on a Bill of materials or supply catalogs.
 
 ## Business goals
 
 - Redesign the findability so customers could get to the correct video, increasing the time on page.
-- Give accurate suggestions, reflected on a higher click rate in the suggestions section. Also higher bounce rate in transitory pages.
+- Give accurate suggestions, reflected on a higher click rate in the suggestions section.
+- Reduce the bounce rate during a video search.
 
 ## Team & responsibilities
 
@@ -83,8 +83,8 @@ This was a 2 months project that implied collaboration with: React Developers, I
 - Re-build the platform using our new development stack based on React.
 - Changes in our video technology framework were out of discussion.
 - We should offer something visually similar to the _"YouTube experience"_.
-- Features around personalization were out of the scope.
-- 4 sprints (2 months) to release. Besides the team would work on 2 or more projects at the same time.
+- Features related to personalization were out of the scope.
+- 4 sprints (2 months) to release. Besides the team was working on 2 or more projects at the same time.
 
 ---
 
@@ -200,10 +200,6 @@ iurubvuvb
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
----
-
-# 4. Development
-
 ## UI Code Documentation
 
 By the time I was also <a href="/creating-a-new-design-system" target="_blank">working on building our design system</a>. So I created a [demo page]() as placeholder to document the code.
@@ -217,40 +213,60 @@ By the time I was also <a href="/creating-a-new-design-system" target="_blank">w
 
 ---
 
-# 5. Testing
+# 4. Results
 
-## A/B Test
+## Before redesign
 
-[Des
+According to our analytics team's report, these were our numbers on July 1 month before release:
+
+- **~83%.** Homepage and results bounce -abandon- rate (no video played)
+- **4:12 min.** The average time between arriving the page and playing a video
+- **< 8%.** Average click rate on Recommendations
+- **Search bar.** It was the most often used interaction
+
+<figure>
+  <img src="assets/portfolio-3/video-vault-old-design.png" alt="UX Startegy on Trello Board">
+  <figcaption>Video platform, before redesign</figcaption>
+</figure>
+
+> People were spending almost 5 minutes to find a video useful to their needs. Moreover, they often left the platform before playing a video. And they rarely clicked on the random recommendations, aside the video player.
+
+## After redesign
+
+Later by December, 3 months after the release:
+
+- **~53% (-30%).** Homepage bounce -abandon- rate
+- **1:33 min (-2:39).** The average time between arriving the page and playing a video.
+- **~23% (+15%).** Average click rate on Recommendations
+- **Category filters.** They were the most often used interaction
+
+<figure>
+  <img src="assets/portfolio-3/video-vault-new-design.png" alt="UX Startegy on Trello Board">
+  <figcaption>New video platform redesigned</figcaption>
+</figure>
+
+> People found a useful video to their needs after a minute, so they stayed more at the platform. Besides they got something useful from the category filtered recommendations around the video player.
+
+## Lessons from this project
+
+### Standardizing labels and metadata
+
+I failed on providing clear guidance on metadata. It was weird for developers to display the timestamp in the format I proposed. When to show time in hours or days? Why? At the beginning it was just a nice idea from other websites. But later, we noticed how easier was to read "_2 months ago_" than "_05/05/2019 4:53 P.M._". Besides it's shorter.
+
+### Research articles and visual examples are very persuasive
+
+I was very limited by the video technology. So in the lack of video player features, I focused the design on a clear search journey. Explaining this to stakeholders was challenging, they saw every white space as a wasted opportunity to conversions. I had to explain the value of a good Information Architecture.
+
+### Very detailed content into mockups wasn't necessary
+
+So much content details on the UI was not as useful than the styles and markup I delivered. I would've used that time to create a better guide on how to use the UI instead of looking for examples and placing the real data into hi-fid mockups.
+
+### Start with a creative strategy saves meeting time
+
+Clarity on the audience and goals, helped me during design tradeoffs. I just had to remaind stakeholders to read our Brief to make them focus. It helps to deliver each stage on time.
 
 ---
 
-# 6. Results
-
-[For the business]
-
-[For the user]
-
-[For the team]
-
 This project was finished by August 2019. The current site is live at: [Videos—Solve problems and stay informed with quick how-to and demo videos](https://www.nxp.com/design/training/videos:VIDEO-VAULT#/)
-
-## Lessons from leading this project
-
-I was very limited by the video technology. We had an old implementation contracted with a popular video services provider. So I had to remove some features on the player and search. Constant communication with the SME was critical.
-
-Having a clear plan from the beginning helped keeping design, code, tests on time for the release.
-
-standarizar las timestamp
-hacer una guia de los tamanos de los thumbnails
-sometimes so much content details are not necessary, I took real info from the old implementation
-
-This is the before
-
-And here's the after
-
-Butt you can go and check the current life site:
-
-[CTA]
 
 ---
