@@ -181,24 +181,40 @@ I added the "View all" label to show more items on demand. Once clicked, it was 
 
 ## Final Design
 
+### Step 1: Homepage
+
+I prioritized a clear search journey over fancy interactions. And persuaded stakeholders to keep minimal options even they saw every white space as a wasted opportunity to conversions.
+
 <figure>
   <img src="assets/portfolio-3/video-center-homepage-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
-Djdjdkf
+- I added the first section for recent content to prove stakeholders this was not a valuable parameter or filter for the users.
+- I kept Demo and How to's sections to place the most popular videos. Besides, the "View all" label directed to those filtered results.
+- I introduced a section to browse by application category. It allowed stakeholders to curate the most important filters per business line.
+
+### Step 2: Search results
+
+I used a list of items instead of cards to scan faster the content and show a decent portion of the description.
 
 <figure>
   <img src="assets/portfolio-3/video-center-results-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
-iurubvuvb
+- Using the faceted navigation as category filters was very useful to go deeper into the area of interest: product families to comapare specs or application type to explore solutions.
+
+### Step 3: Video player page
+
+I was limitated by the technology into the player. So we offered better selected suggestions, according to the previously selected filters and products related to the video. So they gave the sensation of personalized content.
 
 <figure>
   <img src="assets/portfolio-3/video-center-player-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
+
+- The bottom section was optional to offer some partners' products to complement the solutions on the video.
 
 ## UI Code Documentation
 
@@ -209,7 +225,7 @@ By the time I was also <a href="/creating-a-new-design-system" target="_blank">w
   <figcaption>Some snippets of code for the UI Components (August 2019)</figcaption>
 </figure>
 
-[Ddjdjdjd
+This short demo could be still available at: [Video Center Code](https://ux.nxp.com/examples/video-vault). But it was replaced by our new design system guidelines.
 
 ---
 
@@ -253,13 +269,9 @@ Later by December, 3 months after the release:
 
 I failed on providing clear guidance on metadata. It was weird for developers to display the timestamp in the format I proposed. When to show time in hours or days? Why? At the beginning it was just a nice idea from other websites. But later, we noticed how easier was to read "_2 months ago_" than "_05/05/2019 4:53 P.M._". Besides it's shorter.
 
-### Research articles and visual examples are very persuasive
-
-I was very limited by the video technology. So in the lack of video player features, I focused the design on a clear search journey. Explaining this to stakeholders was challenging, they saw every white space as a wasted opportunity to conversions. I had to explain the value of a good Information Architecture.
-
 ### Very detailed content into mockups wasn't necessary
 
-So much content details on the UI was not as useful than the styles and markup I delivered. I would've used that time to create a better guide on how to use the UI instead of looking for examples and placing the real data into hi-fid mockups.
+I would've used that time to create a better guide on how to use the UI instead of looking for examples and placing the real data into hi-fid mockups.
 
 ### Start with a creative strategy saves meeting time
 
