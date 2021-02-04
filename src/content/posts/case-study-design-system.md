@@ -1,7 +1,7 @@
 ---
 template: blog-post
 slug: creating-a-new-design-system
-date: 2020-08-08
+date: 2021-02-01
 time: "9 min"
 title: "Creating a website for our new design system"
 description: "How our internal UX consultancy tasks were reduced by 80% systematizing and promoting design and content guidelines on a single-source-of-true website"

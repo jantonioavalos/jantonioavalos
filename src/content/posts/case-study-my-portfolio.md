@@ -1,7 +1,7 @@
 ---
 template: blog-post
 slug: creating-my-portfolio
-date: 2020-10-20
+date: 2020-10-10
 time: "7 min"
 title: "How I planned, designed and developed this website"
 description: "I'm designing and developing this website to present my portfolio and share resources with the UX community. Here's the story of the iterations, results and improvements over the time."

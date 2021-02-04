@@ -1,8 +1,8 @@
 ---
 template: blog-post
 slug: ui-and-findability-redesign-of-a-video-platform
-date: 2019-07-22
-time: "9 min"
+date: 2021-01-01
+time: "7 min"
 title: "UI and findability redesign of a video platform"
 description: "I redesigned the UI and search journey at our corporate video platform. It reduced findability issues and increased users' video consumption."
 featuredImage: /assets/portfolio-3/portfolio-cover-video-center.png
