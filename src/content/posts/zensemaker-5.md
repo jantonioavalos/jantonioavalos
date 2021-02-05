@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: how-to-keep-progress-after-starting-a-side-project
+slug: /blogfolio/how-to-keep-progress-after-starting-a-side-project
 date: 2021-01-10
 time: "1 min"
 title: "How to keep progress after starting a side-project"
@@ -8,6 +8,7 @@ description: "After those energetic starts, use these 4 steps to prepare a share
 featuredImage:
 type: "Blog"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 Side-projects are never a priority. Do you remember those internal tools, book clubs, podcasts, blogs or health routines that were never done?

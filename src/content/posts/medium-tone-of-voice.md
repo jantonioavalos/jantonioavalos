@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: portfolio-post
 slug: design-your-tone-of-voice
 canonical: "https://uxdesign.cc/what-is-tone-of-voice-and-why-it-is-costing-to-your-company-2e37378dac50?source=friends_link&sk=178a6e09c5e39cbc81dc6a72d426fdf1"
 date: 2020-05-31
@@ -9,6 +9,7 @@ description: "A guide to design your tone of voice with UX Writing"
 featuredImage: /assets/external-covers/medium-cover-2.png
 type: "Medium"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 Content with playful copywriting is a trend that may be tempting to use. It looks like a great option to **communicate friendliness and highlight that you are different** than your competitors. But according to research, this is driving your future customers away!

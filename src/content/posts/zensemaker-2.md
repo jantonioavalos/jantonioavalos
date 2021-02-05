@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: make-the-process-work-for-you-instead-of-working-to-meet-the-process
+slug: /blogfolio/make-the-process-work-for-you-instead-of-working-to-meet-the-process
 date: 2021-01-04
 time: "1 min"
 title: "Make the process work for you, instead of working to meet the process"
@@ -8,6 +8,7 @@ description: "Collaboration and communication issues are present at every compan
 featuredImage:
 type: "Blog"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 Collaboration and communication issues are present at every company. What makes different your team from Intel, Google or Tesla teams is having a **continual improvement process**.

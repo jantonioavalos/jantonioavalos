@@ -9,6 +9,7 @@ featuredImage: /assets/case-study-1/post-1-cover-1366.png
 type: "Case Study"
 private: false
 extlink: null
+tags: ["Design Systems", "UX", "Information Architecture"]
 ---
 
 **Summary:** This is how I led the creation of a design system which reduced 80% our internal tasks and optimized the page creation time from days to only hours.

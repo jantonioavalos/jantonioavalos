@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: why-persona-profiles-improve-teams-communication
+slug: /blogfolio/why-persona-profiles-improve-teams-communication
 date: 2021-01-08
 time: "1 min"
 title: "Why persona profiles improve teams communication"
@@ -8,6 +8,7 @@ description: "Sure, personas are not accurate. And they could be a waste of time
 featuredImage:
 type: "Blog"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 Sure, personas are not accurate. And they could be a waste of time when over-designed. But that’s not the point. They are research artifacts to **show customers context and needs to facilitate communication** among teams.

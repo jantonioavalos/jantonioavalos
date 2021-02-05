@@ -8,6 +8,7 @@ featuredImage: /assets/typo-unsplash.jpg
 type: "Private"
 private: true
 extlink: https://www.jamestharpe.com/markdown-comments/
+tags: ["Markdown"]
 ---
 
 ## Overview

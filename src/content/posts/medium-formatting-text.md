@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: portfolio-post
 slug: reading-patterns-and-information-scent
 canonical: "https://uxdesign.cc/reading-patterns-and-information-scent-2d0fa76a90ee?source=friends_link&sk=aea080c8114202a5e90563f260bdf814"
 date: 2020-10-13
@@ -9,6 +9,7 @@ description: "This is not a war between people’s laziness and making flashy co
 featuredImage: /assets/external-covers/medium-cover-3.png
 type: "Medium"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 It is simple. If we need information, we just google it. Then we scan the titles and descriptions. And once on a promising page, we look for clues in the content. We try to guess **if it’s worth it to be read**.

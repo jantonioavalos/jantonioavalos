@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: research-is-what-separates-flashy-concepts-from-desirable-and-usable-features
+slug: /blogfolio/research-is-what-separates-flashy-concepts-from-desirable-and-usable-features
 date: 2021-01-06
 time: "1 min"
 title: "Research is what separates flashy concepts from desirable and usable features"
@@ -8,6 +8,7 @@ description: "Here’s how to transform your survey, usability tests or heatmaps
 featuredImage:
 type: "Blog"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 So here’s how to transform your survey, usability tests or heatmaps, into product requirements:

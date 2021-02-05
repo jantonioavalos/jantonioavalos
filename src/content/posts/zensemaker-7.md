@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: run-team-retrospectives-to-set-a-continuous-improvement-workflow
+slug: /blogfolio/run-team-retrospectives-to-set-a-continuous-improvement-workflow
 date: 2021-01-21
 time: "1 min"
 title: "Run team retrospectives to set a continuous improvement workflow"
@@ -8,6 +8,7 @@ description: "They will help as calendar remainders and keep track on people and
 featuredImage:
 type: "Blog"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 **1. Explain to your team the rules for a safe space**

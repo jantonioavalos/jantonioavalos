@@ -9,6 +9,7 @@ featuredImage: /assets/case-study-2/post-2-cover-1366.png
 type: "Case Study"
 private: false
 extlink: null
+tags: ["Portfolio", "UX", "Development", "Product Management"]
 ---
 
 **Summary:** I'm designing and developing this website to present my portfolio and share resources with the UX community. Here's the story of the iterations, results and improvements over the time.
