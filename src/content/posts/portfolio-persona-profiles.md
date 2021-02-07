@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: designing-persona-profiles
+slug: /portfolio/designing-persona-profiles
 date: 2021-01-01
 time: "7 min"
 title: "Designing persona profiles"

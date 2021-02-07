@@ -1,6 +1,6 @@
 ---
 template: portfolio-post
-slug: creating-a-new-design-system
+slug: /work/creating-a-new-design-system
 date: 2021-02-01
 time: "9 min"
 title: "Creating a website for our new design system"
@@ -112,14 +112,14 @@ And, I ran part of the process doing their work. This way I was able to empathiz
 > Publishers struggle to explain website constraints and design standards. This creates internal tasks such as UX consulting and IT meetings. So page creation gets longer.
 
 <img
-  src="../../../static/assets/case-study-1/research-1.png"
+  src="/assets/case-study-1/research-1.png"
   alt="Process to publish a webpage"
 />
 
 To share this to my team, I reduced the process to touchpoints. As you can see, publishers are overloaded in the left side. Those are a lot of **resources delivered by different people and channels**.
 
 <img
-  src="../../../static/assets/case-study-1/research-2.png"
+  src="/assets/case-study-1/research-2.png"
   alt="Interactions and deliverables as touchpoints"
 />
 
@@ -140,7 +140,7 @@ I analyzed our corporate website navigation so I could identify the information 
 This is the content journey -and templates- we had to build: Visit > Explore > Engage > Compare > Buy. So going from general to the details, our customers could find information as they needed.
 
 <img
-  src="../../../static/assets/case-study-1/research-3.png"
+  src="/assets/case-study-1/research-3.png"
   alt="Templates work as customer journey's steps."
 />
 
@@ -153,7 +153,7 @@ Inspired by the [Atomic Design Methodology](https://atomicdesign.bradfrost.com/c
 - **Elements**, normally from HTML
 
 <img
-  src="../../../static/assets/case-study-1/research-4.png"
+  src="/assets/case-study-1/research-4.png"
   alt="A modular template base on atomic design"
 />
 
@@ -178,7 +178,7 @@ I proposed a site organization based on an **audience scheme, with a narrow and 
 - **Resources.** Offering downloadable guides for third-parties, like agencies
 
 <img
-  src="../../../static/assets/case-study-1/proto-2.png"
+  src="/assets/case-study-1/proto-2.png"
   alt="Sitemap for the new guidelines website"
 />
 
@@ -212,7 +212,7 @@ So I started with **low fidelity wireframes** to place all the content. Besides,
 - Download and view code buttons
 
 <img
-  src="../../../static/assets/case-study-1/proto-3.jpg"
+  src="/assets/case-study-1/proto-3.jpg"
   alt="Template and Module guidelines pages"
 />
 
@@ -224,7 +224,7 @@ I used [Invision Freehand](https://www.invisionapp.com/feature/freehand) so all 
 - Eliminate the breadcrumb. Due to the **development time** and duplicity with the left navigation.
 
 <img
-  src="../../../static/assets/case-study-1/proto-4.png"
+  src="/assets/case-study-1/proto-4.png"
   alt="Template and Module guidelines pages - Version 2"
 />
 
@@ -239,7 +239,7 @@ At the end, I followed a similar process with the rest of the website areas: Hom
 I used to be developer before UX Design Lead. So I created a high-fidelity prototype, **using HTML, CSS and some Javascript**. Using that as base, the UI Developer and I decided to start the implementation.
 
 <img
-  src="../../../static/assets/case-study-1/dev-3.png"
+  src="/assets/case-study-1/dev-3.png"
   alt="Template guidelines page - Prototype"
 />
 
@@ -270,7 +270,7 @@ At the beginning my manager thought it was enough just to ask around for some op
 It was fun! They helped me **running 2 series of 4 sessions** with some of the users: marketers, engineers, and publishers.
 
 <img
-  src="../../../static/assets/case-study-1/test-1.png"
+  src="/assets/case-study-1/test-1.png"
   alt="Capture of the remote session with an user at Caen, France."
 />
 

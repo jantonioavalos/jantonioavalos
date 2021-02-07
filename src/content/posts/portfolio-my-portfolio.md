@@ -1,6 +1,6 @@
 ---
 template: portfolio-post
-slug: creating-my-portfolio
+slug: /portfolio/creating-my-portfolio
 date: 2020-10-10
 time: "7 min"
 title: "How I planned, designed and developed this website"
@@ -35,7 +35,7 @@ That's why I built this website by my own. Here's the living case study:
 # Research & Strategy Brief
 
 <figure>
-  <img src="assets/case-study-2/trello-board-1.png" alt="UX Startegy on Trello Board">
+  <img src="/assets/case-study-2/trello-board-1.png" alt="UX Startegy on Trello Board">
   <figcaption><a href="https://trello.com/b/VYdMgbhO" target="_blank">Explore this board</a></figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offer
 - **Case study** focused on explaining my process, decisions and tests done.
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-mvp-entire-page.png" alt="My UX portfolio as Product Designer">
+  <img src="/assets/case-study-2/blogfolio-mvp-entire-page.png" alt="My UX portfolio as Product Designer">
   <figcaption><a href="https://uxfol.io/jantonioavalos" target="_blank">Check my first UX Portfolio</a></figcaption>
 </figure>
 
@@ -145,7 +145,7 @@ I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offer
 I took what I learned and refined the Information Architecture of the website:
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-information-architecture.png" alt="The Information Architecture for my UX portfolio as Product Designer">
+  <img src="/assets/case-study-2/blogfolio-information-architecture.png" alt="The Information Architecture for my UX portfolio as Product Designer">
   <figcaption>As more detail users need as deeper they'll need to navigate. So different audiences can get the enough information.</figcaption>
 </figure>
 
@@ -160,19 +160,19 @@ Based on that I'd only need a homepage as hub of my content and 3 templates:
 I wanted a summary of every section on the homepage. And posts based in the great reading experience of Medium.com but I knew the layout could change based on the technical limitations of the platform.
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-wireframe-home.png" alt="Home wireframe for my UX portfolio as Product Designer">
+  <img src="/assets/case-study-2/blogfolio-wireframe-home.png" alt="Home wireframe for my UX portfolio as Product Designer">
   <figcaption>Home: Desktop and mobile views</figcaption>
 </figure>
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-wireframe-post.png" alt="Post wireframe for my UX portfolio as Product Designer">
+  <img src="/assets/case-study-2/blogfolio-wireframe-post.png" alt="Post wireframe for my UX portfolio as Product Designer">
   <figcaption>Post template: Desktop and mobile views</figcaption>
 </figure>
 
 Later, I used an atomic design approach to explore the components I'd need for my templates:
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-design-system-draft.png" alt="Design System Draft for my UX portfolio as Product Designer">
+  <img src="/assets/case-study-2/blogfolio-design-system-draft.png" alt="Design System Draft for my UX portfolio as Product Designer">
   <figcaption>Design system draft</figcaption>
 </figure>
 
@@ -218,7 +218,7 @@ I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
 - I designed my logo and used only white and black as brand colors.
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-2020-entire-page.png" alt="My self-made website to showcase my UX portfolio and blog posts">
+  <img src="/assets/case-study-2/blogfolio-2020-entire-page.png" alt="My self-made website to showcase my UX portfolio and blog posts">
   <figcaption><a href="https://blogfolio-2020.netlify.app/" target="_blank">Visit this website</a> | <a href="https://github.com/jantonioavalos/blogfolio-2020" target="_blank">See the code</a></figcaption>
 </figure>
 
@@ -256,7 +256,7 @@ I reordered the priority: **Content > Features**. And I rebuilt the website usin
 - I focused my learning curve on writing better. So I wrote some blog posts and linked them in the Home page. They're part of my SEO strategy and have higher engagement with the community being hosted on Medium.
 
 <figure>
-  <img src="assets/case-study-2/blogfolio-entire-page.png" alt="My self-made website to showcase my UX portfolio and blog posts">
+  <img src="/assets/case-study-2/blogfolio-entire-page.png" alt="My self-made website to showcase my UX portfolio and blog posts">
   <figcaption><a href="https://github.com/jantonioavalos/jantonioavalos" target="_blank">See the code</a></figcaption>
 </figure>
 
@@ -272,14 +272,14 @@ I reordered the priority: **Content > Features**. And I rebuilt the website usin
 - Owning the 100% of the platform can be more demanding than producing the content. So I needed better planning. I moved from Trello to JIRA and Notion to track website and content tasks, respectively.
 
 <figure>
-  <img src="assets/case-study-2/notion-board.png" alt="My kanban board in Notion to track content creation">
+  <img src="/assets/case-study-2/notion-board.png" alt="My kanban board in Notion to track content creation">
   <figcaption>Notion board</figcaption>
 </figure>
 
 ## To come
 
 <figure>
-  <img src="assets/case-study-2/jira-sprint.png" alt="My Jira sprint board">
+  <img src="/assets/case-study-2/jira-sprint.png" alt="My Jira sprint board">
   <figcaption>Jira sprint board</figcaption>
 </figure>
 
