@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: /blogfolio/why-persona-profiles-improve-teams-communication
+slug: /blog/why-persona-profiles-improve-teams-communication
 date: 2021-01-08
 time: "1 min"
 title: "Why persona profiles improve teams communication"

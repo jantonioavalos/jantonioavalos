@@ -1,7 +1,7 @@
 ---
 template: blog-post
 date: 2021-01-02
-slug: /blogfolio/highlighting-books-is-a-waste-of-time
+slug: /blog/highlighting-books-is-a-waste-of-time
 time: "1 min"
 title: "Highlighting books is a waste of time"
 description: "Even if you are an active reader, you forget those mind-blowing insights from the book you read 2 weeks ago. And that’s ok."

@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: /blogfolio/the-more-ways-you-can-represent-a-problem-the-more-perspectives-you-get-to-solve-it
+slug: /blog/the-more-ways-you-can-represent-a-problem-the-more-perspectives-you-get-to-solve-it
 date: 2021-01-19
 time: "1 min"
 title: "The more ways you can represent a problem, the more perspectives you get to solve it"

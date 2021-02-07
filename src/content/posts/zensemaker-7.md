@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: /blogfolio/run-team-retrospectives-to-set-a-continuous-improvement-workflow
+slug: /blog/run-team-retrospectives-to-set-a-continuous-improvement-workflow
 date: 2021-01-21
 time: "1 min"
 title: "Run team retrospectives to set a continuous improvement workflow"

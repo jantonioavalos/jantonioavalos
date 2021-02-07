@@ -13,18 +13,18 @@ const MenuItems = [
     path: "/about",
     title: "About",
   },
-    // {
-  //   path: "/blogfolio",
-  //   title: "Blogfolio",
-  // },
+    {
+    path: "/blog",
+    title: "Blog",
+  },
   {
     path: "/resources",
     title: "Resources",
   },
-  {
-    path: CV,
-    title: "Resume",
-  }
+  // {
+  //   path: CV,
+  //   title: "Resume",
+  // }
 ];
 
 const ListLink = (props) => (

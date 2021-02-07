@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: /blogfolio/make-the-process-work-for-you-instead-of-working-to-meet-the-process
+slug: /blog/make-the-process-work-for-you-instead-of-working-to-meet-the-process
 date: 2021-01-04
 time: "1 min"
 title: "Make the process work for you, instead of working to meet the process"
