@@ -1,7 +1,7 @@
 ---
 template: portfolio-post
 slug: creating-my-portfolio
-date: 2020-10-20
+date: 2020-10-10
 time: "7 min"
 title: "How I planned, designed and developed this website"
 description: "I'm designing and developing this website to present my portfolio and share resources with the UX community. Here's the story of the iterations, results and improvements over the time."
@@ -24,16 +24,15 @@ So I had to find my place in this industry. I needed a space to showcase my UX/U
 
 That's why I built this website by my own. Here's the living case study:
 
-<ol>
-<li><a href="#brief">A strategy brief</a></li>
-<li><a href="#poc">The proof-of-concept</a></li>
-<li><a href="#mvp">My MVP</a></li>
-<li><a href="#iteration">First iteration: this current state</a></li>
-</ol>
+1. [Research & Strategy Brief](#research--strategy-brief)
+2. [The Proof-of-concept](#the-proof-of-concept)
+3. [Information Architecture & Design System Drafts](#information-architecture--design-system-drafts)
+4. [My MVP](#my-mvp)
+5. [First Iteration](#first-iteration)
 
 ---
 
-<h1 id="brief">A strategy brief</h1>
+# Research & Strategy Brief
 
 <figure>
   <img src="assets/case-study-2/trello-board-1.png" alt="UX Startegy on Trello Board">
@@ -84,7 +83,7 @@ So they need easy access to original, instructive and reliable content. They wan
 
 ---
 
-<h1 id="poc">The proof-of-concept</h1>
+# The Proof-of-concept
 
 I prioritized content. And I focused on creating the case study to share. So I decided to use **a portfolio service** and I compared the ease-of-use, platform specialty, personalization and metrics options.
 
@@ -141,13 +140,53 @@ I chose <a href="https://uxfol.io/" target="_blank">UXfolio</a> because it offer
 
 ---
 
-<h1 id="mvp">My MVP</h1>
+# Information Architecture & Design System Drafts
 
-I wanted to build something similar to the POC. Moreover, I wanted to add trendy features and implement cutting-edge technology. So I compared options by: learning curve, support resources, and features enabled.
+I took what I learned and refined the Information Architecture of the website:
+
+<figure>
+  <img src="assets/case-study-2/blogfolio-information-architecture.png" alt="The Information Architecture for my UX portfolio as Product Designer">
+  <figcaption>As more detail users need as deeper they'll need to navigate. So different audiences can get the enough information.</figcaption>
+</figure>
+
+Based on that I'd only need a homepage as hub of my content and 3 templates:
+
+- **Posts.** Dedicated to long-form reading, for case studies. The main interest for hiring managers.
+- **Stories.** For basic 3-5 min read blog entries. To bring traffic to my site from people interested on UX
+- **Links.** To share a list of resources to colleages and use it as my website link in social media.
+
+## Working in mid-fid wireframes
+
+I wanted a summary of every section on the homepage. And posts based in the great reading experience of Medium.com but I knew the layout could change based on the technical limitations of the platform.
+
+<figure>
+  <img src="assets/case-study-2/blogfolio-wireframe-home.png" alt="Home wireframe for my UX portfolio as Product Designer">
+  <figcaption>Home: Desktop and mobile views</figcaption>
+</figure>
+
+<figure>
+  <img src="assets/case-study-2/blogfolio-wireframe-post.png" alt="Post wireframe for my UX portfolio as Product Designer">
+  <figcaption>Post template: Desktop and mobile views</figcaption>
+</figure>
+
+Later, I used an atomic design approach to explore the components I'd need for my templates:
+
+<figure>
+  <img src="assets/case-study-2/blogfolio-design-system-draft.png" alt="Design System Draft for my UX portfolio as Product Designer">
+  <figcaption>Design system draft</figcaption>
+</figure>
+
+So, limited by the current platform I developed my own website. I wanted to implement trendy features and technologies.
+
+---
+
+# My MVP
+
+I compared options by: learning curve, support resources, and features enabled.
 
 ### HTML + CSS + Javascript
 
-- I have 3+ years of experience using them
+- I have 5+ years of experience using them
 - Several documentation by the community
 - Complex features will be hard to develop (Production deployment, SEO, etc.)
 
@@ -198,7 +237,7 @@ I decided to use <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
 
 ---
 
-<h1 id="iteration">First iteration: this current state</h1>
+# First Iteration
 
 I reordered the priority: **Content > Features**. And I rebuilt the website using a simpler starting point. This year (2020), I'm improving the content strategy, UX writing and use of analytics.
 
