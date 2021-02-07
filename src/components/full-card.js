@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Img from "gatsby-image";
 import { RiExternalLinkLine } from "react-icons/ri";
 
-const PostCard = ({ data }) => {
+const FullCard = ({ data }) => {
   const content = 
     <article className="post-card">
       {data.frontmatter.featuredImage ?
@@ -17,15 +17,14 @@ const PostCard = ({ data }) => {
       : null}
       <div className="post-content">
         <h2 className="post-title">
-          {data.frontmatter.title.length > 67
-              ? data.frontmatter.title.substring(0, 62) + "... "
-              : data.frontmatter.title + " "}       
+          {data.frontmatter.title.substring(0, 68) + "... "}       
           {data.frontmatter.extlink ? (
             <small>
               <RiExternalLinkLine />
             </small>
           ) : null}     
         </h2>
+        <p className="post-description">{data.frontmatter.description}</p>
         <p className="post-meta">
           <span>
             {data.frontmatter.type + " ∙ " + data.frontmatter.time + " read"}
@@ -46,4 +45,4 @@ const PostCard = ({ data }) => {
   );
 }
 
-export default PostCard;
+export default FullCard;

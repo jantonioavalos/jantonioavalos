@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby";
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
 
 import Layout from "../components/layout";
-import PostCard from "../components/post-card";
+import FullCard from "../components/full-card";
 import SEO from "../components/seo";
 
 export const blogListQuery = graphql`
@@ -23,8 +23,10 @@ export const blogListQuery = graphql`
             time
             slug
             title
+            description
             type
-            private                        
+            private    
+            extlink                    
           }
         }
       }
@@ -84,7 +86,7 @@ class BlogIndex extends React.Component {
       .filter((edge) => !!edge.node.frontmatter.date)
       .map((edge) =>
         edge.node.frontmatter.private ? null : (
-          <PostCard key={edge.node.id} data={edge.node} />
+          <FullCard key={edge.node.id} data={edge.node} />
         )
       );
     let props = {
@@ -105,9 +107,15 @@ class BlogIndex extends React.Component {
             "jantonioavalos base blog page " + currentPage + " of " + numPages
           }
         />
-        <h1>Blog</h1>
-        <p>Short-form stories about productivity, strategy and communication skills</p>
-        <div className="grids col-1 sm-2 lg-3">{posts}</div>
+        <header className="featured-banner">
+          <section className="article-header section-fix">
+            <h1>Blog</h1>
+            <p className="article-metadata">
+              Short-form stories about productivity, strategy and communication skills for creators
+            </p>
+          </section>
+        </header>
+        <div className="grids col-1 sm-2">{posts}</div>
         {/* <Pagination {...props} /> */}
       </Layout>
     );

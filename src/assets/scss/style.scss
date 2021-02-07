@@ -66,6 +66,7 @@
   border-radius: 12px;
   transition: box-shadow 0.4s linear;
   .featured-image {
+    margin-bottom: 16px;
     border-radius: 12px;
     img {
       display: block;
@@ -89,6 +90,14 @@
     .title {
       color: var(--button-alternate-color);
     }
+    h2 {
+      text-decoration: underline;
+    }
+  }
+  .post-description {
+    font-size: 18px;
+    margin-top: 8px;
+    padding: 0px;
   }
   .post-meta {
     font-family: "Red Hat Display", sans-serif;
@@ -97,7 +106,7 @@
     color: rgba(0, 0, 0, 0.6);
   }
   .post-content {
-    margin-top: 16px;
+    //margin-top: 16px;
   }
   @media (max-width: $breakpoint-md) {
     padding: 0;
