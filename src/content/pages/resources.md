@@ -21,6 +21,9 @@ resources:
       - name: Creative Strategy Brief - Duplicable Template
         cta: gDoc
         link: https://docs.google.com/document/d/1-Xs7Z0BNATc9kTUfOg23b2TwgDX3N54T0SXV1z-OTMg/
+      - name: Content Inventory - IA Onboarding
+        cta: gSheet
+        link: https://docs.google.com/spreadsheets/d/11lT4odcMpkC76SxXbJXqJUc-b2-XjsuZc9fwl2mLYt8/edit?usp=sharing
   - topic: UX Writing
     links:
       - name: Guide to design reader-centered content

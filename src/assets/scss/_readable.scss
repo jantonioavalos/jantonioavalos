@@ -194,6 +194,9 @@
     text-align: left;
     color: rgba(0, 0, 0, 0.6);
   }
+  &.section-fix {
+    max-width: 100%;
+  }
 }
 
 article figure {

@@ -1,6 +1,6 @@
 ---
-template: blog-post
-slug: ui-and-findability-redesign-of-a-video-platform
+template: portfolio-post
+slug: /portfolio/ui-and-findability-redesign-of-a-video-platform
 date: 2021-01-01
 time: "7 min"
 title: "UI and findability redesign of a video platform"
@@ -29,21 +29,21 @@ I had some interviews with the Technical Support Department about the main issue
 ## Why this project
 
 <figure>
-  <img src="assets/portfolio-3/video-vault-old-home-1907.png" alt="Homepage screenshot (2018)">
+  <img src="/assets/portfolio-3/video-vault-old-home-1907.png" alt="Homepage screenshot (2018)">
   <figcaption>Homepage screenshot (2018)</figcaption>
 </figure>
 
 This semiconductors company produces lots of training and promotional videos for trendy products. Storage, classification and reproduction were supported by a legacy platform called “Video Vault”.
 
 <figure>
-  <img src="assets/portfolio-3/video-vault-old-search-1907.png" alt="NFC Search results screenshot (2018)">
+  <img src="/assets/portfolio-3/video-vault-old-search-1907.png" alt="NFC Search results screenshot (2018)">
   <figcaption>"NFC" Search results screenshot (2018)</figcaption>
 </figure>
 
 It daily served hundreds of engineers, who struggled to find technical reviews and demos about our products used into their projects. So redesigning this platform meant an increase on users and bring customers into our funnel.
 
 <figure>
-  <img src="assets/portfolio-3/video-vault-old-player-1907.png" alt="Video player page screenshot (2018)">
+  <img src="/assets/portfolio-3/video-vault-old-player-1907.png" alt="Video player page screenshot (2018)">
   <figcaption>Video player page screenshot (2018)</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ When using the platform, they normally are at:
 ## Analyzing video experiences
 
 <figure>
-  <img src="assets/portfolio-3/benchmarking-features.png" alt="UI, Interactions and Findability were analized over the top platforms">
+  <img src="/assets/portfolio-3/benchmarking-features.png" alt="UI, Interactions and Findability were analized over the top platforms">
   <figcaption>UI, Interactions and Findability were analized over the top platforms</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ I drew several options to arrange the information into spaces. Besides, they hel
 - List of most seen videos (algorithm) in curated categories, with a label to display more items
 
 <figure>
-  <img src="assets/portfolio-3/video-center-wireframe-homepage.jpg" alt="Homepage wireframe">
+  <img src="/assets/portfolio-3/video-center-wireframe-homepage.jpg" alt="Homepage wireframe">
   <figcaption>Homepage wireframe</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ I drew several options to arrange the information into spaces. Besides, they hel
 - Result items as a thumbnail with name, description and metadata.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-wireframe-search-results.jpg" alt="Search results wireframe">
+  <img src="/assets/portfolio-3/video-center-wireframe-search-results.jpg" alt="Search results wireframe">
   <figcaption>Search results wireframe</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ I drew several options to arrange the information into spaces. Besides, they hel
 - Bottom section for promotion of partners’ content.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-wireframe-video-player.jpg" alt="Video player page wireframe">
+  <img src="/assets/portfolio-3/video-center-wireframe-video-player.jpg" alt="Video player page wireframe">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ I drew several options to arrange the information into spaces. Besides, they hel
 After some design feedback, I prepared several options in mid-fidelity mockups to discuss with stakeholders the best solution.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-content-options-1-2.png" alt="Options for the homepage">
+  <img src="/assets/portfolio-3/video-center-content-options-1-2.png" alt="Options for the homepage">
   <figcaption>Options for the homepage</figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ After some design feedback, I prepared several options in mid-fidelity mockups t
 > **— Nielsen Norman Group**
 
 <figure>
-  <img src="assets/portfolio-3/video-center-content-options-3-4.png" alt="More evolved options for the homepage">
+  <img src="/assets/portfolio-3/video-center-content-options-3-4.png" alt="More evolved options for the homepage">
   <figcaption>More evolved options for the homepage</figcaption>
 </figure>
 
@@ -184,7 +184,7 @@ I added the “View all” label to show more items on demand. Once clicked, it 
 I prioritized a clear search journey over fancy interactions. And persuaded stakeholders to keep minimal options even they saw every white space as a wasted opportunity to conversions.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-homepage-final.png" alt="Video player page wireframe">
+  <img src="/assets/portfolio-3/video-center-homepage-final.png" alt="Video player page wireframe">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
@@ -197,7 +197,7 @@ I prioritized a clear search journey over fancy interactions. And persuaded stak
 I used a list of items instead of cards to scan faster the content and show a decent portion of the description.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-results-final.png" alt="Video player page wireframe">
+  <img src="/assets/portfolio-3/video-center-results-final.png" alt="Video player page wireframe">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
@@ -208,7 +208,7 @@ I used a list of items instead of cards to scan faster the content and show a de
 Technology limited the player's features. So we offered better selected suggestions, according to the previously selected filters and products related to the video. So they gave the sensation of personalized content.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-player-final.png" alt="UX Startegy on Trello Board">
+  <img src="/assets/portfolio-3/video-center-player-final.png" alt="UX Startegy on Trello Board">
   <figcaption>Video player page wireframe</figcaption>
 </figure>
 
@@ -219,7 +219,7 @@ Technology limited the player's features. So we offered better selected suggesti
 By the time I was also <a href="/creating-a-new-design-system" target="_blank">working on building our design system</a>. So I created a demo page as placeholder to document the code.
 
 <figure>
-  <img src="assets/portfolio-3/video-center-markup.png" alt="Some snippets of code for the UI Components (August 2019)">
+  <img src="/assets/portfolio-3/video-center-markup.png" alt="Some snippets of code for the UI Components (August 2019)">
   <figcaption>Some snippets of code for the UI Components (August 2019)</figcaption>
 </figure>
 
@@ -239,7 +239,7 @@ According to our analytics team’s report, these were our numbers on July 1 mon
 - **Search bar.** It was the most often used interaction.
 
 <figure>
-  <img src="assets/portfolio-3/video-vault-old-design.png" alt="Video platform, before redesign">
+  <img src="/assets/portfolio-3/video-vault-old-design.png" alt="Video platform, before redesign">
   <figcaption>Video platform, before redesign</figcaption>
 </figure>
 
@@ -255,7 +255,7 @@ Later by December, 3 months after the release:
 - **Category filters.** They were the most often used interaction.
 
 <figure>
-  <img src="assets/portfolio-3/video-vault-new-design.png" alt="New video platform redesigned">
+  <img src="/assets/portfolio-3/video-vault-new-design.png" alt="New video platform redesigned">
   <figcaption>New video platform redesigned</figcaption>
 </figure>
 

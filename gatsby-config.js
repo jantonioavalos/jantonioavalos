@@ -91,7 +91,7 @@ module.exports = {
       options: {
         color: "#D9436D",
         height: "4px",
-        paths: ["/about", "/creating-a-new-design-system", "/creating-my-portfolio", "/reader-centered-design", "/design-your-tone-of-voice", "/reading-patterns-and-information-scent"],
+        paths: ["/about", "/blog/**", "/portfolio/**"],
       },
     },
     `gatsby-plugin-smoothscroll`,

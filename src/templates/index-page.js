@@ -6,7 +6,6 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import Layout from "../components/layout";
 import BlogListHome from "../components/blog-list-home";
 import SEO from "../components/seo";
-import FollowMe from "../components/follow-me";
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
