@@ -10,7 +10,7 @@ export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: { frontmatter: { template: { eq: "blog-post" }, private: { eq: false } } }
       limit: $limit
       skip: $skip
     ) {
@@ -24,16 +24,7 @@ export const blogListQuery = graphql`
             slug
             title
             type
-            private
-            extlink
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
-              }
-            }
+            private                        
           }
         }
       }
@@ -80,7 +71,7 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props;
     const { currentPage, numPages } = this.props.pageContext;
-    const blogSlug = "/blogfolio/";
+    const blogSlug = "/blog/";
     const isFirst = currentPage === 1;
     const isLast = currentPage === numPages;
     const prevPage =
@@ -114,7 +105,8 @@ class BlogIndex extends React.Component {
             "jantonioavalos base blog page " + currentPage + " of " + numPages
           }
         />
-        <h1>Blogfolio</h1>
+        <h1>Blog</h1>
+        <p>Short-form stories about productivity, strategy and communication skills</p>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
         {/* <Pagination {...props} /> */}
       </Layout>

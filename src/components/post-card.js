@@ -30,7 +30,7 @@ const PostCard = ({ data }) => (
     ) : (
       ""
     )}
-    <div class="post-content">
+    <div className="post-content">
       <h2 className="post-title">
         {data.frontmatter.extlink ? (
           <a href={data.frontmatter.extlink} target="_blank">
@@ -53,7 +53,7 @@ const PostCard = ({ data }) => (
         <span>
           {data.frontmatter.type + " ∙ " + data.frontmatter.time + " read"}
         </span>
-        {/* <time>{data.frontmatter.date}</time> */}
+        {data.frontmatter.type == "Blog" ? <time>{" ∙ " + data.frontmatter.date}</time> : null}
       </p>
     </div>
   </article>

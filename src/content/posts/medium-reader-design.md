@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: portfolio-post
 slug: reader-centered-design
 canonical: "https://uxdesign.cc/people-only-read-20-of-your-content-but-ux-writing-can-make-them-read-more-on-your-page-cd483c284136?source=friends_link&sk=6291fa6829e4e5d3dfa0b9d96656093c"
 date: 2020-05-11
@@ -7,8 +7,9 @@ time: "5 min"
 title: "People only read 20% of your content — but UX Writing can make them read more on your page"
 description: "A guide for reader-centered design"
 featuredImage: /assets/external-covers/medium-cover-1.png
-type: "Blog"
+type: "Medium"
 private: false
+tags: ["Zensemaker", "Product Management"]
 ---
 
 People don’t want to read, so **they scan**. But adjusting your creative process can encourage your users’ brains to keep reading your page.

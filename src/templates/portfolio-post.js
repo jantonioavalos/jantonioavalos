@@ -41,7 +41,7 @@ const Pagination = (props) => (
   </div>
 );
 
-const Post = ({ data, pageContext }) => {
+const Portfolio = ({ data, pageContext }) => {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark;
   const Image = frontmatter.featuredImage
@@ -96,10 +96,10 @@ const Post = ({ data, pageContext }) => {
   );
 };
 
-export default Post;
+export default Portfolio;
 
 export const pageQuery = graphql`
-  query BlogPostQuery($id: String!) {
+  query PortfolioQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
