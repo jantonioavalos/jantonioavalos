@@ -122,17 +122,17 @@
 // Buttons
 .button {
   --padding: 12px;
-  --margin: 16px;
+  --margin: 5px;
   font-family: "Red Hat Display";
   display: inline-flex;
   align-items: center;
   padding: var(--padding) calc(var(--padding) * 2);
   background-color: #1a1a1a;
   color: #fff;
-  border-radius: 12px;
+  border-radius: 7px;
   text-decoration: none;
   appearance: none;
-  border: none;
+  border: 1px solid #1a1a1a;
   font-size: inherit;
   line-height: 1;
   transition: background 0.3s linear;
