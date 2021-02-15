@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: portfolio-post
 slug: /portfolio/designing-persona-profiles
 date: 2021-01-01
 time: "7 min"

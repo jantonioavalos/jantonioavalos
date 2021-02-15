@@ -1,6 +1,6 @@
 ---
-template: blog-post
-slug: /portfolio/designing-a-search-experience
+template: portfolio-post
+slug: /portfolio/product-operations
 date: 2021-01-01
 time: "7 min"
 title: "Building our Design, Development and Product Operations Framework"
