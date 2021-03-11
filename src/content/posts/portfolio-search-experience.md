@@ -10,32 +10,31 @@ type: "Case Study"
 private: false
 ---
 
-**Summary:** This how I led the UX design of our search experience by redesigning the customers journey from the search bar to product's pages so they could find specifications, files or content related to their needs.
+**Summary:** I led the redesign of the customer's journey from the search bar to the product's assets. That helped users to find specifications, files or more content related to their search.
 
 ## About my process
 
 This case study simplifies all the non-linear progress in these project's phases:
 
 1. [Strategy](#1-strategy)
-2. [Research](#2-research)
-3. [Analysis](#3-analysis)
-4. [Design](#4-ui-design)
+2. [Research and analysis](#2-research-and-analysis)
+3. [Wireframes and mockups](#3-wireframes-and-mockups)
+4. [UI Design and tradeoffs](#4-ui-design-and-tradeoffs)
 5. [Development](#5-development)
-6. [Testing](#6-testing)
-7. [Results](#7-results)
+6. [Results](#6-results)
 
 ---
 
 # 1. Strategy
 
-I worked for a global semiconductors company. They manage a wide portfolio of electronics supplies, entire product solutions and professional services. Redesigning the search experience improved the website's findability and customers journey.
+I worked for a global semiconductors company. They manage a wide portfolio of electronics supplies, entire product solutions and professional services. Redesigning the search experience would improve the website's findability and customers journey.
 ![Old search bar experience](/assets/portfolio-4/old-search-bar.png "Old search bar experience")
 
 We had migrated to a robust search engine to enable enhanced search capabilities into our website. So users could get detailed information on our products, applications and services directly from the search bar and give the first step to a personalized experience in the future.
 
-## Electronics engineers as our key users
+## Our audience: Electronics engineers
 
-They look for product specifications and downloadable resources associated so that they work on their design and continue the development cycle. But there are certain profiles to highlight over this audience:
+They look for product specifications and downloadable resources associated to their designs. But there are particular profiles to highlight over this audience:
 
 ### Embedded Systems Engineers
 
@@ -61,12 +60,19 @@ They coordinate product projects with teams from the Hardware, Software, Mechani
 
 ## Business goals
 
-We were turning from a company that sells to big companies (75% of our revenue) into a company that sells to the Mass-market by our website. In terms of the search experience we had to:
+We were turning from a company that sells to big companies (75% of our revenue) into a company that want to sell to the Mass-market from our website. So, in terms of the search experience we had to:
 
-- Reduce the time-on-screen at the search results page.
-- Increase the bounce rate in navigational pages
-- Increase the time-on-screen at end-pages.
-- Maximize the conversions from search to download or buy
+1. Display search results with enough information so people could click on the more accurate ones
+2. Make easier to navigate towards the end–product–pages
+3. Offer all the content related to the product or service in a one-stop-shop
+4. Communicate the value of the content offered
+
+Those were checked by:
+
+1. Reduction of the _time-on-screen_ at the search results page
+2. Increase in the bounce rate of navigational pages
+3. Increase the time-on-screen at end-pages
+4. Maximize the conversions from search to download or buy
 
 ## Project’s team
 
@@ -76,51 +82,55 @@ We were turning from a company that sells to big companies (75% of our revenue) 
 
 **Me, UX Design Lead:** I worked in the information architecture, wireframes, and mockups. Besides, I led the communication with the stakeholders.
 
-**UX/UI Team:** They helped me with design reviews and facilitated some components from our growing design system.
+**UX/UI Team:** They provided me with some components from our growing design system.
 
 **Our Digital Experience Manager:** At Austin, but traveling often to Guadalajara. He managed UX/UI, web development and content publishing teams. So he was the final approver.
 
-## Constraints
+## Methodology
 
-[Environment description] {Make a stages diagram}
-
-- Features related to personalization were out of the scope but listed for the next year
--
+- We ran the project under the SaFE Framework, during 4 sprints.
+- This project was tracked into our UX/UI KanBan board. So we had daily stand-up's, regular team's feedback sessions, and a weekly status meeting with stakeholders.
+- As Lead, I always tried to gather design, development and IT people within the same meetings to share perspectives and increase empathy with the users.
 
 ---
 
-# 2. Research
+# 2. Research and Analysis
 
 ## Information Architecture and Heuristics
 
-According to the "Polar Bear's Book", there are 4 types of search:
+How do users find information? [They browse, they search, or they ask for help](https://www.amazon.com/Louis-Rosenfeld-dp-1491911689/dp/1491911689/). Sometimes, they do all. It depends on their context and the information they see during their quest.
 
-{make infographic}
+![Information needs: refinding, exaustive research, explorative and kwon-item seeking](/assets/portfolio-4/info-needs.png "Information needs: refinding, exaustive research, explorative and kwon-item seeking")
 
-So we had to satisfy most of the cases to welcome new mass-market users and facilitate their conversions on buying parts, downloading files or hiring services.
+- **Exhaustive research.** Looking for everything available on a particular topic.
+- **Explorative seeking.** It's open-ended, without an expected "right" answer.
+- **Known-item seeking.** Looking for an expected, perfect thing.
+- **Refinding.** Returning to something highlighted, saved or recalled.
 
-Futhermore, according to the Nielsen Norman Group, Search success at 1st query is expected.
+We had to satisfy new mass-market users. So we had to design our search experience to cover the four scenarios, as you'll see ahead in the [wireframes](#wireframes) section.
 
-### Heuristics recommendations for a search experience
+Futhermore, [people expect a successful search at the 1st query](https://www.nngroup.com/articles/site-search-suggestions/). Then, auto-complete, suggestions and search-scope should be available while users are typing.
+
+### Summary of a proficient search experience, according to heuristics
 
 - **Display a Standard Search box.** A not hidden, large empty space suggesting search with a magnifying glass minimalistic icon aside. Submitting when Enter or on icon click.
 - **Standard results journey.** Use the search box, then Suggestions appear, later a list of results that can be filtered or sorted, and showing total results with pagination to look further.
 - **Avoid Advanced or Scoped Searches.** They confuse new users.
 - **Robust search engine.** It avoids typos with autocomplete and suggestions.
 - **An user-based ranking algorithm.** Personalized results help users get previous queries or similar based on them.
-- **Smart use of empty results cases.** This is an opportunity to offer similar options to their request.
+- **Smart use of empty results cases.** This is an opportunity to offer options according to their previous request or marketing-based content.
 
 ## Benchmarking
 
-I usually look for standard or expected features and trends over 3 or 4 industry layers. So I analized the journey or search experience of:
+Competitors have already implemented some of those insights. So I analized the search experience and trends over 3 industry layers:
 
 1. **Direct competitors:** Texas Instruments, Qualcomm, Intel and ST.
 2. **Our main distributors:** Avnet, Digikey, Mouser, and Newark.
-3. **Top resellers (appliances) companies:** Samsung, Huawei, Sony and Apple.
+3. **Top appliances' companies:** Samsung, Huawei, Sony and Apple.
 
 ![Collage to illustrate all the consulted websites](/assets/portfolio-4/benchmark-collage.png "Some of the sites that were examinated")
 
-### Recommended patterns
+### Popular patterns we could adopt
 
 - Suggested and autocompleted queries
 - Assistive search hint text
@@ -128,16 +138,12 @@ I usually look for standard or expected features and trends over 3 or 4 industry
 - Categorized query suggestions and results
 - Highlighting of query in scope and context
 
-### Not recommended patterns
+### Not recommended patterns for our company
 
-- Images in suggestions. It requires clearly differentiated product imagery we don't have.
-- Result counts. Not useful, unless displayed at a results' page.
+- Images in suggestions. They require clearly differentiated product imagery we don't have. Most are chips.
+- Result counts. Not useful, unless displayed at a results' page with pagination.
 - Immediate filtering options. We have hundreds of categories that may confuse users.
-- Show past searches and popular searches. Out of the scope.
-
----
-
-# 3. Analysis
+- Show popular searches. Useless for our diverse audience with different projects.
 
 ## Current Analytics Data
 
@@ -155,7 +161,9 @@ Considerations to measure and improve the search experience:
 - Industry Analytics Larger trends within industry (hot areas of technology, tech products, innovation, etc.) Future predictions (for recommends)
 - Site/Business Analytics Search and purchase trends based on industry and user job positions
 
-## Wireframes
+---
+
+# 3. Wireframes and Mockups
 
 Considering the insights from the research and the current analytics, I used [Balsamiq](https://balsamiq.com) to illustrate those concepts into wireframes:
 
@@ -175,7 +183,7 @@ Considering the insights from the research and the current analytics, I used [Ba
 - Scope search as suggested category filters
 - Special section for shortcuts to the top requested content
 
-After team review, I used some HTML/CSS to explore the layout.
+During a team reviews, I injected some HTML/CSS to the browser so we could explore some layout options:
 
 ### 1. Pre-search (Empty state)
 
@@ -209,44 +217,63 @@ On a running project, critical issues or special relationship.
 
 ---
 
-# 4. UI Design
+# 4. UI Design and Tradeoffs
 
-## Design Tradeoffs
-
-Back then, the website had a global menu redesign. Besides updating the UI, IT guys converted that global javascript into a React component.
+Back then, the website had a global menu redesign. Besides updating the UI, IT guys converted that global script into a React component.
 
 ![Old and new menu](/assets/portfolio-4/old-and-new-menu.png "Old and new menu")
 
-That upgrade allowed me to introduced two concepts into the Search bar.
+That upgrade allowed me to introduced two concepts into the Search bar: Focus mode and resources box.
 
-[images from onebox redesign with red annotations]
+## Focus mode
 
-- **Focus mode.** Facilitating the primary action, we would use the whole screen for search results that would change as the user types. Instead of using a formal results page.
-- **The "Parts box".** We'd offer direct links to resources associated to the family's products. Saving at least 2 steps in the search process and addressing the insights from the analytics team.
-
-For this we had two options: Table and Cards.
-
-[Results w cards image w red annotations]
-
-[Results w table image w red annotations]
-
-## States
+Facilitating the primary action, we would use the whole screen for search results that would change as the user types. Instead of using a formal results page.
 
 ### 1. Pre-search (Empty state)
 
-[image]
+![Search bar - Empty state once logged in](/assets/portfolio-4/mockup-empty-state.png "Search bar - Empty state once logged in")
+
+Now I could use all the space to display recent results and recently visited pages. Besides offering direct links to our specialized applications as the "Product Selector".
 
 ### 2. Results list
 
-[image]
+![Search results with special content area](/assets/portfolio-4/mockup-results.png "Search results with special content area")
+
+Separating the logic from getting a query and getting results. This state will sustitute our search page, offering the category filters and curated items from our Marketing team.
 
 ### 3. Zero results
 
-[image]
+![No results view](/assets/portfolio-4/mockup-zero-results.png "No results view")
 
-## Code Snippets
+Since getting to this state was hard, due to autocomplete and auto suggestions. This state had to be clear and simple. Not offering noise but suggestions to improve the query and let the work to our search engine.
 
-I provided some html and css to build those views and test later wich could be better.
+## The "Resources box"
+
+We'd offer direct links to resources associated to the family's products. Saving at least 2 steps in the search process and addressing the insights from the analytics team.
+
+For this we had two options: Table and Cards.
+
+### Table
+
+![Table with direct links to popular products resources](/assets/portfolio-4/mockup-table-resources.png "Table with direct links to popular products resources")
+
+text explanation
+
+### Cards
+
+![Cards with direct links to products and their popular resources](/assets/portfolio-4/mockup-cards-resources.png "Cards with direct links to products and their popular resources")
+
+text explanation
+
+## Final UI Design
+
+text explanation
+
+![Empty state image]()
+
+![Results image]()
+
+text explanation
 
 ---
 
@@ -258,9 +285,9 @@ I coordinated the preplanning stage. It meant to integrate the team with recurre
 
 I delivered mockups, a list of components, code snippets, design guidelines and a table with features, user stories and acceptance criteria.
 
----
+## Code Snippets
 
-# 6. Testing
+I provided some html and css to build those views and test later wich could be better.
 
 ## A/B Test
 
@@ -268,7 +295,7 @@ We tested the cards and the table. Even we thought cards could have a better acc
 
 ---
 
-# 7. Results
+# 6. Results
 
 [For the business]
 
@@ -288,6 +315,6 @@ We increased
 
 ---
 
-This project was delivered by January 2019. The current and updated implementation can be found at the search bar on [nxp.com](https://www.nxp.com/)
+This project was delivered by January 2019. The current and updated implementation can be found at [nxp.com](https://www.nxp.com/)'s search bar.
 
 ---

@@ -1,14 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:200,400,700");
 
 .blog-post-content {
-  max-width: 60ch;
+  max-width: 680px; //60ch;
   margin: 0 auto;
   padding: 0 20px;
-  line-height: 1.3;
-  font-size: 21px;
+  font-size: 20px;
+  line-height: 33px;
+
   color: rgba(0, 0, 0, 0.84);
   text-rendering: optimizeLegibility;
+
+  //improve readability – typekit recommendations
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
 
   a.anchor {
     //gatsby-remark-autolink-headers
@@ -36,18 +45,6 @@
     }
   }
 
-  // p,
-  // a,
-  // li,
-  // em,
-  // figcaption {
-  //   font-weight: 300;
-  // }
-  // b,
-  // strong {
-  //   font-weight: 600;
-  // }
-
   img {
     &::selection {
       background: none;
@@ -60,20 +57,29 @@
     font-size: 36px;
     text-align: left;
     margin-bottom: 8px;
+    // Recommended
+    // font-size: 41px;
+    // line-height: 63px;
+    // margin-bottom: 33px;
   }
   h2 {
     font-family: "Red Hat Display", sans-serif;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 0;
     margin: 36px 0 -8px -1.883px;
     text-align: left;
     line-height: 34.5px;
     letter-spacing: -0.45px;
+    // Recommended
+    // font-size: 32px;
+    // line-height: 50px;
+    // margin-top: 53px;
+    // margin-bottom: 20px;
   }
   h3 {
     font-family: "Red Hat Display", sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     padding: 0;
     margin: 26px 0 -12px -1.883px;
@@ -81,13 +87,18 @@
     line-height: 24.5px;
     letter-spacing: -0.45px;
     font-weight: bold;
+    // Recommended
+    // font-size: 25px;
+    // line-height: 40px;
+    // margin-top: 33px;
+    // margin-bottom: 12px;
   }
   p,
   i,
   b,
   a {
     color: rgba(0, 0, 0, 0.84);
-    margin-top: 21px;
+    margin-top: 20px;
     font-family: "Source Serif Pro";
     letter-spacing: -0.03px;
     line-height: 1.58;
@@ -115,7 +126,7 @@
   h2 + ul,
   h3 + ul,
   ol {
-    margin-top: 21px;
+    margin-top: 20px;
   }
   .first-letter {
     overflow-wrap: break-word;
@@ -168,19 +179,17 @@
 }
 
 .article-header {
-  //max-width: 680px;
-  max-width: 66ch;
+  max-width: 680px; //66ch;
   padding-bottom: 16px;
-  //text-align: center;
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   h1 {
     //font-size: clamp(18px, calc(1rem + 2vw), 36px);
     margin: 0 auto 8px;
     line-height: 1.3;
-    font-weight: 700;
+    font-weight: 600;
     font-family: "Source Serif Pro", serif;
-    font-size: 48px;
+    font-size: 52px;
     text-align: left;
   }
   h2 {
@@ -203,7 +212,7 @@ article figure {
   margin: 40px 0;
   text-align: center;
   figcaption {
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 5px;
   }
