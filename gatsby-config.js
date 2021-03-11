@@ -133,5 +133,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    `gatsby-plugin-gatsby-cloud`,
   ],
 };
