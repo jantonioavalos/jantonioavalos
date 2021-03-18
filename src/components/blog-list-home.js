@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
-import { RiArrowRightSLine } from "react-icons/ri";
+import { RiArrowRightSLine, RiExternalLinkLine } from "react-icons/ri";
 
 import PostCard from "./post-card";
 
@@ -94,8 +94,8 @@ export default function BlogListHome() {
               <PostMaker data={posts} />
               <h2 className="category">Latest posts</h2>
               <PostMaker data={zensemakers} />
-              <Link className="button" to="/blog"> 
-                Check all <span className="icon -right"><RiArrowRightSLine /></span>
+              <Link className="button" to="https://blog.jantonioavalos.com"> 
+                Read my blog <span className="icon -right"><RiExternalLinkLine /></span>
               </Link>
             </section>
           </div>
