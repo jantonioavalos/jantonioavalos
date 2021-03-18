@@ -16,18 +16,17 @@ const MenuItems = [
     title: "About",
   },
   {
-    path: Blog,
-    title: "Blog",
+    path: "/resources",
+    title: "Resources",
   },
   {
     path: Mentoring,
     title: "Mentoring",
   },
   {
-    path: "/resources",
-    title: "Resources",
+    path: Blog,
+    title: "Blog",
   },
-  
   // {
   //   path: CV,
   //   title: "Resume",
@@ -36,7 +35,9 @@ const MenuItems = [
 
 const ListLink = (props) => (
   <li>
-    {props.to == CV ?  //Make general, when ext links
+    {props.to == (Mentoring) ?  //Make general, when ext links 
+      <a href={props.to} target="_blank">{props.children}<small> <RiExternalLinkLine className="label" /></small></a>
+      : props.to == (Blog) ?
       <a href={props.to} target="_blank">{props.children}<small> <RiExternalLinkLine className="label" /></small></a>
       : <Link to={props.to}>{props.children}</Link>
     }  

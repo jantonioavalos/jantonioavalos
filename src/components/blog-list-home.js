@@ -95,7 +95,7 @@ export default function BlogListHome() {
               <h2 className="category">Latest posts</h2>
               <PostMaker data={zensemakers} />
               <Link className="button" to="https://blog.jantonioavalos.com"> 
-                Check all <span className="icon -right"><RiExternalLinkLine /></span>
+                Read my blog <span className="icon -right"><RiExternalLinkLine /></span>
               </Link>
             </section>
           </div>
