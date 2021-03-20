@@ -103,7 +103,7 @@ module.exports = {
         siteUrl: `https://jantonioavalos.com`,
       },
     },
-    `gatsby-plugin-netlify-cms`,
+    // `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-hotjar-tracking`,
       options: {

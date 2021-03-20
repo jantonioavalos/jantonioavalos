@@ -5,16 +5,16 @@ date: 2021-01-01
 time: "7 min"
 title: "Designing a search experience"
 description: "I redesigned the search experience of our corporate website"
-featuredImage: /assets/portfolio-3/portfolio-cover-video-center.png
+featuredImage: /assets/portfolio-4/cover-search-experience.png
 type: "Case Study"
 private: false
 ---
 
 **Summary:** I led the redesign of the customer's journey from the search bar to the product's assets. That helped users to find specifications, files or more content related to their search.
 
-## About my process
+## About the process
 
-This case study simplifies all the non-linear progress in these project's phases:
+For this case study, I simplified the non-linear progress using these product phases:
 
 1. [Strategy](#1-strategy)
 2. [Research and analysis](#2-research-and-analysis)
@@ -27,70 +27,60 @@ This case study simplifies all the non-linear progress in these project's phases
 
 # 1. Strategy
 
-I worked for a global semiconductors company. They manage a wide portfolio of electronics supplies, entire product solutions and professional services. Redesigning the search experience would improve the website's findability and customers journey.
+I worked for a global semiconductors company. They manage a wide portfolio of electronics supplies, entire product solutions and professional services.
+
 ![Old search bar experience](/assets/portfolio-4/old-search-bar.png "Old search bar experience")
 
-We had migrated to a robust search engine to enable enhanced search capabilities into our website. So users could get detailed information on our products, applications and services directly from the search bar and give the first step to a personalized experience in the future.
+We had a search bar to match the user's query with a list of keywords and product pages. Then, we showed a results list with tabs, as categories to refine the search.
 
-## Our audience: Electronics engineers
+That experience was primitive compared to our competitors' websites. So we migrated to a more robust search engine. That would enable users to get detailed information on our products, applications and services directly from the search bar.
 
-They look for product specifications and downloadable resources associated to their designs. But there are particular profiles to highlight over this audience:
+## Our target audience: Electronics engineers
 
-### Embedded Systems Engineers
+They look for product specifications and downloadable resources associated to their designs. According to user's research these are their goals:
 
-They work mostly in "the Lab" surrounded by chips, boards, cables and equipment to test out their prototypes. But they're normally in a hurry while solving component's integration problems. So they hate unexpected issues or wasting time in activities that won’t represent progress.
-
-### Applications Engineers
-
-They are on charge of the emulation and testing of prototypes. They work in a multi-disciplinary group switching from status and design meetings to the tests' laboratory. Even they are the center of suggestions to analyze, they usually prefer doing some own research.
-
-### Research & Development Managers
-
-They coordinate product projects with teams from the Hardware, Software, Mechanical and Marketing groups. They abstract needs to generate a Proof-Of-Concept, negotiate for resources, schedule, and features with management so they normally lead the technology discussions.
-
-### Audience's common goals
-
-- Understand the technology they work with
-- Find products that fit their project needs
-- Get all the component info in one place
-- Have the correct tools to evaluate a product
-- Build something that works at the first try
-- Know the reason as soon as an issue is presented
-- Get manufacturer's support easy and fast
+- Find products that fit their project needs 
+- Get all the product's details in one place 
+- Understand the technology they work with 
+- Have the correct tools to evaluate a product 
+- Know the reason as soon as an issue is presented 
+- Get manufacturer's support easy and fast 
 
 ## Business goals
 
-We were turning from a company that sells to big companies (75% of our revenue) into a company that want to sell to the Mass-market from our website. So, in terms of the search experience we had to:
+We were turning from a company that sells to big companies (75% of our revenue) into a company that wanted to sell to the Mass-market from our website. So, in terms of the search experience we had to:
 
-1. Display search results with enough information so people could click on the more accurate ones
-2. Make easier to navigate towards the end–product–pages
-3. Offer all the content related to the product or service in a one-stop-shop
-4. Communicate the value of the content offered
+1. Display search results with more accurate and specific content
+2. Offer one-stop-shops for each product or service 
+3. Promote training, downloads and purchases
+4. Make easier to navigate towards the end–product–pages 
+5. Reduce support time on chats and calls
 
-Those were checked by:
+So I proposed tracking those by:
 
 1. Reduction of the _time-on-screen_ at the search results page
-2. Increase in the bounce rate of navigational pages
-3. Increase the time-on-screen at end-pages
-4. Maximize the conversions from search to download or buy
+2. Increase the _conversions_ from search to training, download or buy
+3. Increase the _time-on-screen_ at end-pages
+4. Reduction of the _bounce rate_ through navigational pages
+5. Decrease _support requests_ to get details, assets or advice
 
 ## Project’s team
 
-**React Dev Team:** They developed the user interface, interactions and functionality.
+- **Me as UX Design Lead** worked in the information architecture, wireframes, and mockups. Besides, I led the communication with the stakeholders.
 
-**IT Department:** They contributed with all the search engine infrastructure and CMS enablement.
+- **UX/UI Team** provided me with feedback based on [our design system](/work/creating-a-new-design-system).
 
-**Me, UX Design Lead:** I worked in the information architecture, wireframes, and mockups. Besides, I led the communication with the stakeholders.
+- **React Dev Team** developed the UI, interactions and functionality.
 
-**UX/UI Team:** They provided me with some components from our growing design system.
+- **IT Department** contributed with the search engine infrastructure and CMS enablement.
 
-**Our Digital Experience Manager:** At Austin, but traveling often to Guadalajara. He managed UX/UI, web development and content publishing teams. So he was the final approver.
+- **Digital Experience Manager** was the final approver being responsible of the Content, Design, and Development teams.
 
 ## Methodology
 
 - We ran the project under the SaFE Framework, during 4 sprints.
 - This project was tracked into our UX/UI KanBan board. So we had daily stand-up's, regular team's feedback sessions, and a weekly status meeting with stakeholders.
-- As Lead, I always tried to gather design, development and IT people within the same meetings to share perspectives and increase empathy with the users.
+- As Lead, I had to reach agreements on my design with developers and marketing people.
 
 ---
 
