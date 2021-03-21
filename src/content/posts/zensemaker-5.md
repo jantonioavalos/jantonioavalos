@@ -1,6 +1,8 @@
 ---
 template: blog-post
 slug: /blog/how-to-keep-progress-after-starting-a-side-project
+canonical: "https://blog.jantonioavalos.com/how-to-keep-progress-after-starting-a-side-project"
+extlink: https://blog.jantonioavalos.com/how-to-keep-progress-after-starting-a-side-project
 date: 2021-01-10
 time: "1 min"
 title: "How to keep progress after starting a side-project"

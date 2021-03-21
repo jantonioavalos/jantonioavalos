@@ -18,7 +18,7 @@ For this case study, I simplified the non-linear progress using these product ph
 
 1. [Strategy](#1-strategy)
 2. [Research and analysis](#2-research-and-analysis)
-3. [Wireframes and mockups](#3-wireframes-and-mockups)
+3. [Wireframes](#3-wireframes)
 4. [UI Design and tradeoffs](#4-ui-design-and-tradeoffs)
 5. [Development](#5-development)
 6. [Results](#6-results)
@@ -39,21 +39,21 @@ That experience was primitive compared to our competitors' websites. So we migra
 
 They look for product specifications and downloadable resources associated to their designs. According to user's research these are their goals:
 
-- Find products that fit their project needs 
-- Get all the product's details in one place 
-- Understand the technology they work with 
-- Have the correct tools to evaluate a product 
-- Know the reason as soon as an issue is presented 
-- Get manufacturer's support easy and fast 
+- Find products that fit their project needs
+- Get all the product's details in one place
+- Understand the technology they work with
+- Have the correct tools to evaluate a product
+- Know the reason as soon as an issue is presented
+- Get manufacturer's support easy and fast
 
 ## Business goals
 
 We were turning from a company that sells to big companies (75% of our revenue) into a company that wanted to sell to the Mass-market from our website. So, in terms of the search experience we had to:
 
 1. Display search results with more accurate and specific content
-2. Offer one-stop-shops for each product or service 
+2. Offer one-stop-shops for each product or service
 3. Promote training, downloads and purchases
-4. Make easier to navigate towards the end–product–pages 
+4. Make easier to navigate towards the end–product–pages
 5. Reduce support time on chats and calls
 
 So I proposed tracking those by:
@@ -78,17 +78,29 @@ So I proposed tracking those by:
 
 ## Methodology
 
-- We ran the project under the SaFE Framework, during 4 sprints.
-- This project was tracked into our UX/UI KanBan board. So we had daily stand-up's, regular team's feedback sessions, and a weekly status meeting with stakeholders.
+- We ran the project under the [SAFe Framework](https://www.scaledagileframework.com/#) during 4 sprints.
+- This project was tracked into our UX/UI [Kanban Board](https://youtu.be/iVaFVa7HYj4). So we had daily stand-up's, regular team's feedback sessions, and a weekly status meeting with stakeholders.
 - As Lead, I had to reach agreements on my design with developers and marketing people.
 
 ---
 
 # 2. Research and Analysis
 
+## Analytics Data
+
+The former startegy is based on a funnel report, from our Adobe analytics platform.
+
+I saw how our customers searched by product's family number, then looked for links to specifications, guidance or support. So they came for specific data, complementary tools and support for their designs.
+
+![Fragment of an Analytics Report](/assets/portfolio-4/analytics-fragment.JPG "Fragment of an Analytics Report")
+
+We had to help them get those elements in less steps and avoid confussions on the way, so we could reduce the chats and calls to support.
+
+![Search cases](/assets/portfolio-4/search-cases.png "Customers browse, search or ask for help during their Research and Testing phases")
+
 ## Information Architecture and Heuristics
 
-How do users find information? [They browse, they search, or they ask for help](https://www.amazon.com/Louis-Rosenfeld-dp-1491911689/dp/1491911689/). Sometimes, they do all. It depends on their context and the information they see during their quest.
+We knew how customers find information, now we had to understand new _mass-market users_. Our design had to cover [the 4 kinds of information needs](https://oreilly.com/library/view/information-architecture-4th/9781491913529/ch03.html#information-seeking_behaviors):
 
 ![Information needs: refinding, exaustive research, explorative and kwon-item seeking](/assets/portfolio-4/info-needs.png "Information needs: refinding, exaustive research, explorative and kwon-item seeking")
 
@@ -97,15 +109,15 @@ How do users find information? [They browse, they search, or they ask for help](
 - **Known-item seeking.** Looking for an expected, perfect thing.
 - **Refinding.** Returning to something highlighted, saved or recalled.
 
-We had to satisfy new mass-market users. So we had to design our search experience to cover the four scenarios, as you'll see ahead in the [wireframes](#wireframes) section.
+Futhermore, [people expect a successful search at the 1st query](https://www.nngroup.com/articles/site-search-suggestions/). Then, _auto-complete_, _term suggestions_ and _search-scopes_ should be available while users are typing.
 
-Futhermore, [people expect a successful search at the 1st query](https://www.nngroup.com/articles/site-search-suggestions/). Then, auto-complete, suggestions and search-scope should be available while users are typing.
+![Auto-complete search tools](/assets/portfolio-4/auto-complete-search.png "Auto-complete search tools")
 
-### Summary of a proficient search experience, according to heuristics
+### Heuristics: A proffesional search experience
 
 - **Display a Standard Search box.** A not hidden, large empty space suggesting search with a magnifying glass minimalistic icon aside. Submitting when Enter or on icon click.
 - **Standard results journey.** Use the search box, then Suggestions appear, later a list of results that can be filtered or sorted, and showing total results with pagination to look further.
-- **Avoid Advanced or Scoped Searches.** They confuse new users.
+- **Hide/Avoid Advanced or Scoped Searches.** They may confuse new users.
 - **Robust search engine.** It avoids typos with autocomplete and suggestions.
 - **An user-based ranking algorithm.** Personalized results help users get previous queries or similar based on them.
 - **Smart use of empty results cases.** This is an opportunity to offer options according to their previous request or marketing-based content.
@@ -135,45 +147,32 @@ Competitors have already implemented some of those insights. So I analized the s
 - Immediate filtering options. We have hundreds of categories that may confuse users.
 - Show popular searches. Useless for our diverse audience with different projects.
 
-## Current Analytics Data
-
-I requested a funnel analysis, from our Adobe analytics platform. This is an screenshot from one page of the analytics report.
-
-![image from adobe dashboad](/assets/portfolio-4/analytics-fragment.JPG "Fragment of an Analytics Report")
-
-In syntesis, users search directly the product's family, then they look for the pages that summarizes and link resources, so they could get specifications, guidance or support information. In other words, they came to the site for specific documents, tools, support or complements to their solutions.
-
-{Draw journey map}
-
-Considerations to measure and improve the search experience:
-
-- User Analytics Site usage behavior (pages viewed, products followed, content interacted with) Past searches User profile information (industry worked in, currently held position, etc.)
-- Industry Analytics Larger trends within industry (hot areas of technology, tech products, innovation, etc.) Future predictions (for recommends)
-- Site/Business Analytics Search and purchase trends based on industry and user job positions
-
 ---
 
-# 3. Wireframes and Mockups
+# 3. Wireframes
 
-Considering the insights from the research and the current analytics, I used [Balsamiq](https://balsamiq.com) to illustrate those concepts into wireframes:
+Considering the strategy constraints (and research recommendations later), I used [Balsamiq](https://balsamiq.com) to illustrate them into:
+
+- A pre-search or empty state
+- The results list
 
 ### 1. Pre-search (Empty state)
 
 ![Search bar - Empty state without session](/assets/portfolio-4/wireframe-unlogged.png "Search bar - Empty state without session")
 ![Search bar - Empty state once logged in](/assets/portfolio-4/wireframe-logged.png "Search bar - Empty state once logged in")
 
-- Expandable search box with autocomplete, autosuggest and history.
-- Encourage log in for more detailed results
-- Taking advange of the empty state
+- Expandable search box with autocomplete and suggestions
+- Adding history and bookmarks if people were logged
+- Encourage to log in for better results
 
 ### 2. Results list
 
 ![Search results with suggestions and special content area](/assets/portfolio-4/wireframe-special-content.png "Search results with suggestions and special content area")
 
-- Scope search as suggested category filters
-- Special section for shortcuts to the top requested content
+- Using the product categories as _scoped search_
+- Display special content as shortcuts (i.e. files, training, tools, etc.)
 
-During a team reviews, I injected some HTML/CSS to the browser so we could explore some layout options:
+Later, I injected some HTML/CSS to the browser so we could explore some layout options:
 
 ### 1. Pre-search (Empty state)
 
@@ -182,28 +181,6 @@ During a team reviews, I injected some HTML/CSS to the browser so we could explo
 ### 2. Results List
 
 ![Search results with personal suggestions](/assets/portfolio-4/wireframe-complex-results.jpg)
-
-## Customer Journeys
-
-By the time, I met the customer support team and after an interview they facilitated some information to map 3 journeys people navigate when looking for something in our website:
-
-### Research
-
-On exploration of technology, evaluating or comparing specifications.
-
-[journey map doodle version]
-
-### Buy
-
-On the need of a product, tools or service.
-
-[journey map doodle version]
-
-### Support
-
-On a running project, critical issues or special relationship.
-
-[journey map doodle version]
 
 ---
 
@@ -274,6 +251,8 @@ text explanation
 I coordinated the preplanning stage. It meant to integrate the team with recurrent meetings to synch on the progress and allign similar projects in the company. I transformed the discussions into features to explore and agreements into user stories.
 
 I delivered mockups, a list of components, code snippets, design guidelines and a table with features, user stories and acceptance criteria.
+
+{Screenshot excel}
 
 ## Code Snippets
 

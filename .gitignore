@@ -59,6 +59,9 @@ typings/
 .cache/
 public
 
+# VSCode files
+.vscode/
+
 # Mac files
 .DS_Store
 
