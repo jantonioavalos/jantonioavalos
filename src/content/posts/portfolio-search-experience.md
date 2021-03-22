@@ -186,51 +186,58 @@ Later, I injected some HTML/CSS to the browser so we could explore some layout o
 
 # 4. UI Design and Tradeoffs
 
-Back then, the website had a global menu redesign. Besides updating the UI, IT guys converted that global script into a React component.
+Back then, the website had a global menu redesign. Besides updating the UI, IT guys converted that module script into a React component.
 
 ![Old and new menu](/assets/portfolio-4/old-and-new-menu.png "Old and new menu")
 
-That upgrade allowed me to introduced two concepts into the Search bar: Focus mode and resources box.
+That upgrade allowed me to introduced two concepts into the Search bar design: Focus mode and the resources box.
 
 ## Focus mode
 
-Facilitating the primary action, we would use the whole screen for search results that would change as the user types. Instead of using a formal results page.
+The search bar will take the whole screen to display results as users type. This facilitates the primary action: search, and get people directly to the item suggested.
 
 ### 1. Pre-search (Empty state)
 
 ![Search bar - Empty state once logged in](/assets/portfolio-4/mockup-empty-state.png "Search bar - Empty state once logged in")
 
-Now I could use all the space to display recent results and recently visited pages. Besides offering direct links to our specialized applications as the "Product Selector".
+It displays recent results and recently visited pages. Besides, it offers direct links to our specialized search applications as the "Product Selector" (tool to compare specifications, sizes and prices).
 
 ### 2. Results list
 
 ![Search results with special content area](/assets/portfolio-4/mockup-results.png "Search results with special content area")
 
-Separating the logic from getting a query and getting results. This state will sustitute our search page, offering the category filters and curated items from our Marketing team.
+Besides suggestions and results as users type, this state offers the category filters and curated items from our Marketing team (right side).
 
 ### 3. Zero results
 
 ![No results view](/assets/portfolio-4/mockup-zero-results.png "No results view")
 
-Since getting to this state was hard, due to autocomplete and auto suggestions. This state had to be clear and simple. Not offering noise but suggestions to improve the query and let the work to our search engine.
+This state had to be clear and simple. It shows, without noise, suggestions to improve the query and let the auto-complete help the user. Similar to 404-page's designs.
 
 ## The "Resources box"
 
-We'd offer direct links to resources associated to the family's products. Saving at least 2 steps in the search process and addressing the insights from the analytics team.
+When user types a product number, the search bar results area expands (focus mode) and at the top offers direct links to special content associated.
 
-For this we had two options: Table and Cards.
-
-### Table
-
-![Table with direct links to popular products resources](/assets/portfolio-4/mockup-table-resources.png "Table with direct links to popular products resources")
-
-text explanation
+This saves 2+ steps in the finding journey. I tried two options: cards and table. They show different options for the links, to be discussed in design reviews.
 
 ### Cards
 
 ![Cards with direct links to products and their popular resources](/assets/portfolio-4/mockup-cards-resources.png "Cards with direct links to products and their popular resources")
 
-text explanation
+- Link to see all the products matching the query
+- Display 3 cards with the products with higher traffic
+- Link to the product family (product number), product type, and parts asociated
+- Product description
+- Links to documents, tools, training and more
+
+### Table
+
+![Table with direct links to popular products resources](/assets/portfolio-4/mockup-table-resources.png "Table with direct links to popular products resources")
+
+- Link to see all the products matching the query
+- Display 3 rows with the products with higher traffic
+- Product type, Product family (link), product description, status and resources columns
+- Links to documents, tools, training and more
 
 ## Final UI Design
 
@@ -246,35 +253,42 @@ text explanation
 
 # 5. Development
 
-## Features, User Stories, Acceptance Criteria
+## Features as User Stories with Acceptance Criteria
 
-I coordinated the preplanning stage. It meant to integrate the team with recurrent meetings to synch on the progress and allign similar projects in the company. I transformed the discussions into features to explore and agreements into user stories.
+As UX Design Lead, I transformed the business needs into requirements, I validated them on the research phase, and designed the UI. So I coordinated the (stakeholders) teams to create the user stories.
 
-I delivered mockups, a list of components, code snippets, design guidelines and a table with features, user stories and acceptance criteria.
+![User stories within the product backlog](/assets/portfolio-4/features-user-stories.png "User stories within the product backlog")
 
-{Screenshot excel}
+I also added a list of components, labeled within the mockups. So I delivered this to the Business Analyst (BA) on the IT team, so she could coordinate the Product Increment's sprints.
+
+![States and components labeled](/assets/portfolio-4/user-stories-components.png "States and components labeled")
 
 ## Code Snippets
 
-I provided some html and css to build those views and test later wich could be better.
+I provided some guidance and code (HTML and CSS) to build those views. But I also requested to the UI Developer to create new components for our future [Design System](/work/creating-a-new-design-system), so developers could use them.
 
 ## A/B Test
 
-We tested the cards and the table. Even we thought cards could have a better acceptance they didn't. People found easier to scan a table pattern. We knew that because they opened multiple links from one or two elements of the table.
+I requested an A/B test to the Analytics team. We tested a final version of the Cards and the Table within the search results.
+
+Even we thought cards could have a better acceptance they didn't. People were used to explore multiple options and compare browser's tabs and by some reason (maybe _cognitive load_) they found it easier to interact with the table.
 
 ---
 
 # 6. Results
 
-[For the business]
+Two months after the release, we got these results:
 
-We reduced 38% of the support requests. People were able to find easy and fast the resources they needed.
+> Support requests were reduced by 38%.
+> So users found easier to get to the resources they needed.
 
-We increased
+1. 20% less _time-on-screen_ at the search results page. So people found a useful link within the top items.
+2. Increase the _conversions_ from search to training, download or buy
+3. Increase the _time-on-screen_ at end-pages
+4. Reduction of the _bounce rate_ through navigational pages
+5. Decrease _support requests_ to get details, assets or advice
 
-[For the user]
-
-[For the team]
+[For the business, user and team]
 
 ## Lessons from leading this project
 
