@@ -2,6 +2,7 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import Img from "gatsby-image";
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
+import { FiCoffee } from "react-icons/fi";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import BottomLinks from "../components/bottom-links"
@@ -43,7 +44,7 @@ const Pagination = (props) => (
 
 const Portfolio = ({ data, pageContext }) => {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark;
+  const { frontmatter, html, excerpt, timeToRead } = markdownRemark;
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.fluid
     : "";
@@ -70,7 +71,9 @@ const Portfolio = ({ data, pageContext }) => {
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
             <p className="article-metadata">
-              {frontmatter.type + " ∙ " + frontmatter.time + " read"}
+              {frontmatter.type + " ∙ "} 
+              <small><FiCoffee /></small>
+              {" " + timeToRead + " min read"}
               {frontmatter.type == "Blog" ? <time>{" ∙ " + frontmatter.date}</time> : null}
             </p>
           </section>
@@ -104,9 +107,9 @@ export const pageQuery = graphql`
       id
       html
       excerpt(pruneLength: 148)
+      timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        time
         slug
         canonical
         title

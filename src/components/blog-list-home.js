@@ -22,6 +22,7 @@ export default function BlogListHome() {
               node {
                 id
                 excerpt(pruneLength: 250)
+                timeToRead
                 frontmatter {
                   date(formatString: "MMMM DD, YYYY")
                   time

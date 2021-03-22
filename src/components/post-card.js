@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
 import { RiExternalLinkLine } from "react-icons/ri";
+import { FiCoffee } from "react-icons/fi";
+
 
 const PostCard = ({ data }) => {
   const content = 
@@ -26,11 +28,11 @@ const PostCard = ({ data }) => {
             </small>
           ) : null}     
         </h2>
-        <p className="post-meta">
-          <span>
-            {data.frontmatter.type + " ∙ " + data.frontmatter.time + " read"}
-          </span>
-          {data.frontmatter.type === "Blog" ? <time>{" ∙ " + data.frontmatter.date}</time> : null}
+        <p className="post-meta">  
+          {data.frontmatter.type + " ∙ "} 
+          {data.frontmatter.type === "Blog" ? <time>{data.frontmatter.date + " ∙ "}</time> : null}
+          <small><FiCoffee /></small>
+          {data.frontmatter.type === "Case Study" ? " " + data.timeToRead + " min read" : " " + data.frontmatter.time + " read"}
         </p>
       </div>
     </article>;

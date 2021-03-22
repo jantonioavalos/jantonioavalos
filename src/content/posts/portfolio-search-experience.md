@@ -239,16 +239,6 @@ This saves 2+ steps in the finding journey. I tried two options: cards and table
 - Product type, Product family (link), product description, status and resources columns
 - Links to documents, tools, training and more
 
-## Final UI Design
-
-text explanation
-
-![Empty state image]()
-
-![Results image]()
-
-text explanation
-
 ---
 
 # 5. Development
@@ -279,25 +269,26 @@ Even we thought cards could have a better acceptance they didn't. People were us
 
 Two months after the release, we got these results:
 
-> Support requests were reduced by 38%.
-> So users found easier to get to the resources they needed.
+> Users found it easier to get to the resources they needed. Support requests were reduced by 38%.
 
-1. 20% less _time-on-screen_ at the search results page. So people found a useful link within the top items.
-2. Increase the _conversions_ from search to training, download or buy
-3. Increase the _time-on-screen_ at end-pages
-4. Reduction of the _bounce rate_ through navigational pages
-5. Decrease _support requests_ to get details, assets or advice
+1. People found useful links within the top items. The search results page registered 20% less _time-on-screen_.
+2. Direct links (downloads, trainings, etc.) increased 60% by _conversions_ from search.
+3. The end-pages (product details) register a 12% more _time-on-screen_.
 
-[For the business, user and team]
+> People preffered to search instead of navigate, so the _bounce rate_ through navigational pages increased.
 
 ## Lessons from leading this project
 
-- **Research changed the game.** We were used to receive a list of features that managers wanted in a screen or application so we could provide the "UI" to Developers. This was my first project as UX Design Lead, so I introduced research and analysis activities into the backlog. That changed the course of the project several times and we learned to use UX process into a Scrum workflow.
-- **Communication was key to avoid rework.** At the same time of this project, a UI Designer was working in the Header redesign. Since we were part of the same UX/UI Team we could share insights and files to keep our mockups proposals updated.
--
+### Research justifies design and corrects business requirements
+
+We used to receive a list of screen's features from management to provide the _design_ to Developers. But I introduced research activities into the backlog. That adjusted the design several times as we were learning from insights.
+
+### Communication was key to avoid rework
+
+At the same time, another UX Design Lead was working in the Header's redesign. Since we were part of the same UX/UI Team, we could share insights and files to keep our designs updated.
 
 ---
 
-This project was delivered by January 2019. The current and updated implementation can be found at [nxp.com](https://www.nxp.com/)'s search bar.
+This project was delivered by the end of 2018. The current and updated implementation can be found at [nxp.com](https://www.nxp.com/)'s search bar.
 
 ---
