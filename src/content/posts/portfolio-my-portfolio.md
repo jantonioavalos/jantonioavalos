@@ -5,7 +5,7 @@ date: 2020-10-10
 time: "7 min"
 title: "How I planned, designed and developed this website"
 description: "I'm designing and developing this website to present my portfolio and share resources with the UX community. Here's the story of the iterations, results and improvements over the time."
-featuredImage: /assets/case-study-2/post-2-cover-1366.png
+featuredImage: /assets/case-study-2/cover-personal-website.png
 type: "Case Study"
 private: false
 extlink: null

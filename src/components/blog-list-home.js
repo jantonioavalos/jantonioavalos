@@ -16,12 +16,13 @@ export default function BlogListHome() {
           portfolioRemark: allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { template: { in: ["portfolio-post"] }, private: { eq: false } } }
-            limit: 6
+            limit: 9
           ) {
             edges {
               node {
                 id
                 excerpt(pruneLength: 250)
+                timeToRead
                 frontmatter {
                   date(formatString: "MMMM DD, YYYY")
                   time

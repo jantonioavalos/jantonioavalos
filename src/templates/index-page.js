@@ -60,7 +60,7 @@ const HomePage = ({ data }) => {
             ""
           )}
         </div>
-        <div>
+        <div className="home-bio">
           <h1 className="title">{frontmatter.title}</h1>
           <h2 className="tagline">{frontmatter.tagline}</h2>
           <div

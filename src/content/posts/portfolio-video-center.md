@@ -5,7 +5,7 @@ date: 2021-01-01
 time: "7 min"
 title: "UI and findability redesign of a video platform"
 description: "I redesigned the UI and search journey at our corporate video platform. It reduced findability issues and increased users' video consumption."
-featuredImage: /assets/portfolio-3/portfolio-cover-video-center.png
+featuredImage: /assets/portfolio-3/cover-redesign-video.png
 type: "Case Study"
 private: false
 extlink: null

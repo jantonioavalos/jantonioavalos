@@ -1,6 +1,8 @@
 ---
 template: blog-post
 slug: /blog/run-team-retrospectives-to-set-a-continuous-improvement-workflow
+canonical: "https://blog.jantonioavalos.com/run-team-retrospectives-to-set-a-continuous-improvement-workflow"
+extlink: https://blog.jantonioavalos.com/run-team-retrospectives-to-set-a-continuous-improvement-workflow
 date: 2021-01-21
 time: "1 min"
 title: "Run team retrospectives to set a continuous improvement workflow"

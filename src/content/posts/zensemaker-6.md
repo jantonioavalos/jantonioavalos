@@ -1,6 +1,8 @@
 ---
 template: blog-post
 slug: /blog/the-more-ways-you-can-represent-a-problem-the-more-perspectives-you-get-to-solve-it
+canonical: "https://blog.jantonioavalos.com/the-more-ways-you-can-represent-a-problem-the-more-perspectives-you-get-to-solve"
+extlink: https://blog.jantonioavalos.com/the-more-ways-you-can-represent-a-problem-the-more-perspectives-you-get-to-solve
 date: 2021-01-19
 time: "1 min"
 title: "The more ways you can represent a problem, the more perspectives you get to solve it"
