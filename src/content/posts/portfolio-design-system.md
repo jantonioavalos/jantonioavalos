@@ -1,6 +1,6 @@
 ---
 template: portfolio-post
-slug: /work/creating-a-new-design-system
+slug: /portfolio/creating-a-new-design-system
 date: 2021-02-01
 time: "9 min"
 title: "Creating a website for our new design system"
