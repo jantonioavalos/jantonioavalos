@@ -82,7 +82,7 @@ I knew by research, that engineers were the decision makers of the pieces to buy
 
 ## DS Website
 
-## Evangelism
+## Evangelism – Training sessions
 
 Design critique
 Troubleshooting sessions
@@ -93,10 +93,8 @@ Support logs
 These are some things that I learned from this side-project:
 
 - Doing research with zero budget or time assigned. But earning the trust and leadership to allign people from different departments towards a common task to benefit the company and our daily work.
-- As a former radio broadcaster for 4 years, I thought interviews were easy. But interviewing users was different, every question had to be natural (not robotic) but specific so they could answer something that I could dig deeper later. It was like when I had designed a process but paying special attention to hidden goals and emotions within the answers to discover pain points.
-- Dealing with corporate politics, this information maybe more detail was protected by analytics management because of an absurd process to increase dependency on them so they could get more budget
-- Not being obssesed with perfect personas, because it's only a tool to bring the communication centered on the user intead of team's agenda or personal tastes
-- Communicating this to my manager's manager was helpful to get his buy in and his support later, again sharing information is suspicious
-- I learned to do x
+- User interviews. Every every question had to be natural (not robotic) but specific so they could answer something that I could dig deeper later. It demanded special attention to hidden goals and emotions within the answers to discover pain points.
+- Not being obssesed with perfect personas. They're only a tool to bring the discussion on the user instead of team's agenda or personal tastes
+- Communicating this to my manager's manager was helpful to get his buy in and his support later to promote a responsible design during my training session
 
 ---
