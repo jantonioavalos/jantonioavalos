@@ -91,9 +91,9 @@ export default function BlogListHome() {
             <section className="home-posts">
               <h2 className="category">Case studies</h2>
               <PostMaker data={caseStudies} />
-              <h2 className="category">Featured articles</h2>
+              <h2 className="category">Featured articles in UX Collective</h2>
               <PostMaker data={posts} />
-              <h2 className="category">Latest posts</h2>
+              <h2 className="category">Latest posts on my blog</h2>
               <PostMaker data={zensemakers} />
               <Link className="button" to="https://blog.jantonioavalos.com"> 
                 Read my blog <span className="icon -right"><RiExternalLinkLine /></span>
