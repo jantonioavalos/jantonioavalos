@@ -2,7 +2,7 @@
 template: index-page
 slug: /
 title: J. Antonio Avalos
-tagline: UX Architect
+tagline: Product Manager | Certified UX Architect
 featuredImage: /assets/jantonioavalos-picture-1020.jpg
 cta:
   ctaText: About me
