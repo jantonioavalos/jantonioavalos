@@ -17,17 +17,18 @@
   align-items: center;
   position: relative;
   background: var(--header-bg);
-  margin: 2em auto;
+  margin: 1em auto 2em auto;
 }
 .site-logo {
   img {
-    width: 50%;
-    @media (max-width: $breakpoint-sm) {
-      width: 65%;
-    }
-    @media (max-width: 375px) {
-      width: 85%;
-    }
+    width: 70%;
+    @media (max-width: $breakpoint-md) {
+        width: 30%;
+        @media (max-width: $breakpoint-sm) {
+            width: 60%;
+          }
+      }
+      
   }
 }
 .site-navigation {
@@ -178,7 +179,7 @@ footer {
       .logo-footer {
         display: grid;
         img {
-          max-height: 0.8em;
+          max-height: 2em;
         }
       }
       .contact-footer {
