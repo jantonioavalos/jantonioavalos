@@ -44,14 +44,14 @@
     margin-left: 24px;
   }
   a {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 48, 99, 0.6);
     text-decoration: none;
     &:hover {
-      color: rgba(0, 0, 0, 1);
+      color: rgba(0, 48, 99, 1);
     }
   }
   a[aria-current="page"] {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 48, 99, 1); //003063
     font-weight: 700;
   }
   .menu-trigger {
