@@ -131,18 +131,18 @@
   display: inline-flex;
   align-items: center;
   padding: var(--padding) calc(var(--padding) * 2);
-  background-color: #1a1a1a;
+  background-color: #003063;
   color: #fff;
   border-radius: 7px;
   text-decoration: none;
   appearance: none;
-  border: 1px solid #1a1a1a;
+  border: 1px solid #003063;
   font-size: inherit;
   line-height: 1;
   transition: background 0.3s linear;
   &:hover {
     background-color: #fff;
-    color: #1a1a1a;
+    color: #003063;
   }
   &.-outline {
     color: var(--primary-color);
