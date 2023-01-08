@@ -20,6 +20,8 @@ I started my career as an electronics technician, before college. It was excitin
 
 > So I found a way to meet business, content and people. I became an autodidact user experience designer.
 
-Today, I'm a UX Architect Certified by Nielsen Norman Group. I lead Content Strategy, UX/UI Design, and Web Development teams to build standardized and usable solutions for people. Because I continue working on adapting technology to us, so we can improve our talents and **focus on creating**.
+I got certified by Nielsen Norman Group and worked for some years as UX Design Lead with Content Strategy, Design and Development teams to build standardized and usable systems, websites, and apps for people. 
+
+Today, I'm working as Product Manager at FEMSA. I now combine my engineering and design strengths while I'm still learning about business, marketing and metrics. So, I continue working on adapting technology to us (people) so we can improve our talents and **focus on creating**.
 
 ---
